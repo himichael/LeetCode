@@ -8,3 +8,4 @@
 |771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
+|1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|python|go|Easy|
