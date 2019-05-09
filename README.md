@@ -4,6 +4,7 @@
 |015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/0015-3Sum/3Sum.py)|go|Middle|
 |226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
+|535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|python|go|Easy|
 |771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
