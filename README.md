@@ -1,6 +1,6 @@
 ﻿| Number | Title | C | C++ | Java | Python | Go | Difficulty |
 |---| --- | --- | --- | --- | --- | --- | --- |
-|001|[Two Sum (两数之和)](https://leetcode-cn.com/problems/two-sum/)|c|c++|java|python|go|Easy|
+|001|[Two Sum (两数之和)](https://leetcode-cn.com/problems/two-sum/)|c|c++|java|[python](./src/0001_Two_Sum/Two_Sum.py)|go|Easy|
 |015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/0015-3Sum/3Sum.py)|go|Middle|
 |226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
