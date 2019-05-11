@@ -3,7 +3,7 @@
 |001|[Two Sum (两数之和)](https://leetcode-cn.com/problems/two-sum/)|c|c++|java|[python](./src/0001_Two_Sum/Two_Sum.py)|go|Easy|
 |015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/0015-3Sum/3Sum.py)|go|Medium|
 |70|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/70_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
-|120|[Triangle(三角形的最小路劲和)]c|c++|[java](./src/120_Triangle/Triangle.java)|python|go|Medium|
+|120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/120_Triangle/Triangle.java)|python|go|Medium|
 |226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
