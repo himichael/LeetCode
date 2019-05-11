@@ -10,16 +10,8 @@
 		min_num = nums[0]
 		res = nums[0]
 		for i in range(1,len(nums)):
-			tmp_max = max_num
-			tmp_min = min_num
-			if(nums[i] > 0):
-				tmp_max = max(max_num*nums[i], nums[i])
-				tmp_min = min(min_num*nums[i], nums[i])
-			else:
-				tmp_max = max(min_num*nums[i], nums[i])
-				tmp_min = min(max_num*nums[i], nums[i])
-			
-			max_num = tmp_max
-			min_num = tmp_min
+			m = max(max_num*nums[i], min_num*nums[i], nums[i])
+			n = min(max_num*nums[i], min_num*nums[i], nums[i])
+			max_num,min_num = m,n
 			res = max(max_num,res)
 		return res
