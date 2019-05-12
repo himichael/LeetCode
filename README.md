@@ -17,13 +17,13 @@
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0088|[Merge Sorted Array(合并两个有序数组)](https://leetcode-cn.com/problems/merge-sorted-array/)|c|c++|java|[python](./src/1_100/0088_Merge_Sorted_Array/Merge_Sorted_Array.py)|go|Easy|
-|0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/0120_Triangle/Triangle.java)|python|go|Medium|
-|0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
-|0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
-|0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/0136_Single_Number/Single_Number.py)|go|Easy|
-|0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
-|0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
-|0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/0169_Majority_Element/Majority_Element.py)|go|Easy|
+|0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/101_200/0120_Triangle/Triangle.java)|python|go|Medium|
+|0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/101_200/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
+|0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
+|0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/101_200/0136_Single_Number/Single_Number.py)|go|Easy|
+|0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/101_200/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
+|0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/101_200/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
+|0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
 |0204|[Count Primes(计算质数)](https://leetcode-cn.com/problems/count-primes/)|c|c++|java|[python](./src/0204_Count_Primes/Count_Primes.py)|go|Easy|
 |0206|[Reverse Linked List(反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)|c|c++|java|[python](./src/0206_Reverse_Linked_List/Reverse_Linked_List.py)|go|Easy|
 |0225|[Implement Stack using Queues(用队列实现栈)](https://leetcode-cn.com/problems/implement-stack-using-queues/)|c|c++|[java](./src/0225_Implement_Stack_using_Queues/Implement_Stack_using_Queues.java)|python|go|Easy|
