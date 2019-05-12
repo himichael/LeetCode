@@ -9,7 +9,7 @@
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/0136_Single_Number/Single_Number.py)|go|Easy|
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/0169_Majority_Element/Majority_Element.py)|go|Easy|
-|0206|][Reverse Linked List(反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)|c|c++|java|[python](./src/0206_Reverse_Linked_List/Reverse_Linked_List.py)|go|Easy|
+|0206|[Reverse Linked List(反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)|c|c++|java|[python](./src/0206_Reverse_Linked_List/Reverse_Linked_List.py)|go|Easy|
 |0225|[Implement Stack using Queues(用队列实现栈)](https://leetcode-cn.com/problems/implement-stack-using-queues/)|c|c++|[java](./src/0225_Implement_Stack_using_Queues/Implement_Stack_using_Queues.java)|python|go|Easy|
 |0226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/0266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |0232|[Implement Queue using Stacks(用栈实现队列)](https://leetcode-cn.com/problems/implement-queue-using-stacks)|c|c++|[java](./src/0232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.java)|python|go|Easy|
