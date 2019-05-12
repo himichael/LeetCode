@@ -4,6 +4,7 @@
 |0015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/0015-3Sum/3Sum.py)|go|Medium|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/0120_Triangle/Triangle.java)|python|go|Medium|
+|0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
 |0226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/0266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
