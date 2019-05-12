@@ -16,22 +16,32 @@
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/0066_Plus_One/Plus_One.py)|go|Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
+|0088|[Merge Sorted Array(合并两个有序数组)](https://leetcode-cn.com/problems/merge-sorted-array/)|c|c++|java|[python](./src/0088_Merge_Sorted_Array/Merge_Sorted_Array.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/0120_Triangle/Triangle.java)|python|go|Medium|
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
+|0125|[Valid Palindrome(验证回文串)]{https://leetcode-cn.com/problems/valid-palindrome/}|c|c++|java|[python](./src/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/0136_Single_Number/Single_Number.py)|go|Easy|
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
+|0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/0169_Majority_Element/Majority_Element.py)|go|Easy|
+|0204|[Count Primes(计算质数)](https://leetcode-cn.com/problems/count-primes/)|c|c++|java|[python](./src/0204_Count_Primes/Count_Primes.py)|go|Easy|
 |0206|[Reverse Linked List(反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)|c|c++|java|[python](./src/0206_Reverse_Linked_List/Reverse_Linked_List.py)|go|Easy|
 |0225|[Implement Stack using Queues(用队列实现栈)](https://leetcode-cn.com/problems/implement-stack-using-queues/)|c|c++|[java](./src/0225_Implement_Stack_using_Queues/Implement_Stack_using_Queues.java)|python|go|Easy|
 |0226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/0266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
 |0232|[Implement Queue using Stacks(用栈实现队列)](https://leetcode-cn.com/problems/implement-queue-using-stacks)|c|c++|[java](./src/0232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.java)|python|go|Easy|
+|0234|[Palindrome Linked List(回文链表)](https://leetcode-cn.com/problems/palindrome-linked-list/)|c|c++|java|[python](./src/0234_Palindrome_Linked_List/Palindrome_Linked_List.py)|go|Easy|
 |0237|[Delete Node in a Linked List(删除链表中的节点)](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|c|c++|[java](0237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.java)|python|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/0344_Reverse_String/Reverse_String.py)|go|Easy|
 |0349|[Intersection of Two Arrays(两个数组的交集)](https://leetcode-cn.com/problems/)|c|c++|java|[python](./src/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go|Easy|
+|0350|[Intersection of Two Arrays II(两个数组的交集 II)](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|c|c++|java|[python](./src/0350_Intersection_of_Two_Arrays_II/Intersection_of_Two_Arrays_II.py)|go|Easy|
+|0374|[Guess Number Higher or Lower(猜数字大小)](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|c|c++|java|[python](./src/0374_Guess_Number_Higher_or_Lower/Guess_Number_Higher_or_Lower.py)|go|Easy|
+|0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go|Easy|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/0412_Fizz_Buzz/Fizz_Buzz.py)|go|Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
+|0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/0704_Binary_Search/Binary_Search.py)|go|Easy|
+|0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |0832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/0832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |0977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/0977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
