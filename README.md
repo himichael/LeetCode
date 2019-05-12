@@ -10,6 +10,11 @@
 |0024|[Swap Nodes in Pairs(两两交换链表中的节点)](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|c|c++|[java](./src/0024_Swap_Nodes_in_Pairs/Swap_Nodes_in_Pairs.java)|python|go|Medium|
 |0026|[Remove Duplicates from Sorted Array(删除排序数组中的重复项)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|c|c++|java|[python](./src/0026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.py)|go|Easy|
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/0027_Remove_Element/Remove_Element.py)|go|Easy|
+|0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/0035_Search_Insert_Position/Search_Insert_Position.py)|go|Easy|
+|0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
+|0053|[Maximum Subarray(最大子序和)](https://leetcode-cn.com/problems/maximum-subarray/)|c|c++|java|[python](./src/0053_Maximum_Subarray/Maximum_Subarray.py)|go|Easy|
+|0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/0066_Plus_One/Plus_One.py)|go|Easy|
+|0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/0120_Triangle/Triangle.java)|python|go|Medium|
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
