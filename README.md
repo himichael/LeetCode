@@ -6,6 +6,9 @@
 |0015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/0015-3Sum/3Sum.py)|go|Medium|
 |0019|[Remove Nth Node From End of List(删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|c|c++|java|[python](./src/0019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.py)|go|Easy|
 |0020|[Valid Parentheses(有效的括号)](https://leetcode-cn.com/problems/valid-parentheses/)|c|c++|java|[python](./src/0020_Valid_Parentheses/Valid_Parentheses.py)|go|Easy|
+|0021|[Merge Two Sorted Lists(合并两个有序数组)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|c|c++|java|[python](./src/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.py)|go|Easy|
+|0024|[Swap Nodes in Pairs(两两交换链表中的节点)](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|c|c++|[java](./src/0024_Swap_Nodes_in_Pairs/Swap_Nodes_in_Pairs.java)|python|go|Medium|
+|0026|[Remove Duplicates from Sorted Array(删除排序数组中的重复项)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|c|c++|java|[python](./src/0026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.py)|go|Easy|
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/0027_Remove_Element/Remove_Element.py)|go|Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/0120_Triangle/Triangle.java)|python|go|Medium|
