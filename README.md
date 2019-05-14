@@ -1,6 +1,7 @@
 ﻿| Number | Title | C | C++ | Java | Python | Go | Difficulty |
 |---| --- | --- | --- | --- | --- | --- | --- |
 |0001|[Two Sum (两数之和)](https://leetcode-cn.com/problems/two-sum/)|c|c++|java|[python](./src/1_100/0001_Two_Sum/Two_Sum.py)|go|Easy|
+|0004|[Median of Two Sorted Arrays(寻找两个有序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|c|c++|java|[python](./src/1_100/0004_Median_of_Two_Sorted_Arrays/Median_of_Two_Sorted_Arrays.py)|go|Hard|
 |0007|[Reverse Integer(整数翻转)](https://leetcode-cn.com/problems/reverse-integer/)|c|c++|java|[python](./src/1_100/0007_Reverse_Integer/Reverse_Integer.py)|go|Easy|
 |0014|[Longest Common Prefix(最长公共前缀)](https://leetcode-cn.com/problems/longest-common-prefix/)|c|c++|java|[python](./src/1_100/0014_Longest_Common_Prefix/Longest_Common_Prefix.py)|go|Easy|
 |0015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/1_100/0015-3Sum/3Sum.py)|go|Medium|
