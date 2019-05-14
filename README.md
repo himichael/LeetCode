@@ -2,7 +2,8 @@
 |---| --- | --- | --- | --- | --- | --- | --- |
 |0001|[Two Sum (两数之和)](https://leetcode-cn.com/problems/two-sum/)|c|c++|java|[python](./src/1_100/0001_Two_Sum/Two_Sum.py)|go|Easy|
 |0002|[Add Two Numbers (两数相加)](https://leetcode-cn.com/problems/add-two-numbers/)|c|c++|[java](./src/1_100/0002_Add_Two_Numbers/Add_Two_Numbers.java)|python|go|Medium|
-|0007|[Reverse Integer(整数翻转)](https://leetcode-cn.com/problems/reverse-integer/)|c|c++|java|[python](./src/1_100/0007_Reverse_Integer/Reverse_Integer.py)|go|Easy|
+|0007|[Reverse Integer(整数翻转)](https://leetcode-cn.com/problems/reverse-integer/)|c|c++|java|[python](./src/1_100/0007_Reverse_Integer/Reverse_Integer.py)|go|Medium|
+|0008|[String to Integer (atoi)(字符串转换整数 atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|c|c++|[java](./src/1_100/0008_String_to_Integer_(atoi)/String_to_Integer_(atoi).java)|python|go|Easy|
 |0014|[Longest Common Prefix(最长公共前缀)](https://leetcode-cn.com/problems/longest-common-prefix/)|c|c++|java|[python](./src/1_100/0014_Longest_Common_Prefix/Longest_Common_Prefix.py)|go|Easy|
 |0015|[3Sum (三数之和)](https://leetcode-cn.com/problems/3sum/)|c|c++|java|[python](./src/1_100/0015-3Sum/3Sum.py)|go|Medium|
 |0019|[Remove Nth Node From End of List(删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|c|c++|java|[python](./src/1_100/0019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.py)|go|Easy|
