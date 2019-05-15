@@ -42,9 +42,16 @@ class Solution {
                     isPlus = false;
                 }
             }
-            ListNode node = new ListNode(tmp);
-            p.next = node;
-            p = node;
+			//计算出a.val+b.val后，不用再新创建节点了，用这个值直接覆盖a 或者 b节点的val，再将指针指向a或b即可
+			if(a == null) {
+				b.val = tmp;
+				p.next = b;
+				p = b;
+			} else {
+				a.val = tmp;
+				p.next = a;
+				p = a;
+			}
             a = (a==null? null:a.next);
             b = (b==null? null:b.next);
         }
