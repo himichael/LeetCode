@@ -17,7 +17,7 @@ class Solution {
         //a.val+b.val+1 这里的1是进位过来的，如果这个数还是>9继续进位，否则直接记录下来即可
         while( a!=null || b!=null ) {
             int tmp = 0;
-			//题目说明，a和b不会同时为null，但a，b可能不一样长，当a遍历完了，b还没结束，要继续遍历b剩下的元素
+            //题目说明，a和b不会同时为null，但a，b可能不一样长，当a遍历完了，b还没结束，要继续遍历b剩下的元素
             if(a==null) {
                 tmp = b.val;
             } else if(b==null){
@@ -42,16 +42,16 @@ class Solution {
                     isPlus = false;
                 }
             }
-			//计算出a.val+b.val后，不用再新创建节点了，用这个值直接覆盖a 或者 b节点的val，再将指针指向a或b即可
-			if(a == null) {
-				b.val = tmp;
-				p.next = b;
-				p = b;
-			} else {
-				a.val = tmp;
-				p.next = a;
-				p = a;
-			}
+            //计算出a.val+b.val后，不用再新创建节点了，用这个值直接覆盖a 或者 b节点的val，再将指针指向a或b即可
+            if(a == null) {
+                b.val = tmp;
+                p.next = b;
+                p = b;
+            } else {
+                a.val = tmp;
+                p.next = a;
+                p = a;
+            }
             a = (a==null? null:a.next);
             b = (b==null? null:b.next);
         }
