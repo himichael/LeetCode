@@ -1,5 +1,55 @@
 ﻿class Solution {
+	
+	//使用数组而不是Map，通过letter_map[pos]方式获取，效率更高
+	//因为传入的是2-9的字符串，这个字符串的每一位都是ASCII，然后将获取到的某一位 
+	//减去 '0'就可以得到 letter_map的相对下标了
+	String[] letter_map = {
+		" ",
+		"*",
+        "abc",
+        "def",
+        "ghi",
+        "jkl",
+        "mno",
+        "pqrs",
+        "tuv",
+        "wxyz"
+	};
+	//新的实现方式，更高效
     public List<String> letterCombinations(String digits) {
+    	if(digits==null || digits.length()==0) {
+    		return new ArrayList<>();
+    	}
+    	
+    	iterStr(digits, "", 0);
+    	return res;
+    }
+    
+    List<String> res = new ArrayList<>();
+	
+    void iterStr(String str, String letter, int index) {
+    	if(index == str.length()) {
+    		res.add(letter);
+    		return;
+    	}
+		//假设需要处理的字符串是 "234"，每次拿第一个，比如是2,获取对应的电话列表 2->"abc"
+		
+    	char c = str.charAt(index);
+    	int pos = c - '0';
+    	String map_string = letter_map[pos];
+    	for(int i=0;i<map_string.length();i++) {
+			//第一次递归的是"234"，遍历"2"->"abc" 这个列表，然后将 ""+"a" 作为参数传给下一个递归(""是letterCombinations传入的)
+			//第二次递归的是"34"，遍历"3"->"def" 这个列表，然后将"a"+"d"  作为参数传给下一个递归
+			//第三次递归的是"4"，遍历"4"->"ghi" 这个列表，然后将"ad"+"g" 作为参数传给下一个递归
+    		iterStr(str, letter+map_string.charAt(i), index+1);
+    	}
+    }
+	
+	
+	
+	
+	//旧的实现方式，这种效率不是很高
+    public List<String> letterCombinations_2(String digits) {
         if(digits==null || digits.length()==0) {
             return new ArrayList<>();
         }
