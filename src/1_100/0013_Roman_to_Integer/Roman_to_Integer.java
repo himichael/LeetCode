@@ -1,10 +1,9 @@
 ﻿class Solution {
     public int romanToInt(String s) {
-    	StringBuilder sb = new StringBuilder();
     	int num = 0;
     	int len = s.length();
 		
-		//遍历每个字符，然后看对应的是哪个罗马字母，如果是C,X,I，还要再取下一个字符比较
+		//遍历每个字符，然后看对应的是哪个罗马字母，如果是C,X,I，还要再取下一个字符比较 
     	for(int i=0;i<len;i++) {
     		char c = s.charAt(i);
     		switch(c) {
@@ -62,10 +61,8 @@
     			default:
     				break;
     				
-    		}
-    				
+    		}		
     	}
-    	
     	return num;
     }
 }
