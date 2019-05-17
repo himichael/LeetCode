@@ -20,6 +20,7 @@
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/1_100/0027_Remove_Element/Remove_Element.py)|go|Easy|
 |0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/1_100/0035_Search_Insert_Position/Search_Insert_Position.py)|go|Easy|
 |0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
+|0050|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|c|c++|[java](./src/1_100/0050_Pow(x,n)/Pow(x,n).java)|[python](./src/1_100/0050_Pow(x,n)/Pow(x,n).py)|go|Medium|
 |0053|[Maximum Subarray(最大子序和)](https://leetcode-cn.com/problems/maximum-subarray/)|c|c++|java|[python](./src/1_100/0053_Maximum_Subarray/Maximum_Subarray.py)|go|Easy|
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/1_100/0066_Plus_One/Plus_One.py)|go|Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
