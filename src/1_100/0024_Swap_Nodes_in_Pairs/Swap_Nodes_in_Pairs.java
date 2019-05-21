@@ -7,6 +7,34 @@
  * }
  */
 class Solution {
+	
+	//另一种实现方式，基于栈，遍历的时候往栈中push两个元素，再弹出两个元素，就可以达到翻转的效果
+	public ListNode swapPairs_2(ListNode head) {
+		if(head==null || head.next==null) {
+			return head;
+		}
+		ListNode dummy = new ListNode(-1);
+		ListNode p = head;
+		head = dummy;
+		Stack<ListNode> stack = new Stack<ListNode>();
+		while(p!=null && p.next!=null) {
+			stack.add(p);
+			stack.add(p.next);
+			p = p.next.next;
+			dummy.next = stack.pop();
+			dummy = dummy.next;
+			dummy.next = stack.pop();
+			dummy = dummy.next;
+		}
+		if(p != null) {
+			dummy.next = p;
+		} else {
+			dummy.next = null;
+		}
+		//dump(head,"head");
+		return head.next;
+	}
+	
     public ListNode swapPairs(ListNode head) {
         if(head==null || head.next==null) {
             return head;
