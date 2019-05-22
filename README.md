@@ -16,6 +16,7 @@
 |0020|[Valid Parentheses(有效的括号)](https://leetcode-cn.com/problems/valid-parentheses/)|c|c++|java|[python](./src/1_100/0020_Valid_Parentheses/Valid_Parentheses.py)|go|Easy|
 |0021|[Merge Two Sorted Lists(合并两个有序数组)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|c|c++|java|[python](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.py)|go|Easy|
 |0024|[Swap Nodes in Pairs(两两交换链表中的节点)](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|c|c++|[java](./src/1_100/0024_Swap_Nodes_in_Pairs/Swap_Nodes_in_Pairs.java)|python|go|Medium|
+|0025|[Reverse Nodes in k-Group(k个一组翻转链表)](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|c|c++|[java](./src/1_100/0025_Reverse_Nodes_in_k-Group/Reverse_Nodes_in_k-Group.java)|python|go|Hard|
 |0026|[Remove Duplicates from Sorted Array(删除排序数组中的重复项)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|c|c++|java|[python](./src/1_100/0026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.py)|go|Easy|
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/1_100/0027_Remove_Element/Remove_Element.py)|go|Easy|
 |0031|[Next Permutation(下一个排列)](https://leetcode-cn.com/problems/next-permutation/)|c|c++|[java](./src/1_100/0031_Next_Permutation/Next_Permutation.java)|python|go|Medium|
