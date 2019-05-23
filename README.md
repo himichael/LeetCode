@@ -14,7 +14,7 @@
 |0017|[Letter Combinations of a Phone Number(电话号码的字母组合)](https://leetcode-cn.com/problems/longest-common-prefix/)|c|c++|[java](./src/1_100/0017_Letter_Combinations_of_a_Phone_Number/Letter_Combinations_of_a_Phone_Number.java)|python|go|Medium|
 |0019|[Remove Nth Node From End of List(删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|c|c++|java|[python](./src/1_100/0019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.py)|go|Easy|
 |0020|[Valid Parentheses(有效的括号)](https://leetcode-cn.com/problems/valid-parentheses/)|c|c++|java|[python](./src/1_100/0020_Valid_Parentheses/Valid_Parentheses.py)|go|Easy|
-|0021|[Merge Two Sorted Lists(合并两个有序数组)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|c|c++|java|[python](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.py)|go|Easy|
+|0021|[Merge Two Sorted Lists(合并两个有序数组)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[c](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.c)|c++|java|[python](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.py)|go|Easy|
 |0023|[Merge k Sorted Lists(合并k个排序链表)](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|c|c++|[java](./src/1_100/0023_Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java)|python|go|Hard|
 |0024|[Swap Nodes in Pairs(两两交换链表中的节点)](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|c|c++|[java](./src/1_100/0024_Swap_Nodes_in_Pairs/Swap_Nodes_in_Pairs.java)|python|go|Medium|
 |0025|[Reverse Nodes in k-Group(k个一组翻转链表)](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|c|c++|[java](./src/1_100/0025_Reverse_Nodes_in_k-Group/Reverse_Nodes_in_k-Group.java)|python|go|Hard|
