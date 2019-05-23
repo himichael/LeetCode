@@ -5,20 +5,17 @@
         :type target: int
         :rtype: List[List[int]]
         """
-        #del self.res[:]
         candidates = sorted(candidates)
         res = []
-        self.dfs(candidates,target,0,[],res)
+        def recursive(candidates, index, cur_list, target):
+            if(target == 0):
+                res.append( cur_list[:] )
+                return
+            for i in range(index,len(candidates)):
+                if(candidates[i] > target):
+                    break;
+                cur_list.append(candidates[i])
+                recursive(candidates, i, cur_list, target-candidates[i])
+                cur_list.pop()
+        recursive(candidates, 0, [], target)
         return res
-        
-    def dfs(self, candidates, target, index, cur_list,res):
-        if(0 == target):
-            res.append( cur_list[:] )
-            return
-        size = len(candidates)
-        for i in range(index,size):
-            if(candidates[i] > target):
-                break
-            cur_list.append(candidates[i])
-            self.dfs(candidates, target-candidates[i], i, cur_list,res)
-            cur_list.pop()
