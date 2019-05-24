@@ -19,11 +19,10 @@ class Solution {
 		while(p!=null && p.next!=null) {
 			for(int i=0;i<k;i++) {
 				stack.add(p);
-				if(p.next==null) {
-					p = p.next;
+				p = p.next;
+				if(p==null) {
 					break;
 				}
-				p = p.next;
 			}
 			int len = stack.size();
 			//这里需要处理边界问题，如果输入的是: [1,2,3,4] 2    最后遍历完3 4，stack中的数据就是[3,4]，size 等于 k，所以要反序处理
