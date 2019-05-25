@@ -33,6 +33,7 @@
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0082|[Remove Duplicates from Sorted List II(删除链表中的重复元素II)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|c|c++|[java](./src/1_100/0082_Remove_Duplicates_from_Sorted_List_II/Remove_Duplicates_from_Sorted_List_II.java)|python|go|Medium|
 |0083|[Remove Duplicates from Sorted List(删除链表中的重复元素)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|c|c++|[java](./src/1_100/0083_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.java)|python|go|Easy|
+|0086|[Partition List(分割链表)](https://leetcode-cn.com/problems/partition-list/)|c|c++|[java](./src/1_100/0086_Partition_List/Partition_List.java)|python|go|Medium|
 |0088|[Merge Sorted Array(合并两个有序数组)](https://leetcode-cn.com/problems/merge-sorted-array/)|c|c++|java|[python](./src/1_100/0088_Merge_Sorted_Array/Merge_Sorted_Array.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/101_200/0120_Triangle/Triangle.java)|python|go|Medium|
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/101_200/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
