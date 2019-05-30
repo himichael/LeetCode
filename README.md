@@ -45,6 +45,7 @@
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/101_200/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
 |0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/101_200/0136_Single_Number/Single_Number.py)|go|Easy|
+|0144|[Binary Tree Preorder Traversal(二叉树的前需遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|c|c++|[java](./src/101_200/0144_Binary_Tree_Preorder_Traversal/Binary_Tree_Preorder_Traversal.py)|python|go|Medium|
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/101_200/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
 |0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/101_200/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
