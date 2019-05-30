@@ -26,6 +26,7 @@
 |0028|[Implement strStr()(实现strStr)](https://leetcode-cn.com/problems/implement-strstr/)|c|c++|java|[python](./src/1_100/0028_Implement_strStr()/Implement_strStr.py)|go|Easy|
 |0031|[Next Permutation(下一个排列)](https://leetcode-cn.com/problems/next-permutation/)|c|c++|[java](./src/1_100/0031_Next_Permutation/Next_Permutation.java)|[python](./src/1_100/0031_Next_Permutation/Next_Permutation.py)|go|Medium|
 |0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/1_100/0035_Search_Insert_Position/Search_Insert_Position.py)|go|Easy|
+|0036|[Valid Sudoku(有效的数独)](https://leetcode-cn.com/problems/valid-sudoku/)|c|c++|java|[python](./src/1_100/0036_Valid_Sudoku/Valid_Sudoku.py)|go|Medium|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|python|go|Medium|
 |0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
