@@ -23,6 +23,7 @@
 |0025|[Reverse Nodes in k-Group(k个一组翻转链表)](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|c|c++|[java](./src/1_100/0025_Reverse_Nodes_in_k-Group/Reverse_Nodes_in_k-Group.java)|python|go|Hard|
 |0026|[Remove Duplicates from Sorted Array(删除排序数组中的重复项)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|c|c++|java|[python](./src/1_100/0026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.py)|go|Easy|
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/1_100/0027_Remove_Element/Remove_Element.py)|go|Easy|
+|0028|[Implement strStr()(实现strStr)](https://leetcode-cn.com/problems/implement-strstr/)|c|c++|java|[python](./src/1_100/0028_Implement_strStr()/Implement_strStr.py)|go|Easy|
 |0031|[Next Permutation(下一个排列)](https://leetcode-cn.com/problems/next-permutation/)|c|c++|[java](./src/1_100/0031_Next_Permutation/Next_Permutation.java)|[python](./src/1_100/0031_Next_Permutation/Next_Permutation.py)|go|Medium|
 |0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/1_100/0035_Search_Insert_Position/Search_Insert_Position.py)|go|Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
