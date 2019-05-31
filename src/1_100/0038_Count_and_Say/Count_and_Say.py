@@ -5,7 +5,7 @@
         :rtype: str    
         """
         if(n==1): return "1"
-        if(n==2): return "11"
+        #解析n-1的情况，然后拼接成一个字符串再递归调用n，最后返回
         def recursion(num,res):
             if(num == n-1):
                 return res
