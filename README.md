@@ -4,6 +4,7 @@
 |0002|[Add Two Numbers (两数相加)](https://leetcode-cn.com/problems/add-two-numbers/)|c|c++|[java](./src/1_100/0002_Add_Two_Numbers/Add_Two_Numbers.java)|python|go|Medium|
 |0003|[Longest Substring Without Repeating Characters(无重复字符的最长子串)](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|c|c++|java|[python](./src/1_100/0003_Longest_Substring_Without_Repeating_Characters/Longest_Substring_Without_Repeating_Characters.py)|go|Medium|
 |0004|[Median of Two Sorted Arrays(寻找两个有序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|c|c++|java|[python](./src/1_100/0004_Median_of_Two_Sorted_Arrays/Median_of_Two_Sorted_Arrays.py)|go|Hard|
+|0005|[Longest Palindromic Substring(最长回文子串)](https://leetcode-cn.com/problems/longest-palindromic-substring/)|c|c++|[java](./src/1_100/0005_Longest_Palindromic_Substring/Longest_Palindromic_Substring.java)|python|go|Medium|
 |0006|[ZigZag Conversion(Z字形变换)](https://leetcode-cn.com/problems/zigzag-conversion/)|c|c++|[java](./src/1_100/0006_ZigZag_Conversion/ZigZag_Conversion.java)|python|go|Medium|
 |0007|[Reverse Integer(整数翻转)](https://leetcode-cn.com/problems/reverse-integer/)|c|c++|[java](./src/1_100/0007_Reverse_Integer/Reverse_Integer.java)|[python](./src/1_100/0007_Reverse_Integer/Reverse_Integer.py)|go|Easy|
 |0008|[String to Integer (atoi)(字符串转换整数 atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|c|c++|[java](./src/1_100/0008_String_to_Integer_(atoi)/String_to_Integer_(atoi).java)|python|go|Medium|
