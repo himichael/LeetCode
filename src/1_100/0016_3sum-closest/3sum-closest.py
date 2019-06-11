@@ -15,13 +15,12 @@
             start = k+1
             end = len(nums)-1
             while(start < end):
-                nums_sum = nums[k] + nums[start] + nums[end]
-                if( abs(target-nums_sum) < abs(target-res) ):
-                    res = nums_sum
-                #print min( abs(target-res), abs(target-nums_sum) ),res
-                if(nums_sum > target):
+                x = nums[k]+nums[start]+nums[end]
+                if( abs(target-x) < abs(target-res) ):
+                    res = x
+                if(x > target):
                     end -= 1
-                elif(nums_sum < target):
+                elif(x < target):
                     start += 1
                 else:
                     return res
