@@ -77,7 +77,8 @@
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
 |0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[c](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
-|0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[c](./src/1001_1100/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
+|0617|[merge-two-binary-trees(合并二叉树)](https://leetcode-cn.com/problems/merge-two-binary-trees/|c|c++|java|[python](./src/601_700/0617_merge-two-binary-trees/merge-two-binary-trees.py)|go|Easy|
+|0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[c](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go|Easy|
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
