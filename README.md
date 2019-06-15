@@ -77,6 +77,7 @@
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go|Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
+|0559|[maximum-depth-of-n-ary-tree(N叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|c|c++|java|[python](./src/501_600/0559_maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.py)|go|Easy|
 |0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[c](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
 |0617|[merge-two-binary-trees(合并二叉树)](https://leetcode-cn.com/problems/merge-two-binary-trees/)|c|c++|java|[python](./src/601_700/0617_merge-two-binary-trees/merge-two-binary-trees.py)|go|Easy|
 |0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[c](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
