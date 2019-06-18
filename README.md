@@ -85,3 +85,8 @@
 |0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0182_duplicate-emails/0938_range-sum-of-bst.py)|go|Easy|
 |0977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/901_1000/0977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
 |1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
+
+
+
+
+
