@@ -50,6 +50,7 @@
 |0086|[Partition List(分割链表)](https://leetcode-cn.com/problems/partition-list/)|c|c++|[java](./src/1_100/0086_Partition_List/Partition_List.java)|python|go|Medium|
 |0088|[Merge Sorted Array(合并两个有序数组)](https://leetcode-cn.com/problems/merge-sorted-array/)|c|c++|java|[python](./src/1_100/0088_Merge_Sorted_Array/Merge_Sorted_Array.py)|go|Easy|
 |0092|[Reverse Linked List II(翻转链表 II)](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|c|c++|[java](./src/1_100/0092_Reverse_Linked_List_II/Reverse_Linked_List_II.java)|python|go|Medium|
+|0104|[maximum-depth-of-binary-tree(二叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|c|c++|java|[python](./src/101_200/0104_maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|go|Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/101_200/0120_Triangle/Triangle.java)|python|go|Medium|
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/101_200/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go|Easy|
 |0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
@@ -77,7 +78,10 @@
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go|Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
+|0559|[maximum-depth-of-n-ary-tree(N叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|c|c++|java|[python](./src/501_600/0559_maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.py)|go|Easy|
 |0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[c](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
+|0617|[merge-two-binary-trees(合并二叉树)](https://leetcode-cn.com/problems/merge-two-binary-trees/)|c|c++|java|[python](./src/601_700/0617_merge-two-binary-trees/merge-two-binary-trees.py)|go|Easy|
+|0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[c](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go|Easy|
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
@@ -85,9 +89,7 @@
 |0832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/801_900/0832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0182_duplicate-emails/0938_range-sum-of-bst.py)|go|Easy|
 |0977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/901_1000/0977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
+|1008|[construct-binary-search-tree-from-preorder-traversal(先序遍历构造二叉树)](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|c|c++|java|[python](./src/1001_1100/1008_construct-binary-search-tree-from-preorder-traversal/construct-binary-search-tree-from-preorder-traversal.py)|go|Medium|
 |1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
-
-
-
 
 
