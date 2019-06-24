@@ -100,4 +100,3 @@
 |1008|[construct-binary-search-tree-from-preorder-traversal(先序遍历构造二叉树)](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|c|c++|java|[python](./src/1001_1100/1008_construct-binary-search-tree-from-preorder-traversal/construct-binary-search-tree-from-preorder-traversal.py)|go|Medium|
 |1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
 
-
