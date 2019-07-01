@@ -30,6 +30,7 @@
 |0028|[Implement strStr()(实现strStr)](https://leetcode-cn.com/problems/implement-strstr/)|c|c++|java|[python](./src/1_100/0028_Implement_strStr()/Implement_strStr.py)|go|Easy|
 |0029|[divide-two-integers(两数相除)](https://leetcode-cn.com/problems/divide-two-integers/)|c|c++|java|[python](./src/1_100/0029_divide-two-integers/divide-two-integers.py)|go|Medium|
 |0031|[Next Permutation(下一个排列)](https://leetcode-cn.com/problems/next-permutation/)|c|c++|[java](./src/1_100/0031_Next_Permutation/Next_Permutation.java)|[python](./src/1_100/0031_Next_Permutation/Next_Permutation.py)|go|Medium|
+|0033|[search-in-rotated-sorted-array(搜索旋转排序数组)](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|c|c++|java|[python](./src/1_100/0033_search-in-rotated-sorted-array/search-in-rotated-sorted-array.py)|go|Medium|
 |0034|[find-first-and-last-position-of-element-in-sorted-array(在排序数组中查找元素的第一个和最后一个位置)](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|c|c++|java|[python](./src/1_100/0034_find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.py)|go|Medium|
 |0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/1_100/0035_Search_Insert_Position/Search_Insert_Position.py)|go|Easy|
 |0036|[Valid Sudoku(有效的数独)](https://leetcode-cn.com/problems/valid-sudoku/)|c|c++|java|[python](./src/1_100/0036_Valid_Sudoku/Valid_Sudoku.py)|go|Medium|
