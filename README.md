@@ -65,8 +65,8 @@
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/101_200/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go|Medium|
 |0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/101_200/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
-|0175|[combine-two-tables(组合两个表)](https://leetcode-cn.com/problems/combine-two-tables/)|[c](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
-|0182|[duplicate-emails(查找重复的电子邮箱-SQL题目)](https://leetcode-cn.com/problems/duplicate-emails/)|[c](./src/101_200/0182_duplicate-emails/duplicate-emails.sql)|c++|java|python|go|Easy|
+|0175|[combine-two-tables(组合两个表)](https://leetcode-cn.com/problems/combine-two-tables/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
+|0182|[duplicate-emails(查找重复的电子邮箱-SQL题目)](https://leetcode-cn.com/problems/duplicate-emails/)|[sql](./src/101_200/0182_duplicate-emails/duplicate-emails.sql)|c++|java|python|go|Easy|
 |0203|[Remove Linked List Elements(移除链表元素)](https://leetcode-cn.com/problems/remove-linked-list-elements/)|c|c++|java|[python](./src/201_300/0203_Remove_Linked_List_Elements/Remove_Linked_List_Elements.py)|go|Easy|
 |0204|[Count Primes(计算质数)](https://leetcode-cn.com/problems/count-primes/)|c|c++|java|[python](./src/201_300/0204_Count_Primes/Count_Primes.py)|go|Easy|
 |0206|[Reverse Linked List(反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)|c|c++|java|[python](./src/201_300/0206_Reverse_Linked_List/Reverse_Linked_List.py)|go|Easy|
@@ -87,10 +87,10 @@
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
 |0559|[maximum-depth-of-n-ary-tree(N叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|c|c++|java|[python](./src/501_600/0559_maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.py)|go|Easy|
-|0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[c](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
+|0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[sql](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
 |0617|[merge-two-binary-trees(合并二叉树)](https://leetcode-cn.com/problems/merge-two-binary-trees/)|c|c++|java|[python](./src/601_700/0617_merge-two-binary-trees/merge-two-binary-trees.py)|go|Easy|
-|0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[c](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
-|0627|[swap-salary(交换工资-SQL题目)](https://leetcode-cn.com/problems/swap-salary/)|[c](./src/601_700/0627_swap-salary/swap-salary.sql)|c++|java|python|go|Easy|
+|0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[sql](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
+|0627|[swap-salary(交换工资-SQL题目)](https://leetcode-cn.com/problems/swap-salary/)|[sql](./src/601_700/0627_swap-salary/swap-salary.sql)|c++|java|python|go|Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go|Medium|
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go|Easy|
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
