@@ -11,3 +11,18 @@
 			else:
 				return middle
 		return -1
+		
+	def search_2(self, nums, target):
+		if(nums==None or len(nums)==0):
+		return -1
+		def recursive(begin,end):
+			if(begin > end):
+				return -1
+			mid = (begin+end)/2
+			if(target > nums[mid]):
+				return recursive(mid+1,end)
+			elif(target < nums[mid]):
+				return recursive(begin,mid-1)
+			else:
+				return mid
+			return recursive(0,len(nums)-1)
