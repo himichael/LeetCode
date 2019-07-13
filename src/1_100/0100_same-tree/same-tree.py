@@ -25,6 +25,7 @@ class Solution(object):
         return True
 		
 		
+	#use inner function	
     def isSameTree_2(self, p, q):
         """
         :type p: TreeNode
