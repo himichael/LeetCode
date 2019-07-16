@@ -23,27 +23,26 @@ class Solution(object):
         del s[count-n]
         return s
         
-"""
-        p=head
-        count=0
-        while p:
-            p=p.next
-            count+=1
-            
-        p=head
-        num=count-n
-        index=0
-        if n > count:
-            num=count
-
-        while index<num:
-            p=p.next
-            index+=1
-        print p.val
-        if p.next==None:
-            return
-        if p.next.next!=None:
-            tmp = p.next
-            p.next=p.next.next
-            tmp.next=None
-"""
+    #用a，b两个指针方式实现
+    def removeNthFromEnd_2(self, head, n):
+        """
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
+        """
+        p = ListNode(-1)
+        p.next = head
+        first = p
+        second = p
+        i = 0
+        while(first.next!=None and i<n):
+            first = first.next
+            i += 1
+        while(first.next != None):
+            first = first.next
+            second = second.next
+        if(second.next != None):
+            tmp = second.next
+            second.next = tmp.next
+            tmp = None
+        return p.next
