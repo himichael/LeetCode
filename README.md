@@ -79,6 +79,7 @@
 |0216|[combination-sum-iii(组合总和3)](https://leetcode-cn.com/problems/combination-sum-iii/)|c|c++|java|[python](./src/201_300/0216_combination-sum-iii/combination-sum-iii.py)|go|Medium|
 |0225|[Implement Stack using Queues(用队列实现栈)](https://leetcode-cn.com/problems/implement-stack-using-queues/)|c|c++|[java](./src/201_300/0225_Implement_Stack_using_Queues/Implement_Stack_using_Queues.java)|python|go|Easy|
 |0226|[Invert Binary Tree(翻转二叉树)](https://leetcode-cn.com/problems/invert-binary-tree)|c|c++|java|[python](./src/201_300/0266_Invert_Binary_Tree/Invert_Binary_Tree.py)|go|Easy|
+|0231|[power-of-two(2的冥)](https://leetcode-cn.com/problems/power-of-two/)|c|c++|java|[python](./src/201_300/0231_power-of-two/power-of-two.py)|go|Easy|
 |0232|[Implement Queue using Stacks(用栈实现队列)](https://leetcode-cn.com/problems/implement-queue-using-stacks)|c|c++|[java](./src/201_300/0232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.java)|python|go|Easy|
 |0234|[Palindrome Linked List(回文链表)](https://leetcode-cn.com/problems/palindrome-linked-list/)|c|c++|java|[python](./src/201_300/0234_Palindrome_Linked_List/Palindrome_Linked_List.py)|go|Easy|
 |0237|[Delete Node in a Linked List(删除链表中的节点)](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|c|c++|[java](./src/201_300/0237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.java)|python|go|Easy|
