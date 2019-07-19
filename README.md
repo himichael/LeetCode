@@ -105,7 +105,7 @@
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |0784|[letter-case-permutation(字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)|c|c++|java|[python](./src/701_800/0784_letter-case-permutation/letter-case-permutation.py)|go|Medium|
 |0832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/801_900/0832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
-|0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0182_duplicate-emails/0938_range-sum-of-bst.py)|go|Easy|
+|0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0938_range-sum-of-bst/range-sum-of-bst.py)|go|Easy|
 |0977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/901_1000/0977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
 |1008|[construct-binary-search-tree-from-preorder-traversal(先序遍历构造二叉树)](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|c|c++|java|[python](./src/1001_1100/1008_construct-binary-search-tree-from-preorder-traversal/construct-binary-search-tree-from-preorder-traversal.py)|go|Medium|
 |1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
