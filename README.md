@@ -107,6 +107,7 @@
 |0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[sql](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
 |0627|[swap-salary(交换工资-SQL题目)](https://leetcode-cn.com/problems/swap-salary/)|[sql](./src/601_700/0627_swap-salary/swap-salary.sql)|c++|java|python|go|Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go|Medium|
+|0700|[Search in a Binary Search Tree(二叉搜索树中的搜索)](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|c|c++|java|[python](./src/601_700/0700_search-in-a-binary-search-tree/search-in-a-binary-search-tree.py)|go|Easy|
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go|Easy|
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
