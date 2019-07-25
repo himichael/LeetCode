@@ -16,3 +16,10 @@
                 return i
         return -1
         
+    #一行代码搞定
+    def majorityElement_2(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        return sorted(nums)[len(nums)/2]
