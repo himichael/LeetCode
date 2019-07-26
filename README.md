@@ -29,7 +29,7 @@
 |0027|[Remove Element(移除元素)](https://leetcode-cn.com/problems/remove-element/)|c|c++|java|[python](./src/1_100/0027_Remove_Element/Remove_Element.py)|go|Easy|
 |0028|[Implement strStr()(实现strStr)](https://leetcode-cn.com/problems/implement-strstr/)|c|c++|java|[python](./src/1_100/0028_Implement_strStr()/Implement_strStr.py)|go|Easy|
 |0029|[Divide Two Integers(两数相除)](https://leetcode-cn.com/problems/divide-two-integers/)|c|c++|java|[python](./src/1_100/0029_divide-two-integers/divide-two-integers.py)|go|Medium|
-|0030|[substring-with-concatenation-of-all-words(串联所有单词的子串)](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|c|c++|java|[python](./src/1_100/0030_substring-with-concatenation-of-all-words/substring-with-concatenation-of-all-words.py)|go|Hard|
+|0030|[insert-into-a-binary-search-tree(串联所有单词的子串)](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|c|c++|java|[python](./src/1_100/0030_substring-with-concatenation-of-all-words/substring-with-concatenation-of-all-words.py)|go|Hard|
 |0031|[Next Permutation(下一个排列)](https://leetcode-cn.com/problems/next-permutation/)|c|c++|[java](./src/1_100/0031_Next_Permutation/Next_Permutation.java)|[python](./src/1_100/0031_Next_Permutation/Next_Permutation.py)|go|Medium|
 |0032|[longest-valid-parentheses(最长有效括号)](https://leetcode-cn.com/problems/longest-valid-parentheses/)|c|c++|java|[python](./src/1_100/0032_longest-valid-parentheses/longest-valid-parentheses.py)|go|Hard|
 |0033|[search-in-rotated-sorted-array(搜索旋转排序数组)](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|c|c++|java|[python](./src/1_100/0033_search-in-rotated-sorted-array/search-in-rotated-sorted-array.py)|go|Medium|
