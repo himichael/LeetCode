@@ -20,5 +20,24 @@ class Solution(object):
             recursion(root.right)
         recursion(root)
         return res
+		
+    #前序遍历的非递归实现
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        res = []
+        stack = []
+        while(len(stack)>0 or root!=None):
+            if(root!=None):
+                res.append(root.val)
+                stack.append(root)
+                root = root.left
+            else:
+                node = stack.pop()
+                root = node.right
+        
+        return res
         
         
