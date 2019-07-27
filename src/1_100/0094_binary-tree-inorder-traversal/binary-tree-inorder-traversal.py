@@ -20,3 +20,21 @@ class Solution(object):
             recursion(root.right)
         recursion(root)
         return res
+		
+    #非递归 实现
+    def inorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        stack = []
+        res =  []
+        while(len(stack)>0 or root!=None):
+            if(root!=None):
+                stack.append(root)
+                root = root.left
+            else:
+                node = stack.pop()
+                res.append(node.val)
+                root = node.right
+        return res		
