@@ -89,6 +89,7 @@
 |0232|[Implement Queue using Stacks(用栈实现队列)](https://leetcode-cn.com/problems/implement-queue-using-stacks)|c|c++|[java](./src/201_300/0232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.java)|python|go|Easy|
 |0234|[Palindrome Linked List(回文链表)](https://leetcode-cn.com/problems/palindrome-linked-list/)|c|c++|java|[python](./src/201_300/0234_Palindrome_Linked_List/Palindrome_Linked_List.py)|go|Easy|
 |0237|[Delete Node in a Linked List(删除链表中的节点)](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|c|c++|[java](./src/201_300/0237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.java)|python|go|Easy|
+|0242|[Valid Anagram(有效的字母异位词)](https://leetcode-cn.com/problems/valid-anagram/)|c|c++|java|[python](./src/201_300/0242_valid-anagram/valid-anagram.py)|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go|Medium|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go|Easy|
