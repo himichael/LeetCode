@@ -21,3 +21,13 @@
             else:
                 return False
         return len(d)==0
+		
+    def isAnagram__2(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        if(s==None or len(s)==0 or t==None or len(t)==0):
+            return True if(s==t) else False   
+        return sorted(s) == sorted(t)
