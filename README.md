@@ -50,6 +50,7 @@
 |0053|[Maximum Subarray(最大子序和)](https://leetcode-cn.com/problems/maximum-subarray/)|c|c++|java|[python](./src/1_100/0053_Maximum_Subarray/Maximum_Subarray.py)|go|Easy|
 |0061|[Rotate List(旋转链表)](https://leetcode-cn.com/problems/rotate-list/)|c|c++|java|[python](./src/1_100/0061_Rotate_List/Rotate_List.py)|go|Medium|
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/1_100/0066_Plus_One/Plus_One.py)|go|Easy|
+|0067|[Add Binary(二进制求和)](https://leetcode-cn.com/problems/add-binary/)|c|c++|java|[python](./src/1_100/0067_add-binary/add-binary.py)|go|Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0077|[combinations(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go|Medium|
@@ -93,6 +94,8 @@
 |0237|[Delete Node in a Linked List(删除链表中的节点)](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|c|c++|[java](./src/201_300/0237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.java)|python|go|Easy|
 |0242|[Valid Anagram(有效的字母异位词)](https://leetcode-cn.com/problems/valid-anagram/)|c|c++|java|[python](./src/201_300/0242_valid-anagram/valid-anagram.py)|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
+|0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go|Medium|
+|0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go|Medium|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go|Medium|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go|Easy|
 |0349|[Intersection of Two Arrays(两个数组的交集)](https://leetcode-cn.com/problems/)|c|c++|java|[python](./src/301_400/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go|Easy|
@@ -102,7 +105,8 @@
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go|Easy|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go|Easy|
 |0415|[Add Strings(字符串相加)](https://leetcode-cn.com/problems/add-strings/)|c|c++|java|[python](./src/401_500/0415_add-strings/add-strings.py)|go|Easy|
-|0429|[N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|c|c++|java|[python](./src/401_500/0429_n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|go|Easy|
+|0429|[N-ary Tree Level Order Traversal(N叉树的层序遍历)](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|c|c++|java|[python](./src/401_500/0429_n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|go|Easy|
+|0461|[Hamming Distance(汉明距离)](https://leetcode-cn.com/problems/hamming-distance/)|c|c++|java|[python](./src/401_500/0461_hamming-distance/hamming-distance.py)|go|Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go|Easy|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go|Easy|
 |0551|[student-attendance-record-i(学生出勤记录1)](https://leetcode-cn.com/problems/student-attendance-record-i/)|c|c++|java|[python](./src/501_600/0551_student-attendance-record-i/student-attendance-record-i.py)|go|Easy|
