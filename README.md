@@ -73,6 +73,7 @@
 |0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/101_200/0136_Single_Number/Single_Number.py)|go|Easy|
 |0141|[Linked List Cycle(环形链表)](https://leetcode-cn.com/problems/linked-list-cycle/)|c|c++|java|[python](./src/101_200/0141_linked-list-cycle/linked-list-cycle.py)|go|Easy|
+|0142|[Linked List Cycle II(环形链表 II)](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|c|c++|java|[python](./src/101_200/0142_linked-list-cycle-ii/linked-list-cycle-ii.py)|go|Medium|
 |0143|[Reorder List(重排链表)](https://leetcode-cn.com/problems/reorder-list/)|c|c++|java|[python](./src/101_200/0143_reorder-list/reorder-list.py)|go|Medium|
 |0144|[Binary Tree Preorder Traversal(二叉树的前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|c|c++|java|[python](./src/101_200/0144_Binary_Tree_Preorder_Traversal/Binary_Tree_Preorder_Traversal.py)|go|Medium|
 |0145|[Binary Tree Postorder Traversal(二叉树的后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)|c|c++|java|[python](./src/101_200/0145_Binary_Tree_Postorder_Traversal/Binary_Tree_Postorder_Traversal.py)|go|Hard|
