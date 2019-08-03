@@ -16,3 +16,12 @@
             if(y_dict.has_key(i)):
                 y += y_dict[i]
         return (x==0) and (y==0)
+		
+    def judgeCircle_2(self, moves):
+        """
+        :type moves: str
+        :rtype: bool
+        """
+        if(moves==None or len(moves)==0):
+            return True
+        return moves.count("L")==moves.count("R") and moves.count("U")==moves.count("D")
