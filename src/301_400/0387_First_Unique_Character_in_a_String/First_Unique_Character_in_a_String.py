@@ -19,3 +19,22 @@
                 index=i
                 break
         return index
+
+    #另一种实现方式
+    def firstUniqChar_2(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        if(s==None or len(s)==0):
+            return -1
+        d = dict()
+        for i in s:
+            if(d.has_key(i)):
+                d[i] += 1
+            else:
+                d[i] = 1
+        for j in range(len(s)):
+            if(d[s[j]] == 1):
+                return j
+        return -1
