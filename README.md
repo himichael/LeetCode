@@ -38,7 +38,7 @@
 |0036|[Valid Sudoku(有效的数独)](https://leetcode-cn.com/problems/valid-sudoku/)|c|c++|java|[python](./src/1_100/0036_Valid_Sudoku/Valid_Sudoku.py)|go|Medium|
 |0038|[Count and Say(报数)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go|Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
-|0040|[combination-sum-ii(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
+|0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
 |0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
 |0047|[permutations-ii(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go|Medium|
