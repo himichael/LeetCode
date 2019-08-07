@@ -54,7 +54,7 @@
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
 |0070|[Climbing Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
 |0077|[combinations(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go|Medium|
-|0078|[subsets(子集)](https://leetcode-cn.com/problems/subsets/)|c|c++|java|[python](./src/1_100/0078_subsets/subsets.py)|go|Easy|
+|0078|[Subsets(子集)](https://leetcode-cn.com/problems/subsets/)|c|c++|java|[python](./src/1_100/0078_subsets/subsets.py)|go|Easy|
 |0082|[Remove Duplicates from Sorted List II(删除链表中的重复元素II)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|c|c++|[java](./src/1_100/0082_Remove_Duplicates_from_Sorted_List_II/Remove_Duplicates_from_Sorted_List_II.java)|python|go|Medium|
 |0083|[Remove Duplicates from Sorted List(删除链表中的重复元素)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|c|c++|[java](./src/1_100/0083_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.java)|python|go|Easy|
 |0086|[Partition List(分割链表)](https://leetcode-cn.com/problems/partition-list/)|c|c++|[java](./src/1_100/0086_Partition_List/Partition_List.java)|python|go|Medium|
