@@ -71,6 +71,18 @@ class Solution(object):
 
 
 
+    def isValidBST_4(self, root):
+        self.pre = None
+        def recursion(root):
+            if(root==None):
+                return True
+            if(not recursion(root.left)):
+                return False
+            if(self.pre and self.pre.val >= root.val):
+                return False
+            self.pre = root
+            return recursion(root.right)
+        return recursion(root)
 
 
 
