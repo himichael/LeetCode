@@ -39,7 +39,7 @@
 |0038|[Count and Say(报数)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go|Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
 |0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
-|0042|[Trapping Rain Water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
+|0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
 |0047|[permutations-ii(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go|Medium|
 |0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
@@ -52,9 +52,9 @@
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/1_100/0066_Plus_One/Plus_One.py)|go|Easy|
 |0067|[Add Binary(二进制求和)](https://leetcode-cn.com/problems/add-binary/)|c|c++|java|[python](./src/1_100/0067_add-binary/add-binary.py)|go|Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go|Easy|
-|0070|[Climbing Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
-|0077|[Combinations(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go|Medium|
-|0078|[Subsets(子集)](https://leetcode-cn.com/problems/subsets/)|c|c++|java|[python](./src/1_100/0078_subsets/subsets.py)|go|Easy|
+|0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go|Easy|
+|0077|[combinations(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go|Medium|
+|0078|[subsets(子集)](https://leetcode-cn.com/problems/subsets/)|c|c++|java|[python](./src/1_100/0078_subsets/subsets.py)|go|Easy|
 |0082|[Remove Duplicates from Sorted List II(删除链表中的重复元素II)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|c|c++|[java](./src/1_100/0082_Remove_Duplicates_from_Sorted_List_II/Remove_Duplicates_from_Sorted_List_II.java)|python|go|Medium|
 |0083|[Remove Duplicates from Sorted List(删除链表中的重复元素)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|c|c++|[java](./src/1_100/0083_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.java)|python|go|Easy|
 |0086|[Partition List(分割链表)](https://leetcode-cn.com/problems/partition-list/)|c|c++|[java](./src/1_100/0086_Partition_List/Partition_List.java)|python|go|Medium|
@@ -62,6 +62,7 @@
 |0092|[Reverse Linked List II(翻转链表 II)](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|c|c++|[java](./src/1_100/0092_Reverse_Linked_List_II/Reverse_Linked_List_II.java)|python|go|Medium|
 |0093|[Restore IP Addresses(复原IP地址)](https://leetcode-cn.com/problems/restore-ip-addresses/)|c|c++|java|[python](./src/1_100/0093_restore-ip-addresses/restore-ip-addresses.py)|go|Medium|
 |0094|[Binary Tree Inorder Traversal(二叉树的中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|c|c++|java|[python](./src/1_100/0094_binary-tree-inorder-traversal/binary-tree-inorder-traversal.py)|go|Medium|
+|0098|[Validate Binary Search Tree(验证二叉搜索树)](https://leetcode-cn.com/problems/validate-binary-search-tree/)|c|c++|java|[python](./src/1_100/0098_validate-binary-search-tree/validate-binary-search-tree.py)|go|Medium|
 |0100|[Same Tree(相同的树)](https://leetcode-cn.com/problems/same-tree/)|c|c++|java|[python](./src/1_100/0100_same-tree/same-tree.py)|go|Easy|
 |0102|[Binary Tree Level Order Traversal(二叉树的层次遍历)](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|c|c++|java|[python](./src/101_200/0102_binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|go|Medium|
 |0104|[maximum-depth-of-binary-tree(二叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|c|c++|java|[python](./src/101_200/0104_maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|go|Easy|
