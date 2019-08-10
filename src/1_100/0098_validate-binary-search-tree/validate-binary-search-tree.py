@@ -47,3 +47,18 @@ class Solution(object):
                 return recursion(root.right)
             return res
         return recursion(root)
+		
+		
+    def isValidBST_2(self, root):
+        res = []
+        def recursion(root):
+            if(root==None):
+                return
+            recursion(root.left)
+            res.append(root.val)
+            recursion(root.right)
+        recursion(root)
+        return res == list(sorted(set(res)))		
+		
+		
+		
