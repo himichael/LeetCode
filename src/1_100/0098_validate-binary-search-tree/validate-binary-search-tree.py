@@ -48,7 +48,8 @@ class Solution(object):
             return res
         return recursion(root)
 		
-		
+	
+	#中序遍历方式	
     def isValidBST_2(self, root):
         res = []
         def recursion(root):
@@ -61,6 +62,7 @@ class Solution(object):
         return res == list(sorted(set(res)))
 
 
+	#中序遍历方式，最后得到的数组应该是生序的
     def isValidBST_3(self, root):
         def recursion(root):
             if(root==None):
@@ -70,7 +72,7 @@ class Solution(object):
         return res == list(sorted(set(res)))
 
 
-
+	#中序遍历方式优化
     def isValidBST_4(self, root):
         self.pre = None
         def recursion(root):
@@ -85,7 +87,17 @@ class Solution(object):
         return recursion(root)
 
 
-
+	#递归方式，记录最大值和最小值
+    def isValidBST_5(self, root):
+        def recursion(root,min_val,max_val):
+            if(root==None):
+                return True
+            if(root.val <= min_val):
+                return False
+            if(root.val >= max_val):
+                return False
+            return recursion(root.left,min_val,root.val) and recursion(root.right,root.val,max_val)
+        return recursion(root, -2**64, 2**64-1)
 
 
 
