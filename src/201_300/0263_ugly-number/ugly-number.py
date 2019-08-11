@@ -21,6 +21,7 @@
 		
 	
 	
+	#丑数的递归实现
     def isUgly_2(self, num):
         """
         :type num: int
