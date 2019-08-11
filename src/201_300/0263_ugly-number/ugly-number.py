@@ -18,3 +18,26 @@
             else:
                 return False
         return False
+		
+	
+	
+    def isUgly_2(self, num):
+        """
+        :type num: int
+        :rtype: bool
+        """
+        if(num==1 or num==2 or num==3 or num==5):
+            return True
+        def recursion(n):
+            if(n == 0):
+                return False
+            if(n == 1):
+                return True
+            if(n%2 == 0):
+                return recursion(n/2)
+            if(n%3 == 0):
+                return recursion(n/3)
+            if(n%5 == 0):
+                return recursion(n/5)
+            return False
+        return recursion(num)
