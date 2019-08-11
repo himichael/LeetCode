@@ -101,6 +101,7 @@
 |0236|[Lowest Common Ancestor of a Binary Tree(二叉树的最近公共祖先)](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|c|c++|java|[python](./src/201_300/0236_lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.py)|go|Medium|
 |0237|[Delete Node in a Linked List(删除链表中的节点)](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|c|c++|[java](./src/201_300/0237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.java)|python|go|Easy|
 |0242|[Valid Anagram(有效的字母异位词)](https://leetcode-cn.com/problems/valid-anagram/)|c|c++|java|[python](./src/201_300/0242_valid-anagram/valid-anagram.py)|go|Easy|
+|0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go|Medium|
 |0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go|Medium|
