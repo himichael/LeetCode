@@ -137,6 +137,7 @@
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |0784|[letter-case-permutation(字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)|c|c++|java|[python](./src/701_800/0784_letter-case-permutation/letter-case-permutation.py)|go|Medium|
+|0807|[Max Increase to Keep City Skyline(保持城市天际线)](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)|c|c++|java|[python](./src/801_900/0807_max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.py)|go|Easy|
 |0832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/801_900/0832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |0876|[middle-of-the-linked-list(链表的中间结点)](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|c|c++|java|[python](./src/801_900/0876_middle-of-the-linked-list/middle-of-the-linked-list.py)|go|Easy|
 |0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0938_range-sum-of-bst/range-sum-of-bst.py)|go|Easy|
