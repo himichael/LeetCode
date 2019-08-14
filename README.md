@@ -40,6 +40,7 @@
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
 |0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
 |0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
+|0043|[Multiply Strings(字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)|c|c++|java|[python](./src/1_100/0043_multiply-strings/multiply-strings.py)|go|Medium|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
 |0047|[Permutations II(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go|Medium|
 |0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
@@ -87,6 +88,7 @@
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
 |0175|[combine-two-tables(组合两个表)](https://leetcode-cn.com/problems/combine-two-tables/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
 |0182|[duplicate-emails(查找重复的电子邮箱-SQL题目)](https://leetcode-cn.com/problems/duplicate-emails/)|[sql](./src/101_200/0182_duplicate-emails/duplicate-emails.sql)|c++|java|python|go|Easy|
+|0195|[Tenth Line(第十行-Shell题目)](https://leetcode-cn.com/problems/tenth-line/)|[shell](./src/101_200/0195_tenth-line/tenth-line.sh)|c++|java|python|go|Easy|
 |0198|[House Robber(打家劫舍)](https://leetcode-cn.com/problems/house-robber/)|c|c++|java|[python](./src/101_200/0198_house-robber/house-robber.py)|go|Easy|
 |0203|[Remove Linked List Elements(移除链表元素)](https://leetcode-cn.com/problems/remove-linked-list-elements/)|c|c++|java|[python](./src/201_300/0203_Remove_Linked_List_Elements/Remove_Linked_List_Elements.py)|go|Easy|
 |0204|[Count Primes(计算质数)](https://leetcode-cn.com/problems/count-primes/)|c|c++|java|[python](./src/201_300/0204_Count_Primes/Count_Primes.py)|go|Easy|
@@ -137,6 +139,7 @@
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go|Easy|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go|Easy|
 |0784|[letter-case-permutation(字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)|c|c++|java|[python](./src/701_800/0784_letter-case-permutation/letter-case-permutation.py)|go|Medium|
+|0807|[Max Increase to Keep City Skyline(保持城市天际线)](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)|c|c++|java|[python](./src/801_900/0807_max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.py)|go|Easy|
 |0832|[Flipping an Image(翻转图像)](https://leetcode-cn.com/problems/flipping-an-image/)|c|c++|java|[python](./src/801_900/0832-Flipping_an_Image/Flipping_an_Image.py)|go|Easy|
 |0876|[middle-of-the-linked-list(链表的中间结点)](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|c|c++|java|[python](./src/801_900/0876_middle-of-the-linked-list/middle-of-the-linked-list.py)|go|Easy|
 |0938|[range-sum-of-bst(二叉搜索树的范围和)](https://leetcode-cn.com/problems/range-sum-of-bst/)|c|c++|java|[python](./src/901_1000/0938_range-sum-of-bst/range-sum-of-bst.py)|go|Easy|
