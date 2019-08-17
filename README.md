@@ -65,6 +65,7 @@
 |0094|[Binary Tree Inorder Traversal(二叉树的中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|c|c++|java|[python](./src/1_100/0094_binary-tree-inorder-traversal/binary-tree-inorder-traversal.py)|go|Medium|
 |0098|[Validate Binary Search Tree(验证二叉搜索树)](https://leetcode-cn.com/problems/validate-binary-search-tree/)|c|c++|java|[python](./src/1_100/0098_validate-binary-search-tree/validate-binary-search-tree.py)|go|Medium|
 |0100|[Same Tree(相同的树)](https://leetcode-cn.com/problems/same-tree/)|c|c++|java|[python](./src/1_100/0100_same-tree/same-tree.py)|go|Easy|
+|0101|[Symmetric Tree(对称二叉树)](https://leetcode-cn.com/problems/symmetric-tree/)|c|c++|java|[python](./src/101_200/0101_symmetric-tree/symmetric-tree.py)|go|Easy|
 |0102|[Binary Tree Level Order Traversal(二叉树的层次遍历)](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|c|c++|java|[python](./src/101_200/0102_binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|go|Medium|
 |0103|[Binary Tree Zigzag Level Order Traversal(二叉树的锯齿形层次遍历)](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)|c|c++|java|[python](./src/101_200/0103_binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.py)|go|Medium|
 |0104|[maximum-depth-of-binary-tree(二叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|c|c++|java|[python](./src/101_200/0104_maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|go|Easy|
