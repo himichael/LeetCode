@@ -74,6 +74,7 @@
 |0109|[convert-sorted-list-to-binary-search-tree(有序链表转换二叉搜索树)](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)|c|c++|java|[python](./src/101_200/0109_convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.py)|go|Medium|
 |0110|[Balanced Binary Tree(平衡二叉树)](https://leetcode-cn.com/problems/balanced-binary-tree/)|c|c++|java|[python](./src/101_200/0110_balanced-binary-tree/balanced-binary-tree.py)|go|Easy|
 |0111|[minimum-depth-of-binary-tree(二叉树的最小深度)](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|c|c++|java|[python](./src/101_200/0111_minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.py)|go|Easy|
+|0112|[Path Sum(路径总和)](https://leetcode-cn.com/problems/path-sum/)|c|c++|java|[python](./src/101_200/0112_path-sum/path-sum.py)|go|Easy|
 |0113|[Path Sum II(路径总和 II)](https://leetcode-cn.com/problems/path-sum-ii/)|c|c++|java|[python](./src/101_200/0113_path-sum-ii/path-sum-ii.py)|go|Medium|
 |0116|[Populating Next Right Pointers in Each Node(填充每个节点的下一个右侧节点指针)](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|c|c++|java|[python](./src/101_200/0116_populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.py)|go|Medium|
 |0117|[Populating Next Right Pointers in Each Node II(填充每个节点的下一个右侧节点指针 II)](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|c|c++|java|[python](./src/101_200/0117_populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.py)|go|Medium|
