@@ -117,6 +117,7 @@
 |0257|[Binary Tree Paths(二叉树的所有路径)](https://leetcode-cn.com/problems/binary-tree-paths/)|c|c++|java|[python](./src/201_300/0257_binary-tree-paths/binary-tree-paths.py)|go|Easy|
 |0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go|Easy|
 |0263|[Ugly Number(丑数)](https://leetcode-cn.com/problems/ugly-number/)|c|c++|java|[python](./src/201_300/0263_ugly-number/ugly-number.py)|go|Easy|
+|0268|[Missing Number(缺失数字)](https://leetcode-cn.com/problems/missing-number/submissions/)|c|c++|java|[python](./src/201_300/0268_missing-number/missing-number.py)|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go|Medium|
 |0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go|Medium|
