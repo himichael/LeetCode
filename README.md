@@ -39,6 +39,7 @@
 |0038|[Count and Say(报数)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go|Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
 |0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
+|0041|[First Missing Positive(缺失的第一个正数)](https://leetcode-cn.com/problems/first-missing-positive/)|c|c++|java|[python](./src/1_100/0041_first-missing-positive/first-missing-positive.py)|go|Hard|
 |0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
 |0043|[Multiply Strings(字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)|c|c++|java|[python](./src/1_100/0043_multiply-strings/multiply-strings.py)|go|Medium|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
