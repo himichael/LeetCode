@@ -36,16 +36,19 @@
 		
 		
 			
-    def isAnagram_3(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: bool
-        """
-        s_dict = [0]*26
-        t_dict = [0]*26
-        for i in s:
-            s_dict[ord(i)-ord('a')] += 1
-        for j in t:
-            t_dict[ord(j)-ord('a')] += 1
-        return s_dict == t_dict		
+	def isAnagram_3(self, s, t):
+		"""
+		:type s: str
+		:type t: str
+		:rtype: bool
+		"""
+		a = [0] * 26
+		b = [0] * 26
+		for i in s:
+			a[ ord(i)-ord('a') ] += 1
+		for i in t:
+			b[ ord(i)-ord('a') ] += 1
+		return a == b
+		
+		
+		
