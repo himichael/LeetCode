@@ -30,9 +30,7 @@
         :type t: str
         :rtype: bool
         """
-        if(s==None or len(s)==0 or t==None or len(t)==0):
-            return True if(s==t) else False   
-        return sorted(s) == sorted(t)
+        return sorted(s) == sorted(t) 
 		
 		
 			
