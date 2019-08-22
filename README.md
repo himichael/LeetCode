@@ -39,8 +39,10 @@
 |0038|[Count and Say(报数)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go|Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go|Medium|
 |0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go|Medium|
+|0041|[First Missing Positive(缺失的第一个正数)](https://leetcode-cn.com/problems/first-missing-positive/)|c|c++|java|[python](./src/1_100/0041_first-missing-positive/first-missing-positive.py)|go|Hard|
 |0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go|Hard|
 |0043|[Multiply Strings(字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)|c|c++|java|[python](./src/1_100/0043_multiply-strings/multiply-strings.py)|go|Medium|
+|0045|[Jump Game II(跳跃游戏 II)](https://leetcode-cn.com/problems/jump-game-ii/)|c|c++|[java](./src/1_100/0045_jump-game-ii/jump-game-ii.java)|python|go|Hard|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
 |0047|[Permutations II(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go|Medium|
 |0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
@@ -116,6 +118,7 @@
 |0257|[Binary Tree Paths(二叉树的所有路径)](https://leetcode-cn.com/problems/binary-tree-paths/)|c|c++|java|[python](./src/201_300/0257_binary-tree-paths/binary-tree-paths.py)|go|Easy|
 |0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go|Easy|
 |0263|[Ugly Number(丑数)](https://leetcode-cn.com/problems/ugly-number/)|c|c++|java|[python](./src/201_300/0263_ugly-number/ugly-number.py)|go|Easy|
+|0268|[Missing Number(缺失数字)](https://leetcode-cn.com/problems/missing-number/submissions/)|c|c++|java|[python](./src/201_300/0268_missing-number/missing-number.py)|go|Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go|Easy|
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go|Medium|
 |0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go|Medium|
@@ -126,6 +129,7 @@
 |0374|[Guess Number Higher or Lower(猜数字大小)](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|c|c++|java|[python](./src/301_400/0374_Guess_Number_Higher_or_Lower/Guess_Number_Higher_or_Lower.py)|go|Easy|
 |0377|[combination-sum-iv(组合总和 4)](https://leetcode-cn.com/problems/combination-sum-iv/)|c|c++|java|[python](./src/301_400/0377_combination-sum-iv/combination-sum-iv.py)|go|Mediumm|
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go|Easy|
+|0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go|Medium|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go|Easy|
 |0415|[Add Strings(字符串相加)](https://leetcode-cn.com/problems/add-strings/)|c|c++|java|[python](./src/401_500/0415_add-strings/add-strings.py)|go|Easy|
 |0429|[N-ary Tree Level Order Traversal(N叉树的层序遍历)](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|c|c++|java|[python](./src/401_500/0429_n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|go|Easy|
@@ -160,5 +164,5 @@
 |0977|[Squares of a Sorted Array(有序的平方数组)](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|c|c++|java|[python](./src/901_1000/0977_Squares_of_a_Sorted_Array/Squares_of_a_Sorted_Array.py)|go|Easy|
 |0993|[Cousins in Binary Tree(二叉树的堂兄弟节点)](https://leetcode-cn.com/problems/cousins-in-binary-tree/)|c|c++|java|[python](./src/901_1000/0993_cousins-in-binary-tree/cousins-in-binary-tree.py)|go|Easy|
 |1008|[Construct Binary Search Tree from Preorder Traversal(先序遍历构造二叉树)](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|c|c++|java|[python](./src/1001_1100/1008_construct-binary-search-tree-from-preorder-traversal/construct-binary-search-tree-from-preorder-traversal.py)|go|Medium|
-|1021|[Remove_Outermost_Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
+|1021|[Remove Outermost Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
 |1108|[Defanging an IP Address(IP地址无效化)](https://leetcode-cn.com/problems/defanging-an-ip-address/)|c|c++|java|[python](./src/1101_1200/1108_defanging-an-ip-address/defanging-an-ip-address.py)|go|Easy|
