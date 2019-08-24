@@ -45,7 +45,7 @@
 |0045|[Jump Game II(跳跃游戏 II)](https://leetcode-cn.com/problems/jump-game-ii/)|c|c++|[java](./src/1_100/0045_jump-game-ii/jump-game-ii.java)|python|go|Hard|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go|Medium|
 |0047|[Permutations II(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go|Medium|
-|0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Easy|
+|0048|[Rotate Image(旋转图像)](https://leetcode-cn.com/problems/rotate-image/)|c|c++|java|[python](./src/1_100/0048_Rotate_Image/Rotate_Image.py)|go|Medium|
 |0049|[group-anagrams(字母异位词分组)](https://leetcode-cn.com/problems/group-anagrams/)|c|c++|java|[python](./src/1_100/0049_group-anagrams/group-anagrams.py)|go|Medium|
 |0050|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|c|c++|[java](./src/1_100/0050_Pow(x,n)/Pow(x,n).java)|[python](./src/1_100/0050_Pow(x,n)/Pow(x,n).py)|go|Medium|
 |0051|[N-Queens(N皇后)](https://leetcode-cn.com/problems/n-queens/)|c|c++|java|[python](./src/1_100/0051_n-queens/n-queens.py)|go|Hard|
