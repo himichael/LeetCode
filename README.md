@@ -128,6 +128,7 @@
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go|Medium|
 |0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go|Medium|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go|Medium|
+|0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go|Medium|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go|Easy|
 |0349|[Intersection of Two Arrays(两个数组的交集)](https://leetcode-cn.com/problems/)|c|c++|java|[python](./src/301_400/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go|Easy|
 |0350|[Intersection of Two Arrays II(两个数组的交集 II)](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|c|c++|java|[python](./src/301_400/0350_Intersection_of_Two_Arrays_II/Intersection_of_Two_Arrays_II.py)|go|Easy|
