@@ -158,6 +158,7 @@
 |0637|[Average of Levels in Binary Tree(二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|c|c++|java|[python](./src/601_700/0637_average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.py)|go|Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go|Medium|
 |0657|[Robot Return to Origin(机器人能否返回原点)](https://leetcode-cn.com/problems/robot-return-to-origin/)|c|c++|java|[python](./src/601_700/0657_robot-return-to-origin/robot-return-to-origin.py)|go|Medium|
+|0693|[Binary Number with Alternating Bits(交替位二进制数)](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|c|c++|java|[python](./src/601_700/0693_binary-number-with-alternating-bits/binary-number-with-alternating-bits.py)|go|Easy|
 |0700|[Search in a Binary Search Tree(二叉搜索树中的搜索)](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|c|c++|java|[python](./src/601_700/0700_search-in-a-binary-search-tree/search-in-a-binary-search-tree.py)|go|Easy|
 |0701|[Insert into a Binary Search Tree(二叉搜索树中的插入操作)](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|c|c++|java|[python](./src/701_800/0701_insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.py)|go|Medium|
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go|Easy|
