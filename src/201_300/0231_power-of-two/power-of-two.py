@@ -12,3 +12,12 @@
 			return True
 		else:
 			return False
+			
+			
+			
+    def isPowerOfTwo_2(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+        return (n!=0) and (n&(n-1)==0)
