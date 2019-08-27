@@ -99,6 +99,7 @@
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
 |0175|[combine-two-tables(组合两个表)](https://leetcode-cn.com/problems/combine-two-tables/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
 |0182|[duplicate-emails(查找重复的电子邮箱-SQL题目)](https://leetcode-cn.com/problems/duplicate-emails/)|[sql](./src/101_200/0182_duplicate-emails/duplicate-emails.sql)|c++|java|python|go|Easy|
+|0191|[Number of 1 Bits(位1的个数)](https://leetcode-cn.com/problems/number-of-1-bits/)|c|c++|java|[python](./src/101_200/0191_number-of-1-bits/number-of-1-bits.py)|go|Easy|
 |0195|[Tenth Line(第十行-Shell题目)](https://leetcode-cn.com/problems/tenth-line/)|[shell](./src/101_200/0195_tenth-line/tenth-line.sh)|c++|java|python|go|Easy|
 |0198|[House Robber(打家劫舍)](https://leetcode-cn.com/problems/house-robber/)|c|c++|java|[python](./src/101_200/0198_house-robber/house-robber.py)|go|Easy|
 |0199|[Binary Tree Right Side View(二叉树的右视图)](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|c|c++|java|[python](./src/101_200/0199_binary-tree-right-side-view/binary-tree-right-side-view.py)|go|Medium|
