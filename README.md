@@ -99,8 +99,8 @@
 |0155|[Min Stack(最小栈)](https://leetcode-cn.com/problems/min-stack/)|c|c++|java|[python](./src/0155_min-stack/min-stack.py)|go|Easy|
 |0167|[Two Sum II - Input array is sorted(两数之和 II - 输入有序数组)](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|c|c++|java|[python](./src/101_200/0167_Two_Sum_II_Input_array_is_sorted/Two_Sum_II_Input_array_is_sorted.py)|go|Easy|
 |0169|[Majority Element(求众数)](https://leetcode-cn.com/problems/majority-element/)|c|c++|java|[python](./src/101_200/0169_Majority_Element/Majority_Element.py)|go|Easy|
-|0173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)[(二叉搜索树迭代器)](https://leetcode-cn.com/problems/binary-search-tree-iterator/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Medium|
-|0175|[combine-two-tables(组合两个表)](https://leetcode-cn.com/problems/combine-two-tables/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
+|0173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)[(二叉搜索树迭代器)](https://leetcode-cn.com/problems/binary-search-tree-iterator/)|c|c++|java|[python](./src/101_200/0173_binary-search-tree-iterator/binary-search-tree-iterator.py)|go|Medium|
+|0175|[combine-two-tables(组合两个表-SQL题目)](https://leetcode-cn.com/problems/combine-two-tables/)|[sql](./src/101_200/0175_combine-two-tables/combine-two-tables.sql)|c++|java|python|go|Easy|
 |0182|[duplicate-emails(查找重复的电子邮箱-SQL题目)](https://leetcode-cn.com/problems/duplicate-emails/)|[sql](./src/101_200/0182_duplicate-emails/duplicate-emails.sql)|c++|java|python|go|Easy|
 |0191|[Number of 1 Bits(位1的个数)](https://leetcode-cn.com/problems/number-of-1-bits/)|[c](./src/101_200/0191_number-of-1-bits/number-of-1-bits.c)|c++|java|[python](./src/101_200/0191_number-of-1-bits/number-of-1-bits.py)|go|Easy|
 |0195|[Tenth Line(第十行-Shell题目)](https://leetcode-cn.com/problems/tenth-line/)|[shell](./src/101_200/0195_tenth-line/tenth-line.sh)|c++|java|python|go|Easy|
