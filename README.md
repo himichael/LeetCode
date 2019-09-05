@@ -162,6 +162,7 @@
 |0595|[big-countries(大的国家SQL题目)](https://leetcode-cn.com/problems/big-countries/)|[sql](./src/501_600/0595_big-countries/big-countries.sql)|c++|java|python|go|Easy|
 |0617|[merge-two-binary-trees(合并二叉树)](https://leetcode-cn.com/problems/merge-two-binary-trees/)|c|c++|java|[python](./src/601_700/0617_merge-two-binary-trees/merge-two-binary-trees.py)|go|Easy|
 |0620|[not-boring-movies(有趣的电影-SQL题目)](https://leetcode-cn.com/problems/not-boring-movies/)|[sql](./src/601_700/0620_not-boring-movies/not-boring-movies.sql)|c++|java|python|go|Easy|
+|0623|[not-boring-movies](https://leetcode.com/problems/add-one-row-to-tree/)[(在二叉树中增加一行)](https://leetcode-cn.com/problems/add-one-row-to-tree/)|c|c++|java|[python](./src/601_700/0623_add-one-row-to-tree/add-one-row-to-tree.py)|go|Medium|
 |0627|[swap-salary(交换工资-SQL题目)](https://leetcode-cn.com/problems/swap-salary/)|[sql](./src/601_700/0627_swap-salary/swap-salary.sql)|c++|java|python|go|Easy|
 |0637|[Average of Levels in Binary Tree(二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|c|c++|java|[python](./src/601_700/0637_average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.py)|go|Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go|Medium|
