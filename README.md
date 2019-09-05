@@ -20,8 +20,6 @@
 |0018|[4sum](https://leetcode.com/problems/4sum/)[(四数之和)](https://leetcode-cn.com/problems/4sum/)|c|c++|java|[python](./src/1_100/0018_4sum/4sum.py)|go|Medium|
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)[(删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|c|c++|java|[python](./src/1_100/0019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.py)|go|Medium|
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)[(有效的括号)](https://leetcode-cn.com/problems/valid-parentheses/)|c|c++|java|[python](./src/1_100/0020_Valid_Parentheses/Valid_Parentheses.py)|go|Easy|
-
-
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)[(合并两个有序数组)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[c](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.c)|c++|[java](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.java)|[python](./src/1_100/0021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.py)|go|Easy|
 |0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)[(生成括号)](https://leetcode-cn.com/problems/generate-parentheses/)|c|c++|java|[python](./src/1_100/0022_Generate_Parentheses/Generate_Parentheses.py)|go|Medium|
 |0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)[(合并k个排序链表)](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|c|c++|[java](./src/1_100/0023_Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java)|python|go|Hard|
