@@ -26,6 +26,29 @@ class Solution(object):
 			return None
 		return res[k-1]
     
-    
+	
+	
+	def kthSmallest_2(self, root, k):
+		"""
+		:type root: TreeNode
+		:type k: int
+		:rtype: int
+		"""
+		if( k<=0 ):
+			return -1
+		self.res = 0
+		self.num = k
+		def recursion(root):
+			if(not root):
+				return
+			recursion(root.left)
+			self.num -= 1
+			if(self.num==0):
+				#print root.val
+				self.res = root.val
+				return
+			recursion(root.right)
+		recursion(root)
+		return self.res    
     
     
