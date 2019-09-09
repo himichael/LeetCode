@@ -188,6 +188,7 @@
 |1008|[Construct Binary Search Tree from Preorder Traversal(先序遍历构造二叉树)](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)|c|c++|java|[python](./src/1001_1100/1008_construct-binary-search-tree-from-preorder-traversal/construct-binary-search-tree-from-preorder-traversal.py)|go|Medium|
 |1021|[Remove Outermost Parentheses(删除最外层的括号)](https://leetcode-cn.com/problems/remove-outermost-parentheses/)|c|c++|java|[python](./src/1001_1100/1021_Remove_Outermost_Parentheses/Remove_Outermost_Parentheses.py)|go|Easy|
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)[(活字印刷)](https://leetcode-cn.com/problems/letter-tile-possibilities/)|c|c++|java|[python](./src/1001_1100/1079_letter-tile-possibilities/letter-tile-possibilities.py)|go|Medium|
+|1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)[(二叉树寻路)](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)|c|c++|java|[python](./src/1101_1200/1104_path-in-zigzag-labelled-binary-tree/path-in-zigzag-labelled-binary-tree.py)|go|Medium|
 |1108|[Defanging an IP Address(IP地址无效化)](https://leetcode-cn.com/problems/defanging-an-ip-address/)|c|c++|java|[python](./src/1101_1200/1108_defanging-an-ip-address/defanging-an-ip-address.py)|go|Easy|
 
 
