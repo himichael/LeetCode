@@ -22,7 +22,7 @@
 			start = 2**count
 			
 			tmp /= 2
-			value = end - abs(tmp-start)
+			value = end - (tmp-start)
 			arr[count] = value
 		#print arr
 		return arr
