@@ -24,8 +24,5 @@
             for j in xrange(m):
                 if( grid[i][j]=="1" ):
                     recursion(i,j)
-                    self.count += 1
-                else:
-                    continue
-                    
+                    self.count += 1                    
         return self.count    
