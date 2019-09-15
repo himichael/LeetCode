@@ -174,6 +174,7 @@
 |0637|[Average of Levels in Binary Tree(二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|c|c++|java|[python](./src/601_700/0637_average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.py)|go|Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go|Medium|
 |0657|[Robot Return to Origin(机器人能否返回原点)](https://leetcode-cn.com/problems/robot-return-to-origin/)|c|c++|java|[python](./src/601_700/0657_robot-return-to-origin/robot-return-to-origin.py)|go|Medium|
+|0677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)[(键值映射)](https://leetcode-cn.com/problems/map-sum-pairs/)|c|c++|java|[python](./src/601_700/0677_map-sum-pairs/map-sum-pairs.py)|go|Medium|
 |0693|[Binary Number with Alternating Bits(交替位二进制数)](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)|c|c++|java|[python](./src/601_700/0693_binary-number-with-alternating-bits/binary-number-with-alternating-bits.py)|go|Easy|
 |0695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)[(岛屿的最大面积)](https://leetcode-cn.com/problems/max-area-of-island/)|c|c++|java|[python](./src/601_700/0695_max-area-of-island/max-area-of-island.py)|go|Medium|
 |0700|[Search in a Binary Search Tree(二叉搜索树中的搜索)](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|c|c++|java|[python](./src/601_700/0700_search-in-a-binary-search-tree/search-in-a-binary-search-tree.py)|go|Easy|
