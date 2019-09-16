@@ -63,3 +63,30 @@
 		if(None in arr):
 			return False
 		return True
+		
+		
+		
+		
+	#另一种实现方式，挨个检查所有的元素，只要出现None，就做一个标记
+	#因为完全二叉树中间不会出现None的，所以后续遍历的时候只有发现有None直接返回False即可
+	#这个遍历的过程会多走一层，即遍历N+1层
+	def isCompleteTree_2(self, root):
+		"""
+		:type root: TreeNode
+		:rtype: bool
+		"""
+		if(not root):
+			return True
+		queue = []
+		queue.append(root)
+		has_none = False
+		while queue:
+			node = queue.pop(0)
+			if(node==None):
+				has_none = True
+			else:
+				if(has_none):
+					return False
+				queue.append(node.left)
+				queue.append(node.right)
+		return True
