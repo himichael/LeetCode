@@ -93,6 +93,28 @@ class LRUCache(object):
             self.d[key] = node
         
         
+	#精简了put部分的代码	
+    def put_2(self, key, value):
+        """
+        :type key: int
+        :type value: int
+        :rtype: None
+        """        
+        if(key in self.cache):
+            tmp = self.cache[key]
+            self.link_list.delete(tmp)
+            del self.cache[tmp.key]
+        else:
+            if(self.remain > 0):
+                if(key not in self.cache):
+                    self.remain -=1
+            else:
+                tmp = self.link_list.get_last_node()
+                del self.cache[tmp.key]
+                self.link_list.delete(tmp)
+        node = Node(key,value)
+        self.cache[key] = node
+        self.link_list.add_to_first(node)
 
 
 # Your LRUCache object will be instantiated and called as such:
