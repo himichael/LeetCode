@@ -121,3 +121,49 @@ class LRUCache(object):
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
+
+
+
+# 用库函数实现
+class LRUCache(object):
+    def __init__(self, capacity):
+        """
+        :type capacity: int
+        """
+        import collections 
+        self.d = collections.OrderedDict()
+        self.size = capacity
+        
+    def get(self, key):
+        """
+        :type key: int
+        :rtype: int
+        """
+        if(key in self.d):
+            value = self.d[key]
+            del self.d[key]
+            self.d[key] = value
+            return value
+        return -1
+
+    def put(self, key, value):
+        """
+        :type key: int
+        :type value: int
+        :rtype: None
+        """
+        if(key in self.d):
+            del self.d[key]
+            self.d[key] = value
+        else:
+            if(len(self.d)==self.size):
+                self.d.popitem(False)
+        self.d[key] = value
+
+
+
+
+
+
+
+
