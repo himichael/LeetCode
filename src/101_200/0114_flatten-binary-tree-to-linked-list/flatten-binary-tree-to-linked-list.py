@@ -58,3 +58,49 @@ class Solution(object):
 		
 		
 		
+		
+	# 新的实现方式，只要遍历到根的左节点，右节点(子树) 放到 左节点(子树)的右边最后一位
+    # 再将左节点(子树)挂到根节点的右边，最后设置根的左边为null
+	def flatten_3(self, root):
+		"""
+		:type root: TreeNode
+		:rtype: None Do not return anything, modify root in-place instead.
+		"""
+		if(not root):
+			return None
+		def helper(root):
+			if(not root):
+				return 
+			helper(root.left)
+			helper(root.right)
+			if(root.left):
+				pre = root.left
+				while pre.right:
+					pre = pre.right
+				pre.right = root.right
+				root.right = root.left
+				root.left = None
+		helper(root)		
+		
+		
+		
+	# 新的实现方式，这里借助stack，不断的遍历左右子树，然后先将右节点放入，再放入左节点
+    # 下次栈pop()弹出的就是左节点，然后再不断迭代遍历左节点，再重复执行不断的层次遍历，借助pre节点，最后将整个树串起来	
+    def flatten_4(self, root):
+        """
+        :type root: TreeNode
+        :rtype: None Do not return anything, modify root in-place instead.
+        """
+        if not root:
+            return None
+        stack = [root]
+        pre = TreeNode(-1)
+        while stack:
+            node = stack.pop()
+            pre.left = None
+            pre.right = node
+            if(node.right!=None):
+                stack.append(node.right)
+            if(node.left!=None):
+                stack.append(node.left)
+            pre = node		
