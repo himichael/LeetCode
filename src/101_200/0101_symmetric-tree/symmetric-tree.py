@@ -46,3 +46,25 @@ class Solution(object):
                 i += 1
                 j -= 1
         return True
+		
+		
+		
+	# 用递归实现
+	def isSymmetric_2(self, root):
+		"""
+		:type root: TreeNode
+		:rtype: bool
+		"""
+		if(not root):
+			return True
+		def recursion(n1,n2):
+			if(not n1 and not n2):
+				return True
+			if(not n1 and n2) or (n1 and not n2):
+				return False
+			if(n1.val != n2.val):
+				return False
+			if recursion(n1.left,n2.right):
+				return recursion(n1.right,n2.left)
+			return False
+		return recursion(root.left,root.right)		
