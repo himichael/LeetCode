@@ -27,3 +27,27 @@ class Solution(object):
             recursion(root.right, stack+[root.val], value+root.val)
         recursion(root,[],0)
         return res    
+		
+		
+	# 新的实现方式更高效	
+	def pathSum(self, root, sum):
+		"""
+		:type root: TreeNode
+		:type sum: int
+		:rtype: List[List[int]]
+		"""
+		if(not root):
+			return []
+		res = []
+		def dfs(root,arr,n):
+			if root and (not root.left) and (not root.right):
+				if(n+root.val == sum):
+					tmp = arr+[root.val]
+					res.append(list(tmp))
+					return
+			if root.left:
+				dfs(root.left,arr+[root.val],n+root.val)
+			if root.right:
+				dfs(root.right,arr+[root.val],n+root.val)
+		dfs(root,[],0)
+		return res		
