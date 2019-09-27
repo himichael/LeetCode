@@ -62,3 +62,32 @@ class Solution(object):
             else:
                 break
         return cur
+		
+		
+		
+	# 增加新的实现方式，用字典保存节点->父节点的映射
+	# 再不断迭代这个字典
+	def lowestCommonAncestor(self, root, p, q):
+		"""
+		:type root: TreeNode
+		:type p: TreeNode
+		:type q: TreeNode
+		:rtype: TreeNode
+		"""
+		d = {root:None}
+		def dfs(root):
+			if not root:
+				return
+			if root:
+				if root.left:
+					d[root.left] = root
+				if root.right:
+					d[root.right] = root
+			dfs(root.left)
+			dfs(root.right)
+		dfs(root)
+		a,b = p,q
+		while a!=b:
+			a = d.get(a,q)
+			b = d.get(b,p)
+		return a		
