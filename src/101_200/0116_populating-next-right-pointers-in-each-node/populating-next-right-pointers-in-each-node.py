@@ -31,3 +31,22 @@ class Solution(object):
 				if(tmp.right != None):
 					queue.append(tmp.right)
 		return root	
+		
+	
+	# O(1)空间复杂度实现方式
+    def connect(self, root):
+        """
+        :type root: Node
+        :rtype: Node
+        """
+        if not root:
+            return root
+        left = root.left
+        right = root.right
+        while left:
+            left.next = right
+            left = left.right
+            right = right.left
+        self.connect(root.left)
+        self.connect(root.right)
+        return root
