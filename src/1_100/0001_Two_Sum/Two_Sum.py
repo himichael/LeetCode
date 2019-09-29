@@ -11,3 +11,22 @@
 			if(d.has_key(x) and i!=d[x]):
 				return [d[x],i]
 		return []	
+		
+		
+		
+	# 一遍hash的实现方式，边加入值 边遍历，一次循环就可以搞定
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        if not nums or len(nums)==0:
+            return [-1,-1]
+        d = dict()
+        for i,v in enumerate(nums):
+            n = target-v
+            if d.has_key(n):
+                return [i,d[n]]
+            d[v] = i
+        return [-1,-1]

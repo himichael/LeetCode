@@ -27,5 +27,25 @@ class Solution(object):
             else:
                 return root
         return recursion(root)
+		
+		
+	# 新实现方式，代码更简洁	
+    def pruneTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+        """
+        if not root:
+            return None
+        def dfs(root):
+            if not root:
+                return None
+            root.left = dfs(root.left)
+            root.right = dfs(root.right)
+            if not root.left and not root.right and root.val==0:
+                return None
+            return root
+        return dfs(root)
+    		
     
     
