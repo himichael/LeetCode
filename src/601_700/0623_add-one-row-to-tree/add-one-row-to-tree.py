@@ -49,4 +49,33 @@ class Solution(object):
         return root 
     
     
+	# 递归方式实现
+    def addOneRow(self, root, v, d):
+        """
+        :type root: TreeNode
+        :type v: int
+        :type d: int
+        :rtype: TreeNode
+        """
+        if(d<=0):
+            return root
+        if(d==1):
+            head = TreeNode(v)
+            head.left = root
+            return head
+        def dfs(root,index):
+            if not root:
+                return
+            if index==0:
+                t1 = TreeNode(v)
+                t2 = TreeNode(v)
+                t1.left = root.left
+                root.left = t1
+                t2.right = root.right
+                root.right = t2
+                return
+            dfs(root.left,index-1)
+            dfs(root.right,index-1)
+        dfs(root,d-2)
+        return root
         
