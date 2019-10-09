@@ -72,4 +72,87 @@ class Solution(object):
             else:
                 break
         cur.left = deleted_left
-        return root        
+        return root    
+
+
+	# 新实现方式
+    def deleteNode(self, root, key):
+        """
+        :type root: TreeNode
+        :type key: int
+        :rtype: TreeNode
+        """
+        if not root:
+            return root
+        if root.val==key:
+            if not root.left and not root.right:
+                return None
+            elif not root.left and root.right:
+                return root.right
+            elif root.left and not root.right:
+                return root.left
+            head = root.right
+            p = head
+            while p.left:
+                p = p.left
+            p.left = root.left
+            return head
+        d = dict()
+        p = root
+        node = None
+        while p:
+            if p.val>key and p.left:
+                d[p.left] = p
+                p = p.left
+            elif p.val<key and p.right:
+                d[p.right] = p
+                p = p.right
+            else:
+                node = p
+                break
+        if not node:
+            return root
+        if node.val!=key:
+            return root
+        parent = d[node]
+        #print "pareint->"+str(parent.val)
+        #print "node->"+str(node.val)
+        if node.left and node.right:
+            print ""
+            p = node.right
+            while p.left:
+                p = p.left
+            p.left = node.left
+            if parent.left==node:
+                parent.left=node.right
+            else:
+                parent.right=node.right
+        elif node.left and not node.right:
+            print node.left.val
+            if parent.left==node:
+                parent.left=node.left
+            else:
+                parent.right=node.left
+        elif not node.left and node.right:
+            if parent.left==node:
+                parent.left=node.right
+            else:
+                parent.right=node.right
+        else:
+            if parent.left==node:
+                parent.left=None
+            else:
+                parent.right=None
+        return root
+
+
+
+
+
+
+
+
+
+
+
+		

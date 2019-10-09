@@ -43,4 +43,34 @@ class Solution(object):
         parent_x = find_node(root,x,0,True)
         parent_y = find_node(root,y,0,False)
         return (parent_x != parent_y) and (self.x_depth == self.y_depth)  
+		
+		
+	# 用hash的方式实现
+    def isCousins(self, root, x, y):
+        """
+        :type root: TreeNode
+        :type x: int
+        :type y: int
+        :rtype: bool
+        """
+        if not root:
+            return False
+        depth = {}
+        parent = {}
+        def dfs(root,par):
+            if root:
+                if not par:
+                    depth[root.val] = 0
+                else:
+                    depth[root.val] = depth[par.val]+1
+                parent[root.val] = par
+                if root.left:
+                    dfs(root.left,root)
+                if root.right:
+                    dfs(root.right,root)
+        dfs(root,None)
+        print depth
+        if depth[x]!=depth[y]:
+            return False
+        return parent[x]!=parent[y]
     

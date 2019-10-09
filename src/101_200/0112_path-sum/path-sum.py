@@ -26,3 +26,25 @@ class Solution(object):
         if(len(res) > 0):
             return True
         return False
+		
+	
+	# 新的实现方式，更高效
+	def hasPathSum(self, root, sum):
+		"""
+		:type root: TreeNode
+		:type sum: int
+		:rtype: bool
+		"""
+		if(not root):
+			return False
+		def recursion(root,n):
+			if(not root.left and not root.right):
+				if(n+root.val == sum):
+					return True
+				return False
+			elif root.left and recursion(root.left, n+root.val):
+				return True
+			elif root.right and recursion(root.right, n+root.val):
+				return True
+			return False
+		return recursion(root,0)
