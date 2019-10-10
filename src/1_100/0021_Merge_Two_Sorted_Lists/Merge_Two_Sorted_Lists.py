@@ -31,3 +31,53 @@ class Solution(object):
 			p.next = a2
 		return head.next
         
+		
+	# or 实现方式，while循环判断a，b两个链表只要有一个不为空就继续遍历
+	def mergeTwoLists(self, l1, l2):
+		"""
+		:type l1: ListNode
+		:type l2: ListNode
+		:rtype: ListNode
+		"""
+		if not (l1 and l2):
+			return l2 if not l1 else l1
+		p,head = ListNode(-1),l1 if l1.val<=l2.val else l2
+		while l1 or l2:
+			if not l1 or not l2:
+				p.next = l1 if l1 else l2
+				l1,l2,p = l1.next if l1 else None, l2.next if l2 else None, p.next
+				continue
+			elif l1.val<=l2.val:
+				p.next,l1 = l1, l1.next
+			else:
+				p.next,l2 = l2, l2.next
+			p = p.next
+		return head
+		
+	
+	# 更精简的实现方式
+	def mergeTwoLists(self, l1, l2):
+		"""
+		:type l1: ListNode
+		:type l2: ListNode
+		:rtype: ListNode
+		"""
+		p = ListNode(-1)
+		head = p
+		while l1 and l2:
+			if l1.val<=l2.val:
+				p.next,l1 = l1,l1.next
+			else:
+				p.next,l2 = l2,l2.next
+			p = p.next
+		p.next = l1 if l1 else l2
+		return head.next
+	
+	
+	
+	
+	
+	
+	
+	
+	
