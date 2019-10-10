@@ -73,6 +73,21 @@ class Solution(object):
 		p.next = l1 if l1 else l2
 		return head.next
 	
+	# 递归实现
+	def mergeTwoLists(self, l1, l2):
+		"""
+		:type l1: ListNode
+		:type l2: ListNode
+		:rtype: ListNode
+		"""
+		if not (l1 and l2):
+			return l1 if l1 else l2
+		if l1.val<=l2.val:
+			l1.next = self.mergeTwoLists(l1.next,l2)
+			return l1
+		else:
+			l2.next = self.mergeTwoLists(l1,l2.next)
+			return l2
 	
 	
 	
