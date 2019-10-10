@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿class Solution(object):
+=======
+class Solution(object):
+>>>>>>> e5e30728299f8ba009756381d740382d8e330d12
     def addTwoNumbers(self, l1, l2):
         a,b,p,carry = l1,l2,None,0
         while a or b:
@@ -9,4 +13,8 @@
             p.next = a if a else b
         if carry:
             p.next = ListNode(carry)
+<<<<<<< HEAD
         return l1
+=======
+        return l1
+>>>>>>> e5e30728299f8ba009756381d740382d8e330d12
