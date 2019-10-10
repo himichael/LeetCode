@@ -59,3 +59,27 @@ class Solution(object):
             second_pre = second_pre.next
             head = head.next
         return True		
+		
+		
+	# 精简代码
+	def isPalindrome(self, head):
+		"""
+		:type head: ListNode
+		:rtype: bool
+		"""		
+		if not (head and head.next):
+			return True
+		p = ListNode(-1)
+		p.next,low,fast = head,p,p
+		while fast and fast.next:
+			low,fast = low.next, fast.next.next
+		second,cur,pre = low.next,low.next,None
+		low.next = None
+		while cur:
+			cur.next,pre,cur = pre,cur,cur.next
+		a,b = p.next,pre
+		while b:
+			if a.val!=b.val:
+				return False
+			a,b = a.next,b.next
+		return True	
