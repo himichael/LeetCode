@@ -26,3 +26,19 @@ class Solution(object):
             j = j.next
         i.next = None
         return dummy.next
+		
+	# 更精简的实现
+	def removeElements(self, head, val):
+		"""
+		:type head: ListNode
+		:type val: int
+		:rtype: ListNode
+		"""
+		p = ListNode(-1)
+		p.next,h = head,p
+		while p.next:
+			if p.next.val==val:
+				p.next = p.next.next
+				continue
+			p = p.next
+		return h.next
