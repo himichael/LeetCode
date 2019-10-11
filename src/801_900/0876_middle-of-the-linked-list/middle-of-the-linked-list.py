@@ -22,3 +22,18 @@ class Solution(object):
         if(second != None):
             return first.next
         return first
+		
+	# 精简代码
+	def middleNode(self, head):
+		"""
+		:type head: ListNode
+		:rtype: ListNode
+		"""
+		if not (head and head.next):
+			return head
+		low,fast = head,head.next
+		while fast and fast.next:
+			low,fast = low.next,fast.next.next
+		if fast:
+			return low.next
+		return low
