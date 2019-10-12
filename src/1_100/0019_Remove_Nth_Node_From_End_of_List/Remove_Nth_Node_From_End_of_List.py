@@ -46,3 +46,22 @@ class Solution(object):
             second.next = tmp.next
             tmp = None
         return p.next
+		
+		
+	# 精简代码
+	def removeNthFromEnd(self, head, n):
+		"""
+		:type head: ListNode
+		:type n: int
+		:rtype: ListNode
+		"""
+		p = ListNode(-1)
+		p.next,a,b = head,p,p
+		while n>0 and b:
+			b,n = b.next,n-1
+		if not b:
+			return head
+		while b.next:
+			a,b = a.next,b.next
+		a.next = a.next.next
+		return p.next	
