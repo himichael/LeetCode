@@ -39,3 +39,26 @@ class Solution(object):
         new_tail.next = None
         return new_head
         
+		
+		
+	# 精简代码
+    def rotateRight(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        p = ListNode(-1)
+        cur,n,low,fast,p.next = head,0,p,p,head
+        while cur:
+            cur,n = cur.next,n+1
+        if n==0 or k%n==0:
+            return head
+        n = k%n
+        while fast.next and n>0:
+            fast,n = fast.next,n-1
+        while fast.next:
+            low,fast = low.next,fast.next
+        fast.next,p.next,low.next = head,low.next,None
+        return p.next
+		

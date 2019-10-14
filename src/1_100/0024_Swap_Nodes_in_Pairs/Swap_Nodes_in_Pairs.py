@@ -18,21 +18,37 @@ class Solution(object):
         return next_node
 		
 		
-	#不借助stack的实现方式	
+	# 不借助stack的实现方式	
     def swapPairs(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
         """
-        if not (head and head.next):
-            return head
         p = ListNode(-1)
         a,b,tmp,p.next = p,p,p,head
         while b and b.next and b.next.next:
             a,b = a.next,b.next.next
-            tmp.next,a.next,b.next = b,b.next,a
+            tmp.next = b
+            a.next,b.next = b.next,a
             tmp,b = a,a
         return p.next
+		
+		
+	# 借助stack的方式，精简版
+    def swapPairs(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        dummy = ListNode(-1)
+        p,head,stack = head,dummy,[]
+        while p and p.next:
+            _,_,p = stack.append(p),stack.append(p.next),p.next.next
+            dummy.next,dummy.next.next = stack.pop(),stack.pop()
+            dummy,dummy.next = dummy.next.next,None
+        if p:
+            dummy.next = p
+        return head.next
 		
 		
 		
