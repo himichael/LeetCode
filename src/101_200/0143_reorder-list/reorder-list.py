@@ -51,3 +51,34 @@ class Solution(object):
             pb.next = tmp 
         else:
             pa.next = pb
+			
+			
+	#精简代码
+	def reorderList(self, head):
+		"""
+		:type head: ListNode
+		:rtype: None Do not return anything, modify head in-place instead.
+		"""
+		if not (head and head.next):
+			return
+		p = ListNode(-1)
+		a,b,p.next = p,p,head
+		while b and b.next:
+			a,b = a.next,b.next.next
+		b = a.next
+		a.next,pre = None,None
+		while b:
+			b.next,pre,b = pre,b,b.next
+		a,b,i = p.next,pre,1
+		while a and b:
+			if i%2==1:
+				p.next,a = a,a.next
+			else:
+				p.next,b = b,b.next
+			p,i = p.next,i+1
+		if a or b:
+			p.next = a if a else b
+			
+			
+			
+			
