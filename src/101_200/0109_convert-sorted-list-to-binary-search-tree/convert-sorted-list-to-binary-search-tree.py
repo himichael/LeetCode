@@ -30,4 +30,25 @@ class Solution(object):
             root.right = recursion(nums[index+1:])
             return root
         return recursion(arr)
-        
+
+
+	# 链表双指针求中间节点，再不断递归构造二叉树
+	def sortedListToBST(self, head):
+		"""
+		:type head: ListNode
+		:rtype: TreeNode
+		"""	
+		if not head:
+			return None
+		self.p = ListNode(-1)
+		def helper(node):
+			if not (node and node.next):
+				return TreeNode(node.val) if node else None
+			a,b,self.p.next = self.p,node,node
+			while b and b.next:
+				a,b = a.next,b.next.next
+			mid,a.next = a.next,None
+			root = TreeNode(mid.val)
+			root.left,root.right = helper(self.p.next),helper(mid.next)
+			return root
+		return helper(head)        
