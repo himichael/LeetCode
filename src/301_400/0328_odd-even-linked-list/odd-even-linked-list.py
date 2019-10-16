@@ -42,3 +42,15 @@ class Solution(object):
 				p,b.next,i = p.next,None,i+1
 		a.next = headB.next
 		return headA.next
+		
+		
+	# 精简代码实现
+	def oddEvenList(self, head):
+		if not (head and head.next):
+			return head
+		odd,event,a,b = head,head.next,head,head.next
+		while b and b.next:
+			a.next,b.next = b.next,b.next.next
+			a,b = a.next,b.next
+		a.next = event
+		return odd	
