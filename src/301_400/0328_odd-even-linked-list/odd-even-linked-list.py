@@ -25,3 +25,20 @@ class Solution(object):
 			b = b.next
 		a.next = event.next
 		return odd.next
+		
+
+	# 通过计数的方式遍历迭代链表	
+	def oddEvenList(self, head):
+		if not (head and head.next):
+			return head
+		headA,headB = ListNode(-1),ListNode(-1)
+		a,b,i,p = headA,headB,1,head
+		while p:
+			if i%2==1:
+				a.next,a = p,p
+				p,a.next,i = p.next,None,i+1
+			else:
+				b.next,b = p,p
+				p,b.next,i = p.next,None,i+1
+		a.next = headB.next
+		return headA.next
