@@ -19,3 +19,20 @@ class Solution(object):
             s.add(head)
             head = head.next
         return None
+		
+	#双指针解法	
+    def detectCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not (head and head.next):
+            return None
+        low,fast,p = head,head,head
+        while fast and fast.next:
+            low,fast = low.next,fast.next.next
+            if low==fast:
+                while low!=p:
+                    low,p = low.next,p.next
+                return p
+        return None		
