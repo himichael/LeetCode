@@ -31,3 +31,26 @@ class Solution(object):
             if(not found):
                 cur.next = tmp
         return node.next
+		
+		
+	# 精简代码实现
+	def insertionSortList(self, head):
+		"""
+		:type head: ListNode
+		:rtype: ListNode
+		"""
+		p,cur = ListNode(-1),head
+		while cur:
+			tmp,cur = cur,cur.next
+			tmp.next,q,found = None,p,False
+			while q and q.next:
+				if q.next.val > tmp.val:
+					tmp.next = q.next
+					q.next,found = tmp,True
+					break
+				q = q.next
+			if not found:
+				q.next = tmp
+		return p.next	
+		
+		
