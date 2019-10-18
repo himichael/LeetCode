@@ -27,10 +27,8 @@ class Solution(object):
         p = ListNode(-1)
         a,b,tmp,p.next = p,p,p,head
         while b and b.next and b.next.next:
-            a,b = a.next,b.next.next
-            tmp.next = b
-            a.next,b.next = b.next,a
-            tmp,b = a,a
+            a,b,tmp.next = a.next,b.next.next,b.next.next
+            a.next,b.next,tmp,b = b.next,a,a,a
         return p.next
 		
 		
