@@ -41,3 +41,29 @@ class Solution(object):
                 return pb
         
         return split_merge(head)
+		
+		
+		
+		
+	# 精简代码	
+    def sortList(self, head):
+        self.p = ListNode(-1)
+        def sort(node):
+            if not (node and node.next):
+                return node
+            low,fast,self.p.next = self.p,self.p,node
+            while fast and fast.next:
+                low,fast = low.next,fast.next.next
+            fast,low.next = low.next,None
+            return merge(sort(self.p.next),sort(fast))
+        
+        def merge(a,b):
+            if not (a and b):
+                return a if a else b
+            if a.val<=b.val:
+                a.next = merge(a.next,b)
+                return a
+            else:
+                b.next = merge(a,b.next)
+                return b
+        return sort(head)
