@@ -92,6 +92,7 @@
 |0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go|Easy|
 |0129|[Sum Root to Leaf Numbers(求根到叶子节点数字之和)](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)|c|c++|java|[python](./src/101_200/0129_sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.py)|go|Medium|
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/101_200/0136_Single_Number/Single_Number.py)|go|Easy|
+|0138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/submissions/)[(复制带随机指针的链表)](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/)|c|c++|[java](./src/101_200/138_copy-list-with-random-pointer/copy-list-with-random-pointer.java)|python|go|Medium|
 |0141|[Linked List Cycle(环形链表)](https://leetcode-cn.com/problems/linked-list-cycle/)|c|c++|java|[python](./src/101_200/0141_linked-list-cycle/linked-list-cycle.py)|go|Easy|
 |0142|[Linked List Cycle II(环形链表 II)](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|c|c++|java|[python](./src/101_200/0142_linked-list-cycle-ii/linked-list-cycle-ii.py)|go|Medium|
 |0143|[Reorder List(重排链表)](https://leetcode-cn.com/problems/reorder-list/)|c|c++|java|[python](./src/101_200/0143_reorder-list/reorder-list.py)|go|Medium|
