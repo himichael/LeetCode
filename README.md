@@ -98,7 +98,7 @@
 |0143|[Reorder List(重排链表)](https://leetcode-cn.com/problems/reorder-list/)|c|c++|java|[python](./src/101_200/0143_reorder-list/reorder-list.py)|go||Medium|
 |0144|[Binary Tree Preorder Traversal(二叉树的前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|c|c++|java|[python](./src/101_200/0144_Binary_Tree_Preorder_Traversal/Binary_Tree_Preorder_Traversal.py)|go||Medium|
 |0145|[Binary Tree Postorder Traversal(二叉树的后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)|c|c++|java|[python](./src/101_200/0145_Binary_Tree_Postorder_Traversal/Binary_Tree_Postorder_Traversal.py)|go||Hard|
-|0146|[LRU Cache](https://leetcode.com/problems/lru-cache/)[(LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)|c|c++|java|[python](./src/101_200/0146_lru-cache/lru-cache.py)|go||Medium|
+|0146|[LRU Cache](https://leetcode.com/problems/lru-cache/)[(LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)|c|c++|java|[python](./src/101_200/0146_lru-cache/lru-cache.py)|go|[link](https://mp.weixin.qq.com/s/wlpTiNz-uhbOBn_QKGnrfg)|Medium|
 |0147|[Insertion Sort List(对链表进行插入排序)](https://leetcode-cn.com/problems/insertion-sort-list/)|c|c++|java|[python](./src/101_200/0147_insertion-sort-list/insertion-sort-list.py)|go||Medium|
 |0148|[Sort List(排序链表)](https://leetcode-cn.com/problems/sort-list/)|c|c++|java|[python](./src/101_200/0148_sort-list/sort-list.py)|go||Medium|
 |0152|[Maximum Product Subarray(乘积最大子序列)](https://leetcode-cn.com/problems/maximum-product-subarray/)|c|c++|[java](./src/101_200/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.java)|[python](./src/0152_Maximum_Product_Subarray/Maximum_Product_Subarray.py)|go||Medium|
