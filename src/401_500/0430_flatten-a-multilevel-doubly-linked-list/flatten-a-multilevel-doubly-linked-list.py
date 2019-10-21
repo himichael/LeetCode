@@ -9,19 +9,20 @@ class Node(object):
 """
 class Solution(object):
 	def flatten(self, head):
-		dummy = Node(-1,None,head,None)
-		stack = []
-		cur = head
-		while cur:
-			if cur.child:
-				if cur.next:
-					stack.append(cur.next)
-				cur.next = cur.child
-				cur.child = None
-				cur.next.prev = cur
+		"""
+		:type head: Node
+		:rtype: Node
+		"""
+		stack,p = [],head
+		while p:
+			if p.child:
+				if p.next:
+					stack.append(p.next)
+				p.next,p.child.prev = p.child,p
+				p.child = None
 			else:
-				if not cur.next and stack:
-					cur.next = stack.pop()
-					cur.next.prev = cur
-			cur = cur.next
-		return dummy.next
+				if not p.next and stack:
+					p.next = stack.pop()
+					p.next.prev = p
+			p = p.next
+		return head
