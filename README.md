@@ -188,6 +188,7 @@
 |0704|[Binary Search(二分查找)](https://leetcode-cn.com/problems/binary-search/)|c|c++|java|[python](./src/701_800/0704_Binary_Search/Binary_Search.py)|go||Easy|
 |0707|[Design Linked List](https://leetcode-cn.com/problems/design-linked-list/)[(设计链表)](https://leetcode-cn.com/problems/design-linked-list/)|c|c++|java|[python](./src/701_800/0707_design-linked-list/design-linked-list.py)|go||Medium|
 |0709|[To Lower Case(转换成小写字母)](https://leetcode-cn.com/problems/to-lower-case/)|c|c++|java|[python](./src/701_800/0709_To_Lower_Case/To_Lower_Case.py)|go||Easy|
+|0725|[Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)[(分隔链表)](https://leetcode-cn.com/problems/split-linked-list-in-parts/)|c|c++|java|[python](./src/701_800/0725_split-linked-list-in-parts/split-linked-list-in-parts.py)|go||Medium|
 |0771|[Jewels and Stones(宝石和石头)](https://leetcode-cn.com/problems/jewels-and-stones/)|c|c++|java|[python](./src/701_800/0771-jewels-and-stones/jewels_and_stones.py)|go||Easy|
 |0784|[letter-case-permutation(字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)|c|c++|java|[python](./src/701_800/0784_letter-case-permutation/letter-case-permutation.py)|go||Medium|
 |0807|[Max Increase to Keep City Skyline(保持城市天际线)](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)|c|c++|java|[python](./src/801_900/0807_max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.py)|go||Easy|
