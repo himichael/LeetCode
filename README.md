@@ -58,7 +58,7 @@
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go||Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go||Easy|
 |0075|[Sort Colors](https://leetcode.com/problems/sort-colors/)[(颜色分类)](https://leetcode-cn.com/problems/sort-colors/)|c|c++|[java](./src/1_100/0075_sort-colors/sort-colors.java)|[python](./src/1_100/0075_sort-colors/sort-colors.py)|go||Medium|
-|0077|[combinations(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go||Medium|
+|0077|[combinations](https://leetcode.com/problems/combinations/)[(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go||Medium|
 |0078|[subsets(子集)](https://leetcode-cn.com/problems/subsets/)|c|c++|java|[python](./src/1_100/0078_subsets/subsets.py)|go||Medium|
 |0079|[Word Search(单词搜索)](https://leetcode-cn.com/problems/word-search/)|c|c++|java|[python](./src/1_100/0079_word-search/word-search.py)|go||Medium|
 |0082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)[(删除链表中的重复元素II)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|c|c++|[java](./src/1_100/0082_Remove_Duplicates_from_Sorted_List_II/Remove_Duplicates_from_Sorted_List_II.java)|[python](./src/1_100/0082_Remove_Duplicates_from_Sorted_List_II/Remove_Duplicates_from_Sorted_List_II.py)|go||Medium|
