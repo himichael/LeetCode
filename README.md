@@ -157,6 +157,7 @@
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go||Easy|
 |0415|[Add Strings(字符串相加)](https://leetcode-cn.com/problems/add-strings/)|c|c++|java|[python](./src/401_500/0415_add-strings/add-strings.py)|go||Easy|
+|0424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)[(替换后的最长重复字符)](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)|c|c++|java|[python](./src/401_500/0424_longest-repeating-character-replacement/longest-repeating-character-replacement.py)|go||Medium|
 |0429|[N-ary Tree Level Order Traversal(N叉树的层序遍历)](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|c|c++|java|[python](./src/401_500/0429_n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|go||Medium|
 |0430|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)[(扁平化多级双向链表)](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)|c|c++|java|[python](./src/401_500/0430_flatten-a-multilevel-doubly-linked-list/flatten-a-multilevel-doubly-linked-list.py)|go||Medium|
 |0445|[Add Two Numbers II(两数相加 II)](https://leetcode-cn.com/problems/add-two-numbers-ii/)|c|c++|java|[python](./src/401_500/0445_add-two-numbers-ii/add-two-numbers-ii.py)|go||Medium|
