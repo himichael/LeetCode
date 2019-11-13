@@ -156,6 +156,7 @@
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go||Easy|
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go||Easy|
+|0414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)[(第三大的数)]((https://leetcode-cn.com/problems/third-maximum-number/))|c|c++|java|[python](./src/401_500/0414_third-maximum-number/third-maximum-number.py)|go||Easy|
 |0415|[Add Strings(字符串相加)](https://leetcode-cn.com/problems/add-strings/)|c|c++|java|[python](./src/401_500/0415_add-strings/add-strings.py)|go||Easy|
 |0424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)[(替换后的最长重复字符)](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)|c|c++|java|[python](./src/401_500/0424_longest-repeating-character-replacement/longest-repeating-character-replacement.py)|go||Medium|
 |0429|[N-ary Tree Level Order Traversal(N叉树的层序遍历)](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|c|c++|java|[python](./src/401_500/0429_n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|go||Medium|
