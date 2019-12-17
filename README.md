@@ -141,6 +141,7 @@
 |0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go||Easy|
 |0263|[Ugly Number(丑数)](https://leetcode-cn.com/problems/ugly-number/)|c|c++|java|[python](./src/201_300/0263_ugly-number/ugly-number.py)|go||Easy|
 |0268|[Missing Number(缺失数字)](https://leetcode-cn.com/problems/missing-number/submissions/)|c|c++|java|[python](./src/201_300/0268_missing-number/missing-number.py)|go||Easy|
+|0278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)[(第一个错误的版本)](https://leetcode-cn.com/problems/first-bad-version/)|c|c++|java|[python](./src/201_300/0278_first-bad-version/first-bad-version.py)|go||Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go||Easy|
 |0284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)[(顶端迭代器)](https://leetcode-cn.com/problems/peeking-iterator/)|c|c++|java|[python](./src/201_300/0284_peeking-iterator/peeking-iterator.py)|go||Medium|
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go||Medium|
