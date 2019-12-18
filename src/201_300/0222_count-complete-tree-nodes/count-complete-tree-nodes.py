@@ -21,4 +21,26 @@ class Solution(object):
 			recursion(root.right)
 		recursion(root)
 		return self.res
+		
+		
+		
+	def countNodes(self, root):
+		"""
+		:type root: TreeNode
+		:rtype: int
+		"""
+		if not root:
+			return 0
+		left_height,left = 0,root
+		right_height,right = 0,root
+		while left:
+			left_height += 1
+			left = left.left
+		while right:
+			right_height += 1
+			right = right.right
+		if left_height==right_height:
+			return 2**left_height-1
+		else:
+			return self.countNodes(root.left)+self.countNodes(root.right)+1
         
