@@ -153,6 +153,7 @@
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go||Easy|
 |0349|[Intersection of Two Arrays(两个数组的交集)](https://leetcode-cn.com/problems/)|c|c++|java|[python](./src/301_400/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go||Easy|
 |0350|[Intersection of Two Arrays II(两个数组的交集 II)](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|c|c++|java|[python](./src/301_400/0350_Intersection_of_Two_Arrays_II/Intersection_of_Two_Arrays_II.py)|go||Easy|
+|0367|[Valid Perfect Square](https://leetcode-cn.com/problems/valid-perfect-square/submissions/)[(有效的完全平方数)](https://leetcode-cn.com/problems/valid-perfect-square/)|c|c++|java|[python](./src/301_400/0367_valid-perfect-square/valid-perfect-square.py)|go||Easy|
 |0374|[Guess Number Higher or Lower(猜数字大小)](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|c|c++|java|[python](./src/301_400/0374_Guess_Number_Higher_or_Lower/Guess_Number_Higher_or_Lower.py)|go||Easy|
 |0377|[combination-sum-iv(组合总和 4)](https://leetcode-cn.com/problems/combination-sum-iv/)|c|c++|java|[python](./src/301_400/0377_combination-sum-iv/combination-sum-iv.py)|go||Mediumm|
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go||Easy|
