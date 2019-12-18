@@ -151,7 +151,7 @@
 |0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go||Medium|
 |0342|[Power of Four(4的幂)](https://leetcode-cn.com/problems/power-of-four/)|c|c++|java|[python](./src/301_400/0342_power-of-four/power-of-four.py)|go||Easy|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go||Easy|
-|0349|[Intersection of Two Arrays(两个数组的交集)](https://leetcode-cn.com/problems/)|c|c++|java|[python](./src/301_400/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go||Easy|
+|0349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)[(两个数组的交集)](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|c|c++|java|[python](./src/301_400/0349_Intersection_of_Two_Arrays/Intersection_of_Two_Arrays.py)|go||Easy|
 |0350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)[(两个数组的交集 II)](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|c|c++|java|[python](./src/301_400/0350_Intersection_of_Two_Arrays_II/Intersection_of_Two_Arrays_II.py)|go||Easy|
 |0367|[Valid Perfect Square](https://leetcode-cn.com/problems/valid-perfect-square/submissions/)[(有效的完全平方数)](https://leetcode-cn.com/problems/valid-perfect-square/)|c|c++|java|[python](./src/301_400/0367_valid-perfect-square/valid-perfect-square.py)|go||Easy|
 |0374|[Guess Number Higher or Lower(猜数字大小)](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|c|c++|java|[python](./src/301_400/0374_Guess_Number_Higher_or_Lower/Guess_Number_Higher_or_Lower.py)|go||Easy|
