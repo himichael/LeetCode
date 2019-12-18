@@ -18,3 +18,20 @@ class Solution(object):
 				return middle
 		return -1
         
+
+	def guessNumber(self, n):
+		"""
+		:type n: int
+		:rtype: int
+		"""	
+		begin,end = 1,n
+		while begin<=end:
+			mid = begin+(end-begin)/2
+			g = guess(mid)
+			if g>0:
+				begin = mid+1
+			elif g<0:
+				end = mid-1
+			else:
+				return mid
+		return -1		
