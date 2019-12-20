@@ -57,6 +57,7 @@
 |0067|[Add Binary(二进制求和)](https://leetcode-cn.com/problems/add-binary/)|c|c++|java|[python](./src/1_100/0067_add-binary/add-binary.py)|go||Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go||Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go||Easy|
+|0074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)[(搜索二维矩阵)](https://leetcode-cn.com/problems/search-a-2d-matrix/)|c|c++|java|[python](./src/1_100/0074_search-a-2d-matrix/search-a-2d-matrix.py)|go||Medium|
 |0075|[Sort Colors](https://leetcode.com/problems/sort-colors/)[(颜色分类)](https://leetcode-cn.com/problems/sort-colors/)|c|c++|[java](./src/1_100/0075_sort-colors/sort-colors.java)|[python](./src/1_100/0075_sort-colors/sort-colors.py)|go|[my_solution](https://mp.weixin.qq.com/s/lWAdA900mS7r2GtEuOtdaw)|Medium|
 |0076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)[(最小覆盖子串)](https://leetcode-cn.com/problems/minimum-window-substring/)|c|c++|java|[python](./src/1_100/0076_minimum-window-substring/minimum-window-substring.py)|go||Hard|
 |0077|[combinations](https://leetcode.com/problems/combinations/)[(组合)](https://leetcode-cn.com/problems/combinations/)|c|c++|java|[python](./src/1_100/0077_combinations/combinations.py)|go||Medium|
