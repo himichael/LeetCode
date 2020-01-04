@@ -147,7 +147,8 @@
 |0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go||Easy|
 |0263|[Ugly Number(丑数)](https://leetcode-cn.com/problems/ugly-number/)|c|c++|java|[python](./src/201_300/0263_ugly-number/ugly-number.py)|go||Easy|
 |0268|[Missing Number(缺失数字)](https://leetcode-cn.com/problems/missing-number/)|c|c++|java|[python](./src/201_300/0268_missing-number/missing-number.py)|go||Easy|
-|0274|[H-Index](https://leetcode-cn.com/problems/h-index/)[(H指数)](https://leetcode-cn.com/problems/h-index/submissions/)|c|c++|java|[python](./src/201_300/0274_h-index/h-index.py)|go||Medium|
+|0274|[H-Index](https://leetcode.com/problems/h-index/)[(H指数)](https://leetcode-cn.com/problems/h-index/)|c|c++|java|[python](./src/201_300/0274_h-index/h-index.py)|go||Medium|
+|0275|[H-Index II](https://leetcode.com/problems/h-index-ii/)[(H指数 II)](https://leetcode-cn.com/problems/h-index-ii/)|c|c++|java|[python](./src/201_300/0275_h-index-ii/h-index-ii.py)|go||Medium|
 |0278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)[(第一个错误的版本)](https://leetcode-cn.com/problems/first-bad-version/)|c|c++|java|[python](./src/201_300/0278_first-bad-version/first-bad-version.py)|go||Easy|
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go||Easy|
 |0284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)[(顶端迭代器)](https://leetcode-cn.com/problems/peeking-iterator/)|c|c++|java|[python](./src/201_300/0284_peeking-iterator/peeking-iterator.py)|go||Medium|
