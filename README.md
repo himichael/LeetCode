@@ -164,6 +164,7 @@
 |0367|[Valid Perfect Square](https://leetcode-cn.com/problems/valid-perfect-square/)[(有效的完全平方数)](https://leetcode-cn.com/problems/valid-perfect-square/)|c|c++|java|[python](./src/301_400/0367_valid-perfect-square/valid-perfect-square.py)|go||Easy|
 |0374|[Guess Number Higher or Lower(猜数字大小)](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)|c|c++|java|[python](./src/301_400/0374_Guess_Number_Higher_or_Lower/Guess_Number_Higher_or_Lower.py)|go||Easy|
 |0377|[combination-sum-iv(组合总和 4)](https://leetcode-cn.com/problems/combination-sum-iv/)|c|c++|java|[python](./src/301_400/0377_combination-sum-iv/combination-sum-iv.py)|go||Mediumm|
+|0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)[(有序矩阵中第K小的元素)](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)|c|c++|[java](./src/301_400/0378_kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.java)|python|go||Mediumm|
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go||Easy|
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go||Easy|
