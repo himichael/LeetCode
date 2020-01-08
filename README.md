@@ -166,6 +166,7 @@
 |0377|[combination-sum-iv(组合总和 4)](https://leetcode-cn.com/problems/combination-sum-iv/)|c|c++|java|[python](./src/301_400/0377_combination-sum-iv/combination-sum-iv.py)|go||Mediumm|
 |0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)[(有序矩阵中第K小的元素)](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)|c|c++|[java](./src/301_400/0378_kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.java)|python|go||Mediumm|
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go||Easy|
+|0392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)[(判断子序列)](https://leetcode-cn.com/problems/is-subsequence/submissions/)|c|c++|java|[python](./src/301_400/0392_is-subsequence/is-subsequence.py)|go||Easy|
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go||Easy|
 |0414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)[(第三大的数)](https://leetcode-cn.com/problems/third-maximum-number/)|c|c++|java|[python](./src/401_500/0414_third-maximum-number/third-maximum-number.py)|go||Easy|
@@ -181,6 +182,7 @@
 |0454|[4Sum II](https://leetcode.com/problems/4sum-ii/)[(四数相加 II)](https://leetcode-cn.com/problems/4sum-ii/)|c|c++|java|[python](./src/401_500/0454_4sum-ii/4sum-ii.py)|go||Medium|
 |0458|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)[(最大连续1的个数)](https://leetcode-cn.com/problems/max-consecutive-ones/)|c|c++|java|[python](./src/401_500/0458_max-consecutive-ones/max-consecutive-ones.py)|go||Easy|
 |0461|[Hamming Distance(汉明距离)](https://leetcode-cn.com/problems/hamming-distance/)|c|c++|java|[python](./src/401_500/0461_hamming-distance/hamming-distance.py)|go||Easy|
+|0475|[Heaters](https://leetcode.com/problems/heaters/)[(供暖器)](https://leetcode-cn.com/problems/heaters/)|c|c++|java|[python](./src/401_500/0475_heaters/heaters.py)|go||Easy|
 |0509|[Fibonacci_Number(斐波那契数)](https://leetcode-cn.com/problems/fibonacci-number)|c|c++|java|[python](./src/501_600/0509_Fibonacci_Number/Fibonacci_Number.py)|go||Easy|
 |0513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)[(找树左下角的值)](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|c|c++|java|[python](./src/501_600/0513_find-bottom-left-tree-value/find-bottom-left-tree-value.py)|go||Medium|
 |0535|[Encode_and_Decode_TinyURL(短URL的加密和解密)](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)|c|c++|java|[python](./src/501_600/0535_Encode_and_Decode_TinyURL/Encode_and_Decode_TinyURL.py)|go||Easy|
@@ -230,6 +232,7 @@
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)[(活字印刷)](https://leetcode-cn.com/problems/letter-tile-possibilities/)|c|c++|java|[python](./src/1001_1100/1079_letter-tile-possibilities/letter-tile-possibilities.py)|go||Medium|
 |1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)[(二叉树寻路)](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)|c|c++|java|[python](./src/1101_1200/1104_path-in-zigzag-labelled-binary-tree/path-in-zigzag-labelled-binary-tree.py)|go||Medium|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)[(IP地址无效化)](https://leetcode-cn.com/problems/defanging-an-ip-address/)|c|c++|java|[python](./src/1101_1200/1108_defanging-an-ip-address/defanging-an-ip-address.py)|go||Easy|
+|1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)[(找出给定方程的正整数解)](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|c|c++|java|[python](./src/1201_1300/1237_find-positive-integer-solution-for-a-given-equation/find-positive-integer-solution-for-a-given-equation.py)|go||Easy|
 
 
 
