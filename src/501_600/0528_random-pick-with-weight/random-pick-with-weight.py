@@ -16,7 +16,7 @@
 		"""
 		target = random.randint(0,self.total-1)
 		begin,end = 0,len(self.res)-1
-		while begin!=end:
+		while begin<end:
 			mid = begin+(end-begin)/2
 			if self.res[mid]<=target:
 				begin = mid+1
