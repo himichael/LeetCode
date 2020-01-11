@@ -153,6 +153,7 @@
 |0283|[Move Zeroes(移动零)](https://leetcode-cn.com/problems/move-zeroes/)|c|c++|java|[python](./src/201_300/0283_Move_Zeroes/Move_Zeroes.py)|go||Easy|
 |0284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)[(顶端迭代器)](https://leetcode-cn.com/problems/peeking-iterator/)|c|c++|java|[python](./src/201_300/0284_peeking-iterator/peeking-iterator.py)|go||Medium|
 |0287|[Find the Duplicate Number(寻找重复数)](https://leetcode-cn.com/problems/find-the-duplicate-number/)|c|c++|java|[python](./src/201_300/0287_find-the-duplicate-number/find-the-duplicate-number.py)|go||Medium|
+|0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)[(最长上升子序列)](https://leetcode.com/problems/longest-increasing-subsequence/)|c|c++|java|[python](./src/201_300/0300_longest-increasing-subsequence/longest-increasing-subsequence.py)|go||Medium|
 |0322|[Coin Change(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|python|go||Medium|
 |0326|[Power of Three(3的幂)](https://leetcode-cn.com/problems/power-of-three/)|c|c++|java|[python](./src/301_400/0326_power-of-three/power-of-three.py)|go||Easy|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go||Medium|
