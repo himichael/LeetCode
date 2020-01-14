@@ -51,6 +51,7 @@
 |0051|[N-Queens(N皇后)](https://leetcode-cn.com/problems/n-queens/)|c|c++|java|[python](./src/1_100/0051_n-queens/n-queens.py)|go||Hard|
 |0052|[N-Queens II(N皇后 II)](https://leetcode-cn.com/problems/n-queens-ii/)|c|c++|java|[python](./src/1_100/0052_n-queens-ii/n-queens-ii.py)|go||Hard|
 |0053|[Maximum Subarray(最大子序和)](https://leetcode-cn.com/problems/maximum-subarray/)|c|c++|java|[python](./src/1_100/0053_Maximum_Subarray/Maximum_Subarray.py)|go||Easy|
+|0056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)[(合并区间)](https://leetcode-cn.com/problems/merge-intervals/)|c|c++|java|[python](./src/1_100/0056_merge-intervals/merge-intervals.py)|go||Medium|
 |0061|[Rotate List(旋转链表)](https://leetcode-cn.com/problems/rotate-list/)|c|c++|[java](./src/1_100/0061_Rotate_List/Rotate_List.java)|[python](./src/1_100/0061_Rotate_List/Rotate_List.py)|go|[my_solution](https://mp.weixin.qq.com/s/k_nKdz2RJnF7XI6ZcU_h5Q)|Medium|
 |0061|[Unique Paths](https://leetcode.com/problems/unique-paths/)[(不同路径)](https://leetcode-cn.com/problems/unique-paths/)|c|c++|java|[python](./src/1_100/0062_unique-paths/unique-paths.py)|go||Medium|
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/1_100/0066_Plus_One/Plus_One.py)|go||Easy|
