@@ -28,3 +28,22 @@
         #for a in arr:
         #    print a
         return arr[n-1][m-1]
+		
+		
+		
+	# 精简代码
+	def uniquePaths(self, m, n):
+		"""
+		:type m: int
+		:type n: int
+		:rtype: int
+		"""		
+		arr = [[1]*n for i in xrange(m)]
+		for i in xrange(1,len(arr)):
+			for j in xrange(1,len(arr[0])):
+				arr[i][j] = arr[i-1][j] + arr[i][j-1]
+		return arr[-1][-1]
+		
+		
+		
+		
