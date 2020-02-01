@@ -94,6 +94,10 @@
 |0114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)[(二叉树展开为链表)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|c|c++|java|[python](./src/101_200/0114_flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.py)|go||Medium|
 |0116|[Populating Next Right Pointers in Each Node(填充每个节点的下一个右侧节点指针)](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|c|c++|java|[python](./src/101_200/0116_populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.py)|go||Medium|
 |0117|[Populating Next Right Pointers in Each Node II(填充每个节点的下一个右侧节点指针 II)](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|c|c++|java|[python](./src/101_200/0117_populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.py)|go||Medium|
+|0118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)[(杨辉三角
+)](https://leetcode-cn.com/problems/pascals-triangle/)|c|c++|java|[python](./src/101_200/0118_pascals-triangle/pascals-triangle.py)|go||Easy|
+|0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)[(杨辉三角
+)](https://leetcode-cn.com/problems/pascals-triangle-ii/)|c|c++|java|[python](./src/101_200/0119_pascals-triangle-ii/pascals-triangle-ii.py)|go||Easy|
 |0120|[Triangle(三角形的最小路劲和)](https://leetcode-cn.com/problems/triangle)|c|c++|[java](./src/101_200/0120_Triangle/Triangle.java)|python|go||Medium|
 |0121|[Best Time to Buy and Sell Stock(买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|c|c++|java|[python](./src/101_200/0121_Best_Time_to_Buy_and_Sell_Stock/Best_Time_to_Buy_and_Sell_Stock.py)|go||Easy|
 |0125|[Valid Palindrome(验证回文串)](https://leetcode-cn.com/problems/valid-palindrome/)|c|c++|java|[python](./src/101_200/0125_Valid_Palindrome/Valid_Palindrome.py)|go||Easy|
