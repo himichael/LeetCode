@@ -14,6 +14,17 @@
 			f2 = tmp+cost[i]
 		return min(f1,f2)
 		
+	
+	def minCostClimbingStairs(self, cost):
+		"""
+		:type cost: List[int]
+		:rtype: int
+		"""
+		f1,f2 = cost[0],cost[1]
+		for i in xrange(2,len(cost)):
+			f1,f2 = f2,min(f1,f2)+cost[i]
+		return min(f1,f2)	
+		
 		
 	# 递归+记忆化
 	def minCostClimbingStairs(self, cost):
