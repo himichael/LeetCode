@@ -37,3 +37,37 @@
 				f(i,remain-coins[i])
 		f(0,amount)
 		return self.res
+		
+		
+	# 递归+记忆化的解法， 超时！！！	
+	def change(self, amount, coins):
+		"""
+		:type amount: int
+		:type coins: List[int]
+		:rtype: int
+		"""
+		if not coins:
+			return 1 if amount==0 else 0
+		mem = [ [0]*(amount+1) for i in xrange(len(coins)+1) ]
+		def f(index,n):
+			if n==0:
+				return 1
+			if n<0 or index==len(coins):
+				return 0
+			if mem[index][n]>0:
+				return mem[index][n]
+			a = f(index,n-coins[index])
+			b = f(index+1,n)
+			mem[index][n] = a+b
+			return a+b
+		return f(0,amount)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
