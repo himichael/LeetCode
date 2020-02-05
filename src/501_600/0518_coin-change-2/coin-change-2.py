@@ -15,6 +15,28 @@
         return dp[-1]
 		
 		
+	# 动态规划二维数组方式
+	def change(self, amount, coins):
+		"""
+		:type amount: int
+		:type coins: List[int]
+		:rtype: int
+		"""						
+		if not coins:
+			return 1 if amount==0 else 0
+		n = len(coins)
+		dp = [ [0]*(amount+1) for _ in xrange(n) ]
+		dp[0][0] = 1
+		for i in xrange(coins[0],amount+1,coins[0]):
+			dp[0][i] = 1
+		for i in xrange(1,n):
+			for j in xrange(amount+1):
+				if j>=coins[i]:
+					dp[i][j] =  dp[i-1][j] + dp[i][j-coins[i]]
+				else:
+					dp[i][j] = dp[i-1][j]
+		return dp[-1][-1]		
+		
 		
 	# 回溯的解法，超时！！！	
 	def change(self, amount, coins):
