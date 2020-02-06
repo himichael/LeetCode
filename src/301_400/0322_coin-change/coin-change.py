@@ -40,3 +40,30 @@
 			for i in xrange(c,amount+1):
 				dp[i] = min(dp[i],dp[i-c]+1)
 		return dp[-1] if dp[-1]!=float("inf") else -1
+		
+		
+		
+	# 动态规划 二维数组
+	def coinChange(self, coins, amount):
+		"""
+		:type coins: List[int]
+		:type amount: int
+		:rtype: int
+		"""	
+		if not coins:
+			return 0
+		n = len(coins)
+		dp = [ [float("inf")]*(amount+1) for _ in xrange(n) ]
+		dp[0][0] = 0
+		for i in xrange(coins[0],amount+1,coins[0]):
+			dp[0][i] = 1 + dp[0][i-coins[0]]
+		for i in xrange(1,n):
+			for j in xrange(amount+1):
+				if j>=coins[i]:
+					dp[i][j] = min(dp[i-1][j], dp[i][j-coins[i]]+1)
+				else:
+					dp[i][j] = dp[i-1][j]
+		#for d in dp:
+		#	print d
+		return dp[-1][-1] if dp[-1][-1]!=float("inf") else -1	
+		
