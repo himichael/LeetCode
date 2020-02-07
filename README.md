@@ -254,6 +254,7 @@
 |1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)[(活字印刷)](https://leetcode-cn.com/problems/letter-tile-possibilities/)|c|c++|java|[python](./src/1001_1100/1079_letter-tile-possibilities/letter-tile-possibilities.py)|go||Medium|
 |1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)[(二叉树寻路)](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)|c|c++|java|[python](./src/1101_1200/1104_path-in-zigzag-labelled-binary-tree/path-in-zigzag-labelled-binary-tree.py)|go||Medium|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)[(IP地址无效化)](https://leetcode-cn.com/problems/defanging-an-ip-address/)|c|c++|java|[python](./src/1101_1200/1108_defanging-an-ip-address/defanging-an-ip-address.py)|go||Easy|
+|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)[(最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)|c|c++|java|[python](./src/1101_1200/1143_longest-common-subsequence/longest-common-subsequence.py)|go||Medium|
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)[(找出给定方程的正整数解)](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|c|c++|java|[python](./src/1201_1300/1237_find-positive-integer-solution-for-a-given-equation/find-positive-integer-solution-for-a-given-equation.py)|go||Easy|
 
 
