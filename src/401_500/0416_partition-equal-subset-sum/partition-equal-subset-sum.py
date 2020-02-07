@@ -46,3 +46,32 @@
 				if dp[i-c]:
 					dp[i] = True
 		return dp[-1]
+		
+		
+		
+		
+		
+	# 动态规划，二维数组实现
+	def canPartition(self, nums):
+		"""
+		:type nums: List[int]
+		:rtype: bool
+		"""
+		if not nums:
+			return False
+		total = sum(nums)
+		if total%2==1:
+			return False
+		total /= 2
+		n = len(nums)
+		dp = [False]*(total+1)
+		dp[0] = True
+		for i in xrange(n):
+			for j in xrange(total,nums[i]-1,-1):
+				dp[j] |= dp[j-nums[i]]
+		return dp[-1]
+		
+		
+		
+		
+		
