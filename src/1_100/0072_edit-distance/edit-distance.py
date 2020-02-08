@@ -19,3 +19,30 @@
 				else:
 					dp[i][j] = min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1
 		return dp[-1][-1]
+		
+		
+	# 递归+备忘录模式	
+	def minDistance(self, word1, word2):
+		"""
+		:type word1: str
+		:type word2: str
+		:rtype: int
+		"""	
+		n = len(word1)
+		m = len(word2)
+		mem = [ [-1]*m for _ in xrange(n) ]
+		def f(i,j):
+			if i==n or j==m:
+				return n-i + m-j
+			if mem[i][j]>-1:
+				return mem[i][j]
+			if word1[i]==word2[j]:
+				mem[i][j] = f(i+1,j+1)
+				return mem[i][j]
+			else:
+				a = f(i,j+1)
+				b = f(i+1,j)
+				c = f(i+1,j+1)
+				mem[i][j] = min(a,b,c)+1
+				return mem[i][j]
+		return f(0,0)
