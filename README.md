@@ -255,8 +255,7 @@
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)[(IP地址无效化)](https://leetcode-cn.com/problems/defanging-an-ip-address/)|c|c++|java|[python](./src/1101_1200/1108_defanging-an-ip-address/defanging-an-ip-address.py)|go||Easy|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)[(最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)|c|c++|java|[python](./src/1101_1200/1143_longest-common-subsequence/longest-common-subsequence.py)|go||Medium|
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)[(找出给定方程的正整数解)](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|c|c++|java|[python](./src/1201_1300/1237_find-positive-integer-solution-for-a-given-equation/find-positive-integer-solution-for-a-given-equation.py)|go||Easy|
-
-
+|面试题03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/3.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|go||Easy|
 
 
 
