@@ -1,4 +1,5 @@
 ﻿class Solution(object):
+	# 动态规划
 	def maxProfit(self, prices):
 		"""
 		:type prices: List[int]
@@ -47,19 +48,46 @@
 		"""
 		if not prices:
 			return 0
-		self.res = 0
 		n = len(prices)
-		def dfs(index,profit,status):
+		def dfs(index,status):
 			if index==n:
-				self.res = max(self.res,profit)
-				return
+				return 0
 			if status:
-				dfs(index+1,profit,status)
-				dfs(index+1,profit+prices[index],0)
+				a = dfs(index+1,status)
+				b = dfs(index+1,not status)+prices[index]
+				return max(a,b)
 			else:
-				dfs(index+1,profit,status)
-				dfs(index+1,profit-prices[index],1)
-		dfs(0,0,0)
-		return self.res
+				c = dfs(index+1,status)
+				d = dfs(index+1,not status)-prices[index]
+				return max(c,d)
+		return dfs(0,0)
+		
+		
+		
+	# 递归+记忆化
+	def maxProfit(self, prices):
+		"""
+		:type prices: List[int]
+		:rtype: int
+		"""
+		if not prices:
+			return 0
+		n = len(prices)
+		mem = [ [-1]*2 for _ in xrange(n) ]
+		def dfs(index,status):
+			if index==n:
+				return 0
+			if mem[index][status]>-1:
+				return mem[index][status]
+			if status:
+				a = dfs(index+1,status)
+				b = dfs(index+1,not status)+prices[index]
+				mem[index][status] = max(a,b)
+			else:
+				c = dfs(index+1,status)
+				d = dfs(index+1,not status)-prices[index]
+				mem[index][status] = max(c,d)
+			return mem[index][status]
+		return dfs(0,0)	
 		
 		
