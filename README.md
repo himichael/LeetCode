@@ -256,6 +256,15 @@
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)[(最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)|c|c++|java|[python](./src/1101_1200/1143_longest-common-subsequence/longest-common-subsequence.py)|go||Medium|
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)[(找出给定方程的正整数解)](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|c|c++|java|[python](./src/1201_1300/1237_find-positive-integer-solution-for-a-given-equation/find-positive-integer-solution-for-a-given-equation.py)|go||Easy|
 |面试题03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/3.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|go||Easy|
+|面试题04|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/4.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/er-wei-shu-zu-zhong-de-cha-zhao-lcof.py)|go||Easy|
+|面试题06|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/6.%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/cong-wei-dao-tou-da-yin-lian-biao-lcof.py)|go||Easy|
+|面试题10- I|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/Fibonacci_Number.py)|go||Easy|
+|面试题10- II|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98/qing-wa-tiao-tai-jie-wen-ti-lcof.py)|go||Easy|
+|面试题24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/24.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/fan-zhuan-lian-biao-lcof.py)|go||Easy|
+|面试题27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/27.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F/er-cha-shu-de-jing-xiang-lcof.py)|go||Easy|
+|面试题28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/28.%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91/dui-cheng-de-er-cha-shu-lcof.py)|go||Easy|
+
+
 
 
 
