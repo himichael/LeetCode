@@ -264,8 +264,7 @@
 |面试题24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/24.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/fan-zhuan-lian-biao-lcof.py)|go||Easy|
 |面试题27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/27.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F/er-cha-shu-de-jing-xiang-lcof.py)|go||Easy|
 |面试题28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/28.%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91/dui-cheng-de-er-cha-shu-lcof.py)|go||Easy|
-
-
+|面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/submissions/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 
 
 
