@@ -15,8 +15,7 @@
 		for i in xrange(1,n):
 			dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
 			dp[i][1] = max(dp[i-1][1], dp[i-1][0]-prices[i])
-			res = max(res,dp[i][0],dp[i][1])
-		return res
+		return dp[n-1][0]
 	
 	
 	
