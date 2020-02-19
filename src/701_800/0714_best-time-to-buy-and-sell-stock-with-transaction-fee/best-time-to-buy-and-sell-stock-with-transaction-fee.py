@@ -62,6 +62,29 @@
 		return dfs(0,0)
 		
 		
+	# 将上面的递归代码优化一下
+	def maxProfit(self, prices,fee):
+		"""
+		:type prices: List[int]
+		:rtype: int
+		"""
+		if not prices:
+			return 0
+		n = len(prices)
+		def dfs(index,status):
+			if index==n:
+				return 0
+				
+			a = dfs(index+1,status)
+			b,c = 0,0
+			if status:
+				b = dfs(index+1,0)+prices[index]-fee
+			else:
+				c = dfs(index+1,1)-prices[index]
+			return max(a,b,c)
+		return dfs(0,0)
+		
+		
 		
 	# 递归+记忆化(超时)
 	def maxProfit(self, prices, fee):
