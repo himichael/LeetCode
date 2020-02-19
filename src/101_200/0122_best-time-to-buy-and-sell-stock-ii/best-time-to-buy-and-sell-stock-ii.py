@@ -1,5 +1,5 @@
 ﻿class Solution(object):
-	# 动态规划
+	# 动态规划二维数组
 	def maxProfit(self, prices):
 		"""
 		:type prices: List[int]
