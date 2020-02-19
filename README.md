@@ -262,6 +262,7 @@
 |1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)[(找出给定方程的正整数解)](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|c|c++|java|[python](./src/1201_1300/1237_find-positive-integer-solution-for-a-given-equation/find-positive-integer-solution-for-a-given-equation.py)|go||Easy|
 |面试题03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/3.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|go||Easy|
 |面试题04|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/4.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/er-wei-shu-zu-zhong-de-cha-zhao-lcof.py)|go||Easy|
+|面试题05|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/5.%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC/ti-huan-kong-ge-lcof.py)|go||Easy|
 |面试题06|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/6.%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/cong-wei-dao-tou-da-yin-lian-biao-lcof.py)|go||Easy|
 |面试题10- I|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/Fibonacci_Number.py)|go||Easy|
 |面试题10- II|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98/qing-wa-tiao-tai-jie-wen-ti-lcof.py)|go||Easy|
@@ -271,7 +272,6 @@
 |面试题58-I|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.I.%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F/fan-zhuan-dan-ci-shun-xu-lcof.py)|go||Easy|
 |面试题58-II|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.II.%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/zuo-xuan-zhuan-zi-fu-chuan-lcof.py)|go||Easy|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
-
 
 
 
