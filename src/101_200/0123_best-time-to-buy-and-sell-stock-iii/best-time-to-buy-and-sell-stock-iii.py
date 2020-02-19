@@ -1,4 +1,5 @@
 ﻿class Solution(object):
+	# 动态规划二位数组
     def maxProfit(self, prices):
         """
         :type prices: List[int]
@@ -37,4 +38,34 @@
             s2 = max(s2,s1+prices[i])
             s3 = max(s3,s2-prices[i])
             s4 = max(s4,s3+prices[i])
-        return max(s4,0)		
+        return max(s4,0)	
+
+
+
+	# 递归+记忆化
+	def maxProfit(self, prices):
+		"""
+		:type prices: List[int]
+		:rtype: int
+		"""
+		if not prices:
+			return 0
+		k = 2
+		n = len(prices)
+		mem = [[[-1 for _ in xrange(2)] for _ in xrange(3)] for _ in xrange(n)]
+		def dfs(index,count,status):
+			if index==n or (count==k and status==0):
+				return 0
+			if mem[index][count][status]>-1:
+				return mem[index][count][status]
+			a = dfs(index+1,count,status)
+			b,c = 0,0
+			if status:
+				b = dfs(index+1,count,0)+prices[index]
+			else:
+				c = dfs(index+1,count+1,1)-prices[index]
+			mem[index][count][status] = max(a,b,c)
+			return mem[index][count][status]
+		return dfs(0,0,0)
+		
+		
