@@ -19,6 +19,28 @@
 	
 	
 	
+	# 动态规划一维数组
+	def maxProfit(self, prices):
+		"""
+		:type prices: List[int]
+		:rtype: int
+		"""
+		if not prices:
+			return 0
+		n = len(prices)
+		sell = [0 for _ in xrange(n)]
+		buy  = [0 for _ in xrange(n)]
+		sell[0] = 0
+		buy[0] = -prices[0]
+		res = 0
+		for i in xrange(1,n):
+			sell[i] = max(sell[i-1],buy[i-1]+prices[i])
+			buy[i] = max(buy[i-1],sell[i-1]-prices[i])
+			res = max(res,sell[i],buy[i])
+		return res
+	
+	
+	
 	# O(1)空间复杂度的dp推导
 	def maxProfit(self, prices):
 		"""
