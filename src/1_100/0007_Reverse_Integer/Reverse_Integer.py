@@ -57,3 +57,24 @@
 		if x>(2**31-1) or x<-2**31:
 			return 0
 		return x
+		
+		
+		
+	def reverse(self, x):
+		if x==0:
+			return x
+		is_negative = False
+		if x<0:
+			x = x*-1
+			is_negative = True
+		res = 0
+		while x>0:
+			res = res*10 + x%10
+			x /= 10
+		if is_negative:
+			return -res if -res>-2**31 else 0
+		return res if res<(2**31-1) else 0
+		
+		
+		
+		
