@@ -270,10 +270,21 @@
 |面试题24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/24.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/fan-zhuan-lian-biao-lcof.py)|go||Easy|
 |面试题27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/27.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F/er-cha-shu-de-jing-xiang-lcof.py)|go||Easy|
 |面试题28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/28.%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91/dui-cheng-de-er-cha-shu-lcof.py)|go||Easy|
+|面试题32-I|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/32.I.%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.py)|go||Medium|
+|面试题32-II|[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/32.III.%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.py)|go||Medium|
+|面试题32-III|[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/32.II.%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.py)|go||Easy|
 |面试题42|[连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/42.%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|go||Easy|
+|面试题54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/54.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.py)|go||Easy|
+|面试题55-I|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/55.I.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6/er-cha-shu-de-shen-du-lcof.py)|go||Easy|
+|面试题55-II|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/55.II.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/ping-heng-er-cha-shu-lcof.py)|go||Easy|
 |面试题58-I|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.I.%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F/fan-zhuan-dan-ci-shun-xu-lcof.py)|go||Easy|
 |面试题58-II|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.II.%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/zuo-xuan-zhuan-zi-fu-chuan-lcof.py)|go||Easy|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
+
+
+
+
+
 
 
 
