@@ -22,3 +22,19 @@ class Solution(object):
                     fast = fast.next
                 fast,low.next = fast.next,fast.next
         return p.next
+		
+		
+		
+	def deleteDuplicates(self, head):
+		p = ListNode(-1)
+		a,b,p.next = p,head,head
+		while b and b.next:
+			if a.next.val!=b.next.val:
+				a,b = a.next,b.next
+			else:
+				while b.next and a.next.val==b.next.val:
+					b = b.next
+				a.next,b = b.next,b.next
+		return p.next
+		
+		
