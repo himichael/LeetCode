@@ -62,3 +62,19 @@ class Solution(object):
         fast.next,p.next,low.next = head,low.next,None
         return p.next
 		
+		
+		
+	# 另一种解法，将链表变成环之后，再切断	
+	def rotateRight(self, head, k):
+		n,tail = 1,head
+		while tail and tail.next:
+			tail,n = tail.next,n+1
+		k %= n
+		if k==0 or n==0:
+			return head
+		tail.next = head
+		for _ in xrange(n-k):
+			tail = tail.next
+		head,tail.next = tail.next,None
+		return head	
+		
