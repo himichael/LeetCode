@@ -20,3 +20,18 @@ class Solution(object):
 			j = j.next
 		i.next = None
 		return head
+		
+		
+		
+	# 不改变节点值	
+	def deleteDuplicates(self, head):
+		if not (head and head.next):
+			return head
+		i,j = head,head
+		while i:
+			if i.val!=j.val:
+				j = j.next
+			else:
+				j.next = i.next
+			i = i.next
+		return head
