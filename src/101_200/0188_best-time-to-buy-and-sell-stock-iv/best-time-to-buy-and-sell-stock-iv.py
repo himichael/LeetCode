@@ -33,3 +33,31 @@
 			mem[index][count][status] = max(a,b,c)
 			return mem[index][count][status]
 		return dfs(0,0,0)
+		
+		
+		
+		
+	# 递归(超时)	
+	def maxProfit(self, k, prices):
+		"""
+		:type k: int
+		:type prices: List[int]
+		:rtype: int
+		"""
+		if not prices:
+			return 0
+		n = len(prices)
+		def dfs(index,count,status):
+			if index==n or (count==k and status==0):
+				return 0
+			a = dfs(index+1,count,status)
+			b,c = 0,0
+			if status:
+				b = dfs(index+1,count,0)+prices[index]
+			else:
+				c = dfs(index+1,count+1,1)-prices[index]
+			return max(a,b,c)
+		return dfs(0,0,0)
+		
+		
+		
