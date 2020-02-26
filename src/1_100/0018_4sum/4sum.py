@@ -35,10 +35,9 @@
 		
 		
 		
-		
 	# 优化代码
-	def fourSum(self, nums, target):
-		if not nums:
+	def fourSum(self, nums, target):	
+		if not nums or len(nums)<4:
 			return []
 		nums = sorted(nums)
 		n = len(nums)
@@ -59,12 +58,8 @@
 					tmp = nums[i]+nums[j]+nums[k]+nums[h]
 					if tmp>target:
 						j -= 1
-						while i<j and nums[j+1]==nums[j]:
-							j -= 1
 					elif tmp<target:
 						i += 1
-						while i<j and nums[i-1]==nums[i]:
-							i += 1
 					else:
 						res.append([ nums[i],nums[j],nums[k],nums[h] ])
 						i += 1
