@@ -8,6 +8,7 @@
 	def vertexReference(self,i):
 		return self.__adjacencyTable[i]
 	
+# BFS，Kahn算法	
 class Solution(object):
 	def canFinish(self, numCourses, prerequisites):		
 		"""
@@ -44,4 +45,37 @@ class Solution(object):
 		return count==numCourses
 		
 		
+			
+# DFS实现	
+class Solution(object):
+	def canFinish(self, numCourses, prerequisites):		
+		"""
+		:type numCourses: int
+		:type prerequisites: List[List[int]]
+		:rtype: bool
+		"""
+		if numCourses<=0 or not prerequisites:
+			return True
+		inverseAdj = [[] for _ in xrange(numCourses)]
+		for arr in prerequisites:
+			inverseAdj[arr[0]].append(arr[1])
+		visited = [0 for _ in xrange(numCourses)]
+		for i in xrange(numCourses):
+			if self.__checkLoop(i,inverseAdj,visited):
+				return False
+		return True
+		
+	# 0表示未访问，-1表示其他节点访问过了，1表示本节点正在访问	
+	def __checkLoop(self,vertex,inverseAdj,visited):
+		if visited[vertex]==-1:
+			return False
+		if visited[vertex]==1:
+			return True
+		visited[vertex] = 1	
+		vertexes = inverseAdj[vertex]
+		for i in vertexes:
+			if self.__checkLoop(i,inverseAdj,visited):
+				return True
+		visited[vertex] = -1
+		return False
 		
