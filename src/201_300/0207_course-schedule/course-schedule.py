@@ -45,7 +45,41 @@ class Solution(object):
 		return count==numCourses
 		
 		
-			
+		
+	# BFS 精简代码
+	def canFinish(self, numCourses, prerequisites):		
+		"""
+		:type numCourses: int
+		:type prerequisites: List[List[int]]
+		:rtype: bool
+		"""
+		if numCourses<=0 or not prerequisites:
+			return True
+		adj = [[] for _ in xrange(numCourses)]
+		in_degree = [0 for _ in xrange(numCourses)]
+		queue = []
+		count = 0
+		for arr in prerequisites:
+			adj[arr[1]].append(arr[0])
+		for i in xrange(numCourses):
+			arr = adj[i]
+			for j in arr:
+				in_degree[j] += 1
+		for i in xrange(len(in_degree)):
+			if in_degree[i]==0:
+				queue.append(i)
+		while queue:
+			i = queue.pop(0)
+			count += 1
+			arr = adj[i]
+			for k in arr:
+				in_degree[k] -= 1
+				if in_degree[k]==0:
+					queue.append(k)
+		return count==numCourses		
+		
+		
+		
 # DFS实现	
 class Solution(object):
 	def canFinish(self, numCourses, prerequisites):		
