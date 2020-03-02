@@ -1,4 +1,5 @@
 ﻿class Solution(object):
+	# BFS，Kahn算法
 	def findOrder(self, numCourses, prerequisites):
 		"""
 		:type numCourses: int
@@ -29,3 +30,36 @@
 				if in_degree[j]==0:
 					queue.append(j)
 		return res if count==numCourses else []
+		
+		
+	# DFS 实现
+	def findOrder(self, numCourses, prerequisites):
+		"""
+		:type numCourses: int
+		:type prerequisites: List[List[int]]
+		:rtype: List[int]
+		"""
+		if numCourses<=0:
+			return []
+		if not prerequisites:
+			return [i for i in xrange(numCourses)]
+		inverse_adj = [[] for _ in xrange(numCourses)]
+		visited = [0 for _ in xrange(numCourses)]
+		for second,first in prerequisites:
+			inverse_adj[second].append(first)
+		res = []
+		def dfs(i):
+			if visited[i]==-1:
+				return False
+			if visited[i]==1:
+				return True
+			visited[i] = 1
+			for j in inverse_adj[i]:
+				if dfs(j):
+					return True
+			visited[i] = -1
+			res.append(i)
+		for i in xrange(len(inverse_adj)):
+			if dfs(i):
+				return []
+		return res
