@@ -1,22 +1,21 @@
 ﻿class Solution(object):
 	def orangesRotting(self, grid):
 		if not grid:
-			return 0
-		dx = [1,-1,0,0]
-		dy = [0,0,1,-1]
-		rootList = []
+			return -1
 		n = len(grid)
 		m = len(grid[0])
 		rootList = []
 		minutes = 0
+		dx = [1,-1,0,0]
+		dy = [0,0,1,-1]
 		for i in xrange(n):
 			for j in xrange(m):
 				if grid[i][j]==2:
 					rootList.append([i,j])
 		while rootList:
 			size = len(rootList)
-			tmp = []
-			for node in rootList:
+			for _ in xrange(size):
+				node = rootList.pop(0)
 				x0 = node[0]
 				y0 = node[1]
 				for i in xrange(4):
@@ -24,14 +23,12 @@
 					y = y0 + dy[i]
 					if 0<=x<n and 0<=y<m and grid[x][y]==1:
 						grid[x][y] = 2
-						tmp.append([x,y])
-			if not tmp:
+						rootList.append([x,y])
+			if not rootList:
 				break
-			rootList = tmp
 			minutes += 1
-		# end while
 		for i in xrange(n):
 			for j in xrange(m):
 				if grid[i][j]==1:
 					return -1
-		return minutes	
+		return minutes
