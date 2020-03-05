@@ -31,6 +31,7 @@
 					queue.append(j)
 		return res if count==numCourses else []
 		
+
 		
 	# DFS 实现
 	def findOrder(self, numCourses, prerequisites):
@@ -59,6 +60,7 @@
 					return True
 			visited[i] = -1
 			res.append(i)
+			return False
 		for i in xrange(len(inverse_adj)):
 			if dfs(i):
 				return []
