@@ -293,9 +293,11 @@
 |面试题57-II|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/57.II.%E5%92%8C%E4%B8%BAs%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.py)|go||Easy|
 |面试题58-I|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.I.%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F/fan-zhuan-dan-ci-shun-xu-lcof.py)|go||Easy|
 |面试题58-II|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/58.II.%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/zuo-xuan-zhuan-zi-fu-chuan-lcof.py)|go||Easy|
+|面试题59-II|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/59.II.%E9%98%9F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/dui-lie-de-zui-da-zhi-lcof.py)|go||Medium|
 |面试题63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/63.%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6/gu-piao-de-zui-da-li-run-lcof.py)|go||Medium|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 |面试题67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/67.%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|go||Medium|
+
 
 
 
