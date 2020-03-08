@@ -36,7 +36,7 @@
 |0034|[Find First and Last Position of Element in Sorted Array(在排序数组中查找元素的第一个和最后一个位置)](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|c|c++|java|[python](./src/1_100/0034_find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.py)|go||Medium|
 |0035|[Search Insert Position(搜索插入位置)](https://leetcode-cn.com/problems/search-insert-position/)|c|c++|java|[python](./src/1_100/0035_Search_Insert_Position/Search_Insert_Position.py)|go||Easy|
 |0036|[Valid Sudoku(有效的数独)](https://leetcode-cn.com/problems/valid-sudoku/)|c|c++|java|[python](./src/1_100/0036_Valid_Sudoku/Valid_Sudoku.py)|go||Medium|
-|0038|[Count and Say(报数)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go||Easy|
+|0038|[Count and Say](https://leetcode.com/problems/count-and-say/)[(外观数列)](https://leetcode-cn.com/problems/count-and-say/)|c|c++|java|[python](./src/1_100/0038_Count_and_Say/Count_and_Say.py)|go||Easy|
 |0039|[Combination Sum(组合总和)](https://leetcode-cn.com/problems/combination-sum/)|c|c++|[java](./src/1_100/0039_Combination_Sum/Combination_Sum.java)|[python](./src/1_100/0039_Combination_Sum/Combination_Sum.py)|go||Medium|
 |0040|[Combination Sum II(组合总和2)](https://leetcode-cn.com/problems/combination-sum-ii/)|c|c++|[java](./src/1_100/0040_combination-sum-ii/combination-sum-ii.java)|python|go||Medium|
 |0041|[First Missing Positive(缺失的第一个正数)](https://leetcode-cn.com/problems/first-missing-positive/)|c|c++|java|[python](./src/1_100/0041_first-missing-positive/first-missing-positive.py)|go||Hard|
