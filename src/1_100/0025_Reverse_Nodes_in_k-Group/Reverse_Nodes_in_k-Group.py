@@ -27,3 +27,31 @@
 			else:
 				break
 		return p.next
+		
+		
+		
+	# 栈实现
+	def reverseKGroup(self, head, k):
+		if not head or k<=0:
+			return head
+		stack = []
+		dummy = ListNode(-1)
+		dummy.next = head
+		p = dummy
+		n = k
+		while p and p.next:
+			tmp = p.next
+			while tmp and n>0:
+				stack.append(tmp)
+				tmp = tmp.next
+				n -= 1
+			next_node = stack[-1].next
+			if n==0:
+				while stack:
+					p.next = stack.pop()
+					p = p.next
+			else:
+				break
+			p.next = next_node
+			n = k
+		return dummy.next
