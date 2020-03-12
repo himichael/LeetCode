@@ -78,6 +78,45 @@
 		return res		
 		
 		
+	# 递归(超时)
+	def maxProfit(self, prices):
+		if not prices:
+			return 0
+		self.res = 0
+		n = len(prices)
+		def dfs(index):
+			if n==index:
+				return
+			for i in xrange(index+1,n):
+				if (prices[i]-prices[index])>self.res:
+					self.res = prices[i]-prices[index]
+			dfs(index+1)
+		dfs(0)
+		return self.res
+		
+		
+		
+	# 递归+记忆化(超时)
+	def maxProfit(self, prices):
+		if not prices:
+			return 0
+		self.res = 0
+		n = len(prices)
+		mem = [-1 for _ in xrange(n)]
+		def dfs(index):
+			if index==n:
+				return
+			if mem[index]>-1:
+				return mem[index]
+			for i in xrange(index+1,n):
+				if prices[i]-prices[index]>self.res:
+					self.res = prices[i]-prices[index]
+			mem[index] = self.res
+			dfs(index+1)
+		dfs(0)
+		return self.res
+	
+		
 		
 		
 		
