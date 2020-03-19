@@ -3,24 +3,18 @@
 		"""
 		:type s: str
 		:rtype: int
-		"""
+		"""	
 		if not s:
-			return 0
+			return 0		
 		d = dict()
 		for i in s:
-			if i not in d:
-				d[i] = 1
-			else:
-				d[i] += 1
+			d[i] = d.setdefault(i,0) +1
 		res = 0
 		is_include_even = False
 		for i in d:
 			if d[i]%2==0:
 				res += d[i]
 			else:
-				tmp = d[i] - (d[i]%2)
-				res += tmp
+				res += d[i]-1
 				is_include_even = True
-		if is_include_even:
-			res += 1
-		return res
+		return res+1 if is_include_even else res
