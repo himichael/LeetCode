@@ -37,3 +37,17 @@ class Solution(object):
 		if fast:
 			return low.next
 		return low
+		
+		
+		
+	# 快慢指针都执行head	
+	def middleNode(self, head):
+		if not (head and head.next):
+			return head
+		a,b = head,head
+		while b and b.next:
+			a = a.next
+			b = b.next.next
+		return a 
+		
+		
