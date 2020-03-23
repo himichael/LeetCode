@@ -39,3 +39,33 @@
 			mem[pre+1][cur] = max(a,b)
 			return mem[pre+1][cur]
 		return dfs(-1,0)
+		
+		
+		
+	# 基于二分的O(NlogN)实现	
+	def lengthOfLIS(self, nums):	
+		if not nums:
+			return 0
+		n = len(nums)
+		if n<=1:
+			return n
+		dp = [nums[0]]
+		for i in xrange(1,n):
+			if nums[i]>dp[-1]:
+				dp.append(nums[i])
+			else:
+				begin = 0
+				end = len(dp)-1
+				while begin<=end:
+					mid = begin+(end-begin)/2
+					if dp[mid]<nums[i]:
+						begin = mid+1
+					elif dp[mid]>nums[i]:
+						end = mid-1
+					else:
+						begin = mid
+						break
+				dp[begin] = nums[i]
+		return len(dp)		
+		
+		
