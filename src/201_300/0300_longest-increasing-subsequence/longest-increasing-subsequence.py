@@ -16,8 +16,26 @@
 			res = max(res,dp[i])
 		return res
 		
-		
 
+		
+	# 递归(超时)
+	def lengthOfLIS(self, nums):	
+		if not nums:
+			return 0
+		n = len(nums)
+		def dfs(pre,cur):
+			if cur==n:
+				return 0
+			a,b = 0,0
+			if pre<0 or nums[pre]<nums[cur]:
+				a = dfs(cur,cur+1)+1
+			b = dfs(pre,cur+1)
+			return max(a,b)
+		return dfs(-1,0)
+		
+		
+		
+	# 递归+记忆化(超时)
 	def lengthOfLIS(self, nums):
 		"""
 		:type nums: List[int]
