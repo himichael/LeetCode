@@ -1,25 +1,17 @@
 ﻿class Solution(object):
-	def uncommonFromSentences(self, A, B):
-		"""
-		:type A: str
-		:type B: str
-		:rtype: List[str]
-		"""
-		if not (A or B):
-			return []
-		d = dict()
-		res = []
-		for i in A.split(" "):
-			if i not in d:
-				d[i] = 1
-			else:
-				d[i] += 1
-		for i in B.split(" "):
-			if i not in d:
-				d[i] = 1
-			else:
-				d[i] += 1
-		for i in d:
-			if d[i]==1:
-				res.append(i)
+	def surfaceArea(self, grid):
+		if not grid:
+			return 0
+		N = len(grid)
+		res = 0
+		for i in xrange(N):
+			for j in xrange(N):
+				if grid[i][j]>0:
+					res += 2
+					for r,c in ( (i+1,j),(i-1,j),(i,j+1),(i,j-1) ):
+						if 0<=r<N and 0<=c<N:
+							tmp = grid[r][c]
+						else:
+							tmp = 0
+						res += max(grid[i][j]-tmp,0)
 		return res
