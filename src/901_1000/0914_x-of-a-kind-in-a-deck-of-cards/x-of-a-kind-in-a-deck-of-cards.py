@@ -33,5 +33,26 @@
 					res = gdc(res,count[i])
 		return res>=2
 		
+
+		
+	# 用哈希表+GCD算法
+	def hasGroupsSizeX(self, deck):
+		"""
+		:type deck: List[int]
+		:rtype: bool
+		"""
+		if not deck or len(deck)<2:
+			return False
+		d = dict()
+		for i in deck:
+			d[i] = d.setdefault(i,0)+1
+		def gcd(a,b):
+			return a if not b else gcd(b,a%b)
+		x = d[deck[0]]
+		for k in d.values():
+			if k==1:
+				return False
+			x = gcd(x,k)
+		return x>=2
 		
 		
