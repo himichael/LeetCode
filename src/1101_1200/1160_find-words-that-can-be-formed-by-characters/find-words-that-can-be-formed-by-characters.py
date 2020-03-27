@@ -28,3 +28,23 @@
 			if is_ok:
 				res += len(word)
 		return res
+		
+		
+		
+	# 精简代码	
+	def countCharacters(self, words, chars):
+		if not (words and chars):
+			return 0
+		chars_cnt = collections.Counter(chars)
+		res = 0
+		for word in words:
+			word_cnt = collections.Counter(word)
+			for c in word:
+				if chars_cnt[c]<word_cnt[c]:
+					break
+			else:
+				res += len(word)
+		return res
+		
+		
+		
