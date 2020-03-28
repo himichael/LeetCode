@@ -69,3 +69,15 @@ class Solution(object):
 			
 			
 			
+	# 利用哈希实现		
+	def minimumLengthEncoding(self, words):
+		if not words:
+			return 0
+		good = set(words)
+		for word in words:
+			for k in xrange(1,len(word)):
+				good.discard(word[k:])
+		return sum(len(word)+1 for word in good)
+		
+		
+			
