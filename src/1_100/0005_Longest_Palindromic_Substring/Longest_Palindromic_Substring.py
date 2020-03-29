@@ -21,3 +21,31 @@
 				start = i-(max_len-1)/2
 				end = i+1+(max_len)/2
 		return s[start:end]
+		
+		
+		
+	# 暴力解法(超时)
+	def longestPalindrome(self, s):	
+		if not s or len(s)<2:
+			return s
+		N = len(s)
+		max_len = 0
+		left,right = 0,0
+		def valid(begin,end):
+			size = 0
+			while begin<end:
+				if s[begin]==s[end]:
+					begin += 1
+					end -= 1
+				else:
+					return False
+			return True
+		for j in xrange(0,N):
+			for i in xrange(j+1):
+				if valid(i,j) and j-i+1>max_len:
+					max_len = j-i+1
+					left = i
+					right = j+1
+		return s[left:right]
+
+		
