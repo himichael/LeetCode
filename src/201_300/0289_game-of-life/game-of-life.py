@@ -38,4 +38,30 @@
 			return 1
 		else:
 			return 0
+			
+			
+			
+			
+	# 另一种实现
+	def gameOfLife(self, board):
+		if not board:
+			return 
+		direct = [(1,1),(1,-1),(-1,1),(-1,-1),(1,0),(0,1),(-1,0),(0,-1)]
+		N = len(board)
+		M = len(board[0])
+		for i in xrange(N):
+			for j in xrange(M):
+				live_count = 0
+				for k in direct:
+					x = i + k[0]
+					y = j + k[1]
+					if 0<=x<N and 0<=y<M:
+						live_count += board[x][y] & 1
+				if board[i][j] and 2<=live_count<=3:
+					board[i][j] = 3
+				if not board[i][j] and live_count==3:
+					board[i][j] = 2
+		for i in xrange(N):
+			for j in xrange(M):
+				board[i][j] >>= 1
 				
