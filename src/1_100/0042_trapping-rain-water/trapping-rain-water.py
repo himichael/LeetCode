@@ -44,4 +44,21 @@
 		return ans	
 		
 		
+	# 暴力(超时)
+	def trap(self, height):
+		if not height:
+			return 0		
+		N = len(height)
+		ans = 0
+		for i in xrange(1,N-1):
+			left_max,right_max = 0,0
+			for j in xrange(i,-1,-1):
+				left_max = max(left_max,height[j])
+			for k in xrange(i,N):
+				right_max = max(right_max,height[k])
+			ans += min(left_max,right_max)-height[i]
+		return ans	
+		
+		
+		
 		
