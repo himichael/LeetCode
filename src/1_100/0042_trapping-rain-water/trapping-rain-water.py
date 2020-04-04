@@ -60,5 +60,24 @@
 		return ans	
 		
 		
+	# 动态规划
+	def trap(self, height):
+		if not height:
+			return 0		
+		N = len(height)
+		ans = 0
+		left_max = [0 for _ in xrange(N)]
+		right_max = [0 for _ in xrange(N)]
+		left_max[0] = height[0]
+		right_max[N-1] = height[N-1]
+		for i in xrange(1,N):
+			left_max[i] = max(left_max[i-1],height[i])
+		for i in xrange(N-2,0,-1):
+			right_max[i] = max(right_max[i+1],height[i])
+		for i in xrange(1,N-1):
+			ans += min(left_max[i],right_max[i])-height[i]
+		return ans
+
+
 		
 		
