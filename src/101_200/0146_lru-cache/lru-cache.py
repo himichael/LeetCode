@@ -105,6 +105,8 @@ class LRUCache(object):
             self.link_list.delete(tmp)
             del self.cache[tmp.key]
         else:
+            if self.size==0:
+                return
             if(self.remain > 0):
                 if(key not in self.cache):
                     self.remain -=1
