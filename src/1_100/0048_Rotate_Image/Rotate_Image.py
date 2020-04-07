@@ -9,3 +9,8 @@
 				tmp = arr[i][j]
 				arr[i][j] = arr[j][i]
 				arr[j][i] = tmp
+				
+				
+				
+	def rotate(self, matrix):
+		matrix[:] = zip(*reversed(matrix))
