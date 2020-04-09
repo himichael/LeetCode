@@ -8,6 +8,7 @@
 6.编辑距离		Hard
 7.旋转矩阵		Medium
 8.机器人的运动范围  	Medium
+9.括号生成		Medium
 
 
 
