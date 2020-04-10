@@ -47,3 +47,30 @@
 		reverse(arr,0,len(arr)-1)
 		reverse_each_word(arr)
 		return "".join(arr)
+		
+		
+		
+	# 双端队列实现
+	def reverseWords(self, s):	
+		if not s:
+			return s
+		left = 0
+		right = len(s)-1
+		while left<=right and s[left]==" ":
+			left += 1
+		while left<=right and s[right]==" ":
+			right -= 1
+		d = collections.deque()
+		word = []
+		while left<=right:
+			if s[left]==" " and word:
+				d.appendleft("".join(word))
+				word = []
+			elif s[left]!=" ":
+				word.append(s[left])
+			left += 1
+		if word:
+			d.appendleft("".join(word))
+		return " ".join(d)
+		
+		
