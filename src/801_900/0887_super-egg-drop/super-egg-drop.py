@@ -81,3 +81,15 @@
 		
 		
 		
+	# 动态规划，空间优化到O(N)，时间复杂度不变	
+	def superEggDrop(self, K, N):
+		dp = [0 for _ in xrange(K+1)]
+		count = 0
+		while dp[K]<N:
+			count += 1
+			for i in xrange(K,0,-1):
+				dp[i] = dp[i-1] + dp[i] + 1
+		return count	
+		
+		
+		
