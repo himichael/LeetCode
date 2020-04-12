@@ -80,3 +80,24 @@
 		return dp[-1][-1]
 
 
+
+	# 递归+备忘录，用dict做备忘录
+	def minDistance(self, word1, word2):
+		n = len(word1)
+		m = len(word2)
+		cache = dict()
+		def dfs(i,j):
+			if i==n or j==m:
+				return n-i + m-j
+			if (i,j) in cache:
+				return cache[i,j]
+			if word1[i]==word2[j]:
+				cache[i,j] = dfs(i+1,j+1)
+			else:
+				a = dfs(i,j+1)
+				b = dfs(i+1,j)
+				c = dfs(i+1,j+1)
+				cache[i,j] = min(a,b,c)+1
+			return cache[i,j]
+		return dfs(0,0)
+
