@@ -235,7 +235,7 @@
 |0627|[swap-salary(交换工资-SQL题目)](https://leetcode-cn.com/problems/swap-salary/)|[sql](./src/601_700/0627_swap-salary/swap-salary.sql)|c++|java|python|go||Easy|
 |0637|[Average of Levels in Binary Tree(二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|c|c++|java|[python](./src/601_700/0637_average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.py)|go||Easy|
 |0654|[maximum-binary-tree(最大二叉树)](https://leetcode-cn.com/problems/maximum-binary-tree/)|c|c++|java|[python](./src/601_700/0654_maximum-binary-tree/maximum-binary-tree.py)|go||Medium|
-|0657|[Robot Return to Origin(机器人能否返回原点)](https://leetcode-cn.com/problems/robot-return-to-origin/)|c|c++|java|[python](./src/601_700/0657_robot-return-to-origin/robot-return-to-origin.py)|go||Medium|
+|0657|[Robot Return to Origin(机器人能否返回原点)](https://leetcode-cn.com/problems/robot-return-to-origin/)|c|c++|java|[python](./src/601_700/0657_robot-return-to-origin/robot-return-to-origin.py)|go||Easy|
 |0658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)[(找到 K 个最接近的元素)](https://leetcode-cn.com/problems/find-k-closest-elements/)|c|c++|java|[python](./src/601_700/0658_find-k-closest-elements/find-k-closest-elements.py)|go||Medium|
 |0677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)[(键值映射)](https://leetcode-cn.com/problems/map-sum-pairs/)|c|c++|java|[python](./src/601_700/0677_map-sum-pairs/map-sum-pairs.py)|go||Medium|
 |0684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)[(冗余连接)](https://leetcode-cn.com/problems/redundant-connection/)|c|c++|java|[python](./src/601_700/0684_redundant-connection/redundant-connection.py)|go||Medium|
