@@ -71,3 +71,87 @@ class Solution(object):
             head.next = carry_link
             carry_link.next = res_link
         return head.next
+		
+	
+	
+	# 基于栈的实现 
+	def addTwoNumbers(self, l1, l2):	
+		s1 = []
+		s2 = []
+		while l1:
+			s1.append(l1.val)
+			l1 = l1.next
+		while l2:
+			s2.append(l2.val)
+			l2 = l2.next
+		head = None
+		carry = 0
+		while s1 or s2:
+			n = carry
+			n += s1.pop() if s1 else 0
+			n += s2.pop() if s2 else 0
+			carry = 1 if n>=10 else 0
+			cur = ListNode(n%10)
+			cur.next = head
+			head = cur
+		if carry:
+			cur = ListNode(1)
+			cur.next = head
+		return cur
+		
+		
+		
+	# 递归+反转
+	def addTwoNumbers(self, l1, l2):	
+		def reverse(head):
+			pre,cur = None,head
+			while cur:
+				cur.next,pre,cur = pre,cur,cur.next
+			return pre
+		def add(a,b,carry):
+			if not (a or b):
+				return ListNode(1) if carry else None
+			a = a if a else ListNode(0)
+			b = b if b else ListNode(0)
+			a.val = a.val+b.val+carry
+			carry = 1 if a.val>=10 else 0
+			a.val %= 10
+			a.next = add(a.next,b.next,carry)
+			return a 
+		p = add( reverse(l1),reverse(l2),0 )
+		return reverse(p)		
+		
+		
+		
+	#迭代+反转	
+	def addTwoNumbers(self, l1, l2):		
+		def reverse(head):
+			pre,cur = None,head
+			while cur:
+				cur.next,pre,cur = pre,cur,cur.next
+			return pre
+		p = None
+		l1 = reverse(l1)
+		l2 = reverse(l2)
+		a,b = l1,l2
+		carry = 0
+		while a or b:
+			val = (a.val if a else 0) + (b.val if b else 0) + carry
+			p = a if a else b
+			carry = 1 if val>=10 else 0
+			p.val = val%10
+			a = a.next if a else None
+			b = b.next if b else None
+			p.next = a if a else b
+		if carry:
+			p.next = ListNode(1)
+		return reverse(l1)		
+		
+		
+		
+		
+		
+		
+		
+		
+		
