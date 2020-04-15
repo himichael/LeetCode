@@ -23,3 +23,33 @@
 					queue.append((x,y))
 					cache.add((x,y))
 		return arr
+		
+		
+		
+	# 增加dp实现	
+	def updateMatrix(self, matrix):			
+		if not matrix:
+			return []
+		n = len(matrix)
+		m = len(matrix[0])
+		dist = [[float("inf")]*m for _ in xrange(n)]
+		for i in xrange(n):
+			for j in xrange(m):
+				if matrix[i][j]==0:
+					dist[i][j] = 0
+		for i in xrange(n):
+			for j in xrange(m):
+				if i-1>=0:
+					dist[i][j] = min(dist[i][j],dist[i-1][j]+1)
+				if j-1>=0:
+					dist[i][j] = min(dist[i][j],dist[i][j-1]+1)
+		for i in xrange(n-1,-1,-1):
+			for j in xrange(m-1,-1,-1):
+				if i+1<n:
+					dist[i][j] = min(dist[i][j],dist[i+1][j]+1)
+				if j+1<m:
+					dist[i][j] = min(dist[i][j],dist[i][j+1]+1)
+		return dist
+		
+		
+		
