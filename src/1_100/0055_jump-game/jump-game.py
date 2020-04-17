@@ -54,6 +54,21 @@
 			return cache[index]
 		return dfs(0)	
 
+		
+		
+	# 另一种递归实现(超时)
+	def canJump(self, nums):
+		if not nums:
+			return True
+		n = len(nums)
+		def dfs(index):
+			if index==n-1:
+				return True
+			for i in xrange(1,nums[index]+1):
+				if dfs(index+i):
+					return True
+			return False
+		return dfs(0)
 
 
 
