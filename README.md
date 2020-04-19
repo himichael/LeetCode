@@ -210,6 +210,7 @@
 |0454|[4Sum II](https://leetcode.com/problems/4sum-ii/)[(四数相加 II)](https://leetcode-cn.com/problems/4sum-ii/)|c|c++|java|[python](./src/401_500/0454_4sum-ii/4sum-ii.py)|go||Medium|
 |0460|[LFU Cache](https://leetcode.com/problems/lfu-cache/)[(LFU缓存)](https://leetcode-cn.com/problems/lfu-cache/)|c|c++|java|[python](./src/401_500/0460_lfu-cache/lfu-cache.py)|go||Hard|
 |0461|[Hamming Distance(汉明距离)](https://leetcode-cn.com/problems/hamming-distance/)|c|c++|java|[python](./src/401_500/0461_hamming-distance/hamming-distance.py)|go||Easy|
+|0466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)[(统计重复个数)](https://leetcode-cn.com/problems/count-the-repetitions/)|c|c++|java|[python](./src/401_500/0466_count-the-repetitions/count-the-repetitions.py)|go||Hard|
 |0475|[Heaters](https://leetcode.com/problems/heaters/)[(供暖器)](https://leetcode-cn.com/problems/heaters/)|c|c++|java|[python](./src/401_500/0475_heaters/heaters.py)|go||Easy|
 |0485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)[(最大连续1的个数)](https://leetcode-cn.com/problems/max-consecutive-ones/)|c|c++|java|[python](./src/401_500/0485_max-consecutive-ones/max-consecutive-ones.py)|go||Easy|
 |0497|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)[(非重叠矩形中的随机点)](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles/)|c|c++|java|[python](./src/401_500/0497_random-point-in-non-overlapping-rectangles/random-point-in-non-overlapping-rectangles.py)|go||Medium|
