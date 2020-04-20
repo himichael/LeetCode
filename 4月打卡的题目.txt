@@ -13,12 +13,14 @@
 11.鸡蛋掉落  		Hard
 12.交点			Hard
 13.设计推特		Medium
-15.两数相加 II  	Medium
-16.0-1矩阵		Medium
-17.合并区间		Medium
-18.跳跃游戏		Medium
-19.盛最多水的容器  	Medium
-20.统计重复个数  	Hard
+14.两数相加 II  	Medium
+15.0-1矩阵		Medium
+16.合并区间		Medium
+17.跳跃游戏		Medium
+18.盛最多水的容器  	Medium
+19.统计重复个数  	Hard
+20.岛屿的数量		Medium
+
 
 
 
