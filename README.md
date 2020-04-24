@@ -319,6 +319,7 @@
 |面试题40|[最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/40.%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0/zui-xiao-de-kge-shu-lcof.py)|go||Easy|
 |面试题42|[连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/42.%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|go||Easy|
 |面试题48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/48.%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.py)|go||Medium|
+|面试题51|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/51.%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%80%86%E5%BA%8F%E5%AF%B9/shu-zu-zhong-de-ni-xu-dui-lcof.py)|go||Hard|
 |面试题54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/54.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.py)|go||Easy|
 |面试题55-I|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/55.I.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6/er-cha-shu-de-shen-du-lcof.py)|go||Easy|
 |面试题55-II|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/55.II.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/ping-heng-er-cha-shu-lcof.py)|go||Easy|
@@ -330,6 +331,7 @@
 |面试题63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/63.%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6/gu-piao-de-zui-da-li-run-lcof.py)|go||Medium|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 |面试题67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/67.%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|go||Medium|
+
 
 
 
