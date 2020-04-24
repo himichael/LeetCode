@@ -24,6 +24,8 @@
 22.二叉树的右视图	Medium
 23.硬币			Medium
 24.数组中的逆序对	Hard
+25.全排列		Medium
+
 
 
 
