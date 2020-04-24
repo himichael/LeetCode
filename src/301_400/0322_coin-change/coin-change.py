@@ -1,10 +1,24 @@
 ﻿class Solution(object):
+	# 递归(超时)
 	def coinChange(self, coins, amount):
-		"""
-		:type coins: List[int]
-		:type amount: int
-		:rtype: int
-		"""	
+		if not coins:
+			return 0
+		def f(n):
+			if n<=0:
+				return -1 if n<0 else 0
+			res = float("inf")
+			for c in coins:
+				if n-c>=0:
+					sub = f(n-c)
+					if sub>-1:
+						res = min(res,sub+1)
+			return -1 if res==float("inf") else res
+		return f(amount)
+
+
+
+	# 递归+记忆化
+	def coinChange(self, coins, amount):
 		if not coins:
 			return 0
 		mem = [-1] * (amount+1)
@@ -23,6 +37,7 @@
 			return -1 if res==float("inf") else res
 		ans = f(amount)
 		return ans if ans>-1 else -1
+
 
 
 	# 动态规划
