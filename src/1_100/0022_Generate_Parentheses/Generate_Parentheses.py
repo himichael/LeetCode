@@ -54,3 +54,23 @@
 			if right<left and right<n:
 				queue.append((left,right+1,tmp+")"))
 		return res
+		
+		
+	# DP实现，卡特兰数
+	def generateParenthesis(self, n):
+		if n<=0:
+			return []
+		dp = []
+		dp.append([""])
+		for i in xrange(1,n+1):
+			tmp = []
+			for j in xrange(i):
+				str1 = dp[j]
+				str2 = dp[i-j-1]
+				for s1 in str1:
+					for s2 in str2:
+						tmp.append( "("+s1+")"+s2)
+			dp.append(tmp)
+		return dp[n]
+		
+		
