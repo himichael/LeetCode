@@ -19,3 +19,35 @@
 				ans += dp[odd-k]
 			dp[odd] += 1
 		return ans
+		
+		
+		
+	# 滑动窗口解法	
+	def numberOfSubarrays(self, nums, k):
+		if not nums or k<=0:
+			return 0
+		n = len(nums)
+		left = 0
+		right = 0
+		odd_cnt = 0
+		res = 0
+		while right<n:
+			if (nums[right]&1)==1:
+				odd_cnt += 1
+			right += 1
+			if odd_cnt==k:
+				tmp = right
+				while right<n and (nums[right]&1)==0:
+					right += 1
+				right_event_cnt = right - tmp
+				left_event_cnt = 0
+				while (nums[left]&1)==0:
+					left_event_cnt += 1
+					left += 1
+				res += (left_event_cnt+1) * (right_event_cnt+1)
+				left += 1
+				odd_cnt -= 1
+		return res
+		
+		
+		
