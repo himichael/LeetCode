@@ -114,3 +114,61 @@ class Twitter(object):
 		self.follow_map.setdefault(followerId,set()).discard(followeeId)
 
 
+
+
+
+"""
+	基于链表的实现
+"""
+class Node(object):
+	def __init__(self,time,tid,next=None):
+		self.time = time
+		self.tid = tid
+		self.next = next
+		
+	def __lt__(self,other):
+		return self.time > other.time
+	
+
+class Twitter(object):
+	def __init__(self):
+		self.message = dict()
+		self.follow_map = dict()
+		self.time = 0
+		
+	def postTweet(self, userId, tweetId):
+		self.time += 1
+		node = Node(self.time,tweetId)
+		node.next = self.message.setdefault(userId,None)
+		self.message[userId] = node
+
+	def getNewsFeed(self, userId):
+		queue = []
+		ans = []
+		userId_node = self.message.setdefault(userId,None)
+		if userId_node:
+			heapq.heappush(queue,userId_node)
+		for uid in self.follow_map.setdefault(userId,set()):
+			node = self.message.setdefault(uid,None)
+			if node:
+				heapq.heappush(queue,node)
+		while queue and len(ans)<10:
+			node = heapq.heappop(queue)
+			if node:
+				ans.append(node.tid)
+			if node.next:
+				heapq.heappush(queue,node.next)
+		return ans
+		
+	def follow(self, followerId, followeeId):
+		if followerId==followeeId:
+			return 
+		self.follow_map.setdefault(followerId,set()).add(followeeId)
+
+
+	def unfollow(self, followerId, followeeId):
+		if followerId==followeeId:
+			return 
+		self.follow_map.setdefault(followerId,set()).discard(followeeId)
+		
+		
