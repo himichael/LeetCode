@@ -3,6 +3,7 @@
 2.无重复字符的最长子串  Medium
 3.最大子序和   		Easy
 4.跳跃游戏 II		Hard
+5.验证二叉搜索树	Medium
 
 
 
