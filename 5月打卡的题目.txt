@@ -5,7 +5,7 @@
 4.跳跃游戏 II		Hard
 5.验证二叉搜索树	Medium
 6.最低票价  		Medium
-
+7.另一个树的子树	Easy
 
 
 
