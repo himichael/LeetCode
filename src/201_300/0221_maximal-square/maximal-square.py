@@ -27,3 +27,29 @@
 						else:
 							break
 		return max_side**2
+		
+		
+		
+	# 动态规划
+    def maximalSquare(self, matrix):
+        if not matrix or not matrix[0]:
+            return 0
+        n = len(matrix)
+        m = len(matrix[0])
+        dp = [[0 for _ in xrange(m)] for _ in xrange(n)]
+        max_side = 0
+        for i in xrange(n):
+            dp[i][0] = 1 if matrix[i][0]=="1" else 0
+            max_side = max(max_side,dp[i][0])
+        for i in xrange(m):
+            dp[0][i] = 1 if matrix[0][i]=="1" else 0
+            max_side = max(max_side,dp[0][i])
+        for i in xrange(1,n):
+            for j in xrange(1,m):
+                if matrix[i][j]=="1":
+					dp[i][j] = min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1
+					max_side = max(max_side,dp[i][j])
+        return max_side**2	
+		
+		
+		
