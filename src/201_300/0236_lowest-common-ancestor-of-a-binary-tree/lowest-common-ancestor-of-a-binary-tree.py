@@ -91,3 +91,18 @@ class Solution(object):
 			a = d.get(a,q)
 			b = d.get(b,p)
 		return a		
+		
+		
+		
+	# 不需要存储父节点方式的DFS解法
+    def lowestCommonAncestor(self, root, p, q):
+		def dfs(root,a,b):
+			if not root or root==a or root==b:
+				return root
+			left = dfs(root.left,a,b)
+			right = dfs(root.right,a,b)
+			if left and right:
+				return root
+			else:
+				return left if left else right
+		return dfs(root,p,q)
