@@ -55,3 +55,28 @@
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
+
+
+## 用一个栈来实现
+class MinStack(object):
+    def __init__(self):
+        self.stack = []
+        self.inner = []
+
+    def push(self, x):
+        if len(self.inner)==0 or self.inner[-1]>=x:
+            self.inner.append(x)
+        self.stack.append(x)
+
+    def pop(self):
+        val = self.stack.pop()
+        if val==self.inner[-1]:
+            self.inner.pop()
+        return val
+
+    def top(self):
+        return self.stack[-1]
+
+    def getMin(self):
+        return self.inner[-1]
+		

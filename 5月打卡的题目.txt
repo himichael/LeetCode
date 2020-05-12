@@ -10,6 +10,9 @@
 9.x 的平方根  		Easy	
 10.二叉树的最近公共祖先 Medium
 11.Pow(x, n)  		Medium
+12.最小栈		Easy
+
+
 
 
 
