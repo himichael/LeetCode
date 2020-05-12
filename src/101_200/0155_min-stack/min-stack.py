@@ -61,22 +61,49 @@
 class MinStack(object):
     def __init__(self):
         self.stack = []
-        self.inner = []
 
     def push(self, x):
-        if len(self.inner)==0 or self.inner[-1]>=x:
-            self.inner.append(x)
-        self.stack.append(x)
+        if not self.stack:
+            self.stack.append(x)
+            self.stack.append(x)
+        else:
+            val = self.stack[-1]
+            self.stack.append(x)
+            if val<=x:
+                self.stack.append(val)
+            else:
+                self.stack.append(x)
 
     def pop(self):
-        val = self.stack.pop()
-        if val==self.inner[-1]:
-            self.inner.pop()
-        return val
+        self.stack.pop()
+        return self.stack.pop()
 
     def top(self):
-        return self.stack[-1]
+        return self.stack[-2]
 
     def getMin(self):
-        return self.inner[-1]
+        return self.stack[-1]
+		
+		
+		
+## 用一个栈实现，python的元组写法，更简洁
+class MinStack(object):
+    def __init__(self):
+        self.stack = []
+
+    def push(self, x):
+        if not self.stack:
+            self.stack.append((x,x))
+        else:
+            self.stack.append((x,min(self.stack[-1][1],x)))
+
+    def pop(self):
+        return self.stack.pop()
+
+    def top(self):
+        return self.stack[-1][0]
+
+    def getMin(self):
+        return self.stack[-1][1]		
+		
 		
