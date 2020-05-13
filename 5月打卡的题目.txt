@@ -11,6 +11,7 @@
 10.二叉树的最近公共祖先 Medium
 11.Pow(x, n)  		Medium
 12.最小栈		Easy
+13.二叉树的层序遍历  	Medium
 
 
 
