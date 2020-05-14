@@ -12,6 +12,8 @@
 11.Pow(x, n)  		Medium
 12.最小栈		Easy
 13.二叉树的层序遍历  	Medium
+14.只出现一次的数字  	Easy
+
 
 
 
