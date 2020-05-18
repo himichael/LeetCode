@@ -35,4 +35,28 @@ class Solution(object):
                 res.append(tmp)
                 is_reverse = True
         return res
+		
+		
+		
+	# DFS方式
+    def zigzagLevelOrder(self, root):
+        if not root:
+            return []
+        ans = []
+        def dfs(root,index):
+            if not root:
+                return
+            if len(ans)<index:
+                ans.append([])
+            if (index&1)==1:
+                ans[index-1].append(root.val)
+            else:
+                ans[index-1].insert(0,root.val)
+            dfs(root.left,index+1)
+            dfs(root.right,index+1)
+        dfs(root,1)
+        return ans
+		
+		
+		
         
