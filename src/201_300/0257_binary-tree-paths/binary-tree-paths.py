@@ -50,4 +50,28 @@ class Solution(object):
             dfs(root.right,s+str(root.val)+"->")
         dfs(root,"")    
         return res
+		
+		
+		
+	# BFS实现	
+    def binaryTreePaths(self, root):
+        if not root:
+            return []
+        res = []
+        queue = [(root,"")]
+        while queue:
+            node,s = queue.pop(0)
+            if node and not (node.left or node.right):
+                s += str(node.val)
+                res.append(s)
+                continue
+            if node.left:
+                tmp = s+str(node.val)+"->"
+                queue.append( (node.left,tmp) )
+            if node.right:
+                tmp = s+str(node.val)+"->"
+                queue.append( (node.right,tmp) )
+        return res
         
+		
+		
