@@ -25,3 +25,19 @@ class Solution(object):
         for i in res:
             sum += i
         return sum
+		
+		
+		
+	# 另一种DFS实现
+    def sumNumbers(self, root):
+        def dfs(root,ans):
+            if not root:
+                return 0
+            tmp = 10*ans+root.val
+            if root and not (root.left or root.right):
+                return tmp
+            return dfs(root.left,tmp) + dfs(root.right,tmp)
+        return dfs(root,0)
+		
+		
+		
