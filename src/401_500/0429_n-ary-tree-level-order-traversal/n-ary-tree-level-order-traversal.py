@@ -28,3 +28,22 @@ class Solution(object):
             res.append(tmp)       
         return res
     
+	
+	
+	# DFS实现
+    def levelOrder(self, root):
+        if not root:
+            return []
+        ans = []
+        def dfs(root,index):
+            if not root:
+                return
+            if len(ans)<=index-1:
+                ans.append([])
+            ans[index-1].append(root.val)
+            for n in root.children:
+                dfs(n,index+1)
+        dfs(root,1)
+        return ans	
+		
+		
