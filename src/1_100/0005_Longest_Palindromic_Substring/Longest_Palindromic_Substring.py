@@ -49,3 +49,29 @@
 		return s[left:right]
 
 		
+		
+	# 另一种中心扩展实现，好理解一些
+	def longestPalindrome(self, s):
+		if not s:
+			return s
+		n = len(s)
+		def expand(i,j):
+			while i>=0 and j<n and s[i]==s[j]:
+				i -= 1
+				j += 1
+			return i+1,j-1
+		begin = 0
+		end = 0
+		for i in xrange(n):
+			left1,right1 = expand(i,i)
+			left2,right2 = expand(i,i+1)
+			if right1-left1>(end-begin):
+				begin = left1
+				end = right1
+			if right2-left2>(end-begin):
+				begin = left2
+				end = right2
+		return s[begin:end+1]
+		
+		
+		
