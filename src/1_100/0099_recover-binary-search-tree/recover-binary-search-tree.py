@@ -31,7 +31,7 @@
 			
 			
 			
-	# O(1)空间复杂度的解法
+	# O(h)空间复杂度的解法
     def recoverTree(self, root):
         self.index1 = None
         self.index2 = None
@@ -57,5 +57,37 @@
         self.index2.val = tmp
 		
 		
+		
+	# 莫里斯遍历，遍历后恢复二叉树，真正的O(1)空间复杂度
+    def recoverTree(self, root):
+        x = None
+        y = None
+        morris_tmp = None
+        pre = None    
+        while root:
+            if root.left:
+                morris_tmp = root.left
+                while morris_tmp.right and morris_tmp.right!=root:
+                    morris_tmp = morris_tmp.right
+                if morris_tmp.right is None:
+                    morris_tmp.right = root
+                    root = root.left
+                else:
+                    if pre and pre.val>root.val:
+                        y = root
+                        if not x:
+                            x = pre
+                    pre = root
+                    morris_tmp.right = None
+                    root = root.right
+            else:
+                if pre and pre.val>root.val:
+                    y = root
+                    if not x:
+                        x = pre
+                pre = root
+                root = root.right
+        if x and y:
+            x.val,y.val = y.val,x.val	
 		
 		
