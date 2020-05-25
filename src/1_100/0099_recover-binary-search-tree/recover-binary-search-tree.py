@@ -28,3 +28,34 @@
             tmp = res[index1].val
             res[index1].val = res[index2].val
             res[index2].val = tmp
+			
+			
+			
+	# O(1)空间复杂度的解法
+    def recoverTree(self, root):
+        self.index1 = None
+        self.index2 = None
+        self.pre = None
+        def dfs(root):
+            if not root:
+                return
+            dfs(root.left)
+            if not self.pre:
+                self.pre = root
+            if self.pre.val<=root.val:
+                self.pre = root 
+            else:
+                if not self.index1:
+                    self.index1 = self.pre
+                    self.index2 = root
+                else:
+                    self.index2 = root
+            dfs(root.right)
+        dfs(root)    
+        tmp = self.index1.val
+        self.index1.val = self.index2.val
+        self.index2.val = tmp
+		
+		
+		
+		
