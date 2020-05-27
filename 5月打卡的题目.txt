@@ -25,6 +25,8 @@
 24.寻找两个正序数组的中位数  	     Hard
 25.LRU缓存机制  	Medium
 26.寻找重复数  		Medium
+27.和可被 K 整除的子数组  	     Medium
+
 
 
 
