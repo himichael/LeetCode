@@ -26,6 +26,8 @@
 25.LRU缓存机制  	Medium
 26.寻找重复数  		Medium
 27.和可被 K 整除的子数组  	     Medium
+28.字符串解码  		Medium
+
 
 
 
