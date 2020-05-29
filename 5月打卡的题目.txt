@@ -27,7 +27,7 @@
 26.寻找重复数  		Medium
 27.和可被 K 整除的子数组  	     Medium
 28.字符串解码  		Medium
-
+29.打家劫舍  		Easy
 
 
 
