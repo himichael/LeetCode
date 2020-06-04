@@ -2,6 +2,8 @@
 1.拥有最多糖果的孩子  	Easy
 2.求1+2+…+n  		Medium
 3.新21点  		Medium
+4.除自身以外数组的乘积  Medium
+
 
 
 
