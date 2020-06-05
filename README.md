@@ -331,6 +331,7 @@
 |面试题24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/24.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/fan-zhuan-lian-biao-lcof.py)|go||Easy|
 |面试题27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/27.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F/er-cha-shu-de-jing-xiang-lcof.py)|go||Easy|
 |面试题28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/28.%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91/dui-cheng-de-er-cha-shu-lcof.py)|go||Easy|
+|面试题29|[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/%E9%9D%A2%E8%AF%95%E9%A2%9829.%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5/shun-shi-zhen-da-yin-ju-zhen-lcof.py)|go||Easy|
 |面试题30|[包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/30.%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88/bao-han-minhan-shu-de-zhan-lcof.py)|go||Easy|
 |面试题32-I|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/32.I.%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.py)|go||Medium|
 |面试题32-II|[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/32.III.%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.py)|go||Easy|
@@ -353,6 +354,8 @@
 |面试题63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/63.%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6/gu-piao-de-zui-da-li-run-lcof.py)|go||Medium|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 |面试题67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/67.%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|go||Medium|
+
+
 
 
 
