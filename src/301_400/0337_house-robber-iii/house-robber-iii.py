@@ -17,3 +17,20 @@
 			d[root,status] = max(a,b,c)
 			return d[root,status]
 		return dfs(root,0)
+		
+		
+		
+	# 树形DP
+	def rob(self, root):
+		if not root:
+			return 0
+		def dfs(root):
+			if not root:
+				return 0,0
+			left_steal,left_no_steal = dfs(root.left)
+			right_steal,right_no_steal = dfs(root.right)
+			a = root.val + left_no_steal + right_no_steal
+			b = left_steal + right_steal
+			return max(a,b),b
+		a,b = dfs(root)
+		return max(a,b)
