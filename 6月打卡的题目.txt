@@ -5,6 +5,8 @@
 4.除自身以外数组的乘积  Medium
 5.顺时针打印矩阵  	Medium
 6.最长连续序列		Hard
+7.单词接龙 II  		Hard
+
 
 
 
