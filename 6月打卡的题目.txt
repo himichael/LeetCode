@@ -8,6 +8,8 @@
 7.单词接龙 II  		Hard
 8.等式方程的可满足性	Medium
 9.把数字翻译成字符串  	Medium
+10.回文数		Easy
+
 
 
 
