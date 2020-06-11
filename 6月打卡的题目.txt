@@ -9,6 +9,9 @@
 8.等式方程的可满足性	Medium
 9.把数字翻译成字符串  	Medium
 10.回文数		Easy
+11.每日温度		Medium
+
+
 
 
 
