@@ -11,6 +11,8 @@
 10.回文数		Easy
 11.每日温度		Medium
 12.三数之和  		Medium
+13.爬楼梯		Easy
+
 
 
 
