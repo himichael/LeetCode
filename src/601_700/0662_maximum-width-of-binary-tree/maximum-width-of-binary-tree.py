@@ -24,3 +24,24 @@
 					queue.append(None)
 					queue.append(None)
 		return max_len
+		
+		
+		
+	# 另一种解法
+	def widthOfBinaryTree(self, root):
+		queue = collections.deque()
+		queue.append( (root,0) )
+		res = 0
+		while queue:
+			size = len(queue)
+			left = queue[0][1]
+			for _ in xrange(size):
+				node,pos = queue.popleft()
+				res = max(res,pos-left+1)
+				if node.left:
+					queue.append( (node.left,pos*2) )
+				if node.right:
+					queue.append( (node.right,pos*2+1) )
+		return res
+		
+		
