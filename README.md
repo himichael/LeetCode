@@ -42,6 +42,7 @@
 |0041|[First Missing Positive(缺失的第一个正数)](https://leetcode-cn.com/problems/first-missing-positive/)|c|c++|java|[python](./src/1_100/0041_first-missing-positive/first-missing-positive.py)|go||Hard|
 |0042|[trapping-rain-water(接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)|c|c++|java|[python](./src/1_100/0042_trapping-rain-water/trapping-rain-water.py)|go||Hard|
 |0043|[Multiply Strings(字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)|c|c++|java|[python](./src/1_100/0043_multiply-strings/multiply-strings.py)|go||Medium|
+|0044|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)[(通配符匹配)](https://leetcode-cn.com/problems/wildcard-matching/)|c|c++|java|[python](./src/1_100/0044_wildcard-matching/wildcard-matching.py)|go||Hard|
 |0045|[Jump Game II(跳跃游戏 II)](https://leetcode-cn.com/problems/jump-game-ii/)|c|c++|[java](./src/1_100/0045_jump-game-ii/jump-game-ii.java)|[python](./src/1_100/0045_jump-game-ii/jump-game-ii.py)|go||Hard|
 |0046|[Permutations(全排列)](https://leetcode-cn.com/problems/permutations/)|c|c++|[java](./src/1_100/0046_Permutations/Permutations.java)|[python](./src/1_100/0046_Permutations/Permutations.py)|go||Medium|
 |0047|[Permutations II(全排列2)](https://leetcode-cn.com/problems/permutations-ii/)|c|c++|[java](./src/1_100/0047_permutations-ii/permutations-ii.java)|python|go||Medium|
