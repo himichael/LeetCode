@@ -40,5 +40,48 @@
         if(is_carry):
             return "1"+res
         return res
+		
+		
+		
+	# 位运算实现
+	def addBinary(self, a, b):
+		x = int(a,2)
+		y = int(b,2)
+		while y:
+			ans = x^y
+			carry = (x&y)<<1
+			x,y = ans,carry
+		return bin(x)[2:]
+		
+		
+		
+	# 精简实现
+	def addBinary(self, a, b):
+		if not (a and b):
+			return a if a else b
+		i = len(a)-1
+		j = len(b)-1
+		carry = 0
+		res = ""
+		while i>=0 or j>=0:
+			t = (int(a[i]) if i>=0 else 0)+(int(b[j]) if j>=0 else 0)+carry
+			carry = 1 if t>1 else 0
+			t %= 2
+			i = i-1 if i>0 else -1
+			j = j-1 if j>0 else -1
+			res = str(t) + res
+		if carry:
+			res = "1"+res
+		return res
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
     
     
