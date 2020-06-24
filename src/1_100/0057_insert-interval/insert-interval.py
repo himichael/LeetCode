@@ -17,3 +17,32 @@
 			else:
 				arr.append(intervals[i])
 		return arr
+		
+		
+		
+	# O(N)实现复杂度实现
+	def insert(self, intervals, newInterval):
+		if not (intervals or newInterval):
+			return [newInterval] if newInterval else intervals
+		new_start = newInterval[0]
+		new_end = newInterval[1]
+		n = len(intervals)
+		index = 0
+		output = []
+		while index<n and intervals[index][0]<new_start:
+			output.append(intervals[index])
+			index += 1
+		if not output or output[-1][-1]<new_start:
+			output.append(newInterval)
+		else:
+			output[-1][-1] = max(output[-1][-1],new_end)
+		while index<n:
+			start,end = intervals[index]
+			if output[-1][-1]<start:
+				output.append(intervals[index])
+			else:
+				output[-1][-1] = max(output[-1][-1],end)
+			index += 1
+		return output
+		
+		
