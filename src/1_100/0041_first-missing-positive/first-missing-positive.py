@@ -19,11 +19,9 @@
 	# 交换下标实现	
 	def firstMissingPositive(self, nums):	
 		n = len(nums)
-		def swap(i,j):
-			nums[i],nums[j] = nums[j],nums[i]
 		for i in xrange(n):
-			while 1<=nums[i]<n and nums[nums[i]-1]!=nums[i]:
-				swap(nums[i]-1,i)
+			while 1<=nums[i]<=n and nums[nums[i]-1]!=nums[i]:
+				nums[nums[i]-1],nums[i] = nums[i],nums[nums[i]-1]
 		for i in xrange(n):
 			if nums[i]-1!=i:
 				return i+1
