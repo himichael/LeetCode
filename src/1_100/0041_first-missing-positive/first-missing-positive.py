@@ -1,12 +1,31 @@
 ﻿class Solution(object):
-    def firstMissingPositive(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        i = 1
-        s = set(nums)
-        while i in s:
-            i += 1
-        return i
-        
+	# 哈希实现
+	def firstMissingPositive(self, nums):	
+		n = len(nums)
+		for i in xrange(n):
+			if nums[i]<=0:
+				nums[i] = n+1
+		for i in xrange(n):
+			num = abs(nums[i])
+			if num<=n:
+				nums[num-1] = -abs(nums[num-1])
+		for i in xrange(n):
+			if nums[i]>0:
+				return i+1
+		return n+1
+		
+		
+		
+	# 交换下标实现	
+	def firstMissingPositive(self, nums):	
+		n = len(nums)
+		def swap(i,j):
+			nums[i],nums[j] = nums[j],nums[i]
+		for i in xrange(n):
+			while 1<=nums[i]<n and nums[nums[i]-1]!=nums[i]:
+				swap(nums[i]-1,i)
+		for i in xrange(n):
+			if nums[i]-1!=i:
+				return i+1
+		return n+1
+		
