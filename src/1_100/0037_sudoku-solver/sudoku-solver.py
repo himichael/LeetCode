@@ -65,68 +65,64 @@
 	#===============================================================
 class Solution(object):
 	def solveSudoku(self, board):
-		"""
-		:type board: List[List[str]]
-		:rtype: None Do not return anything, modify board in-place instead.
-		"""
 		N = 9
-		horizontal  = [set() for _ in xrange(N)]
-		vertical  = [set() for _ in xrange(N)]
+		horizontal = [set() for _ in xrange(N)]
+		vertical = [set() for _ in xrange(N)]
 		area = [[set() for _ in xrange(N//3)] for _ in xrange(N//3)]
 		nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 		for i in xrange(N):
 			for j in xrange(N):
 				v = board[i][j]
-				if v==".":
-					continue
-				horizontal[i].add(v)
-				vertical[j].add(v)
-				area[i//3][j//3].add(v)
+				if v!='.':
+					horizontal[i].add(v)
+					vertical[j].add(v)
+					area[i//3][j//3].add(v)
 		
-		def setup(x,y,i):
-			horizontal[x].add(i)
-			vertical[y].add(i)
-			area[x//3][y//3].add(i)
-			board[x][y] = i
+		def setup(i,j,v):
+			horizontal[i].add(v)
+			vertical[j].add(v)
+			area[i//3][j//3].add(v)	
+			board[i][j] = v
 		
-		def recovery(x,y,i):
-			area[x//3][y//3].discard(i)
-			vertical[y].discard(i)
-			horizontal[x].discard(i)
-			board[x][y] = "."
+		def discard(i,j,v):
+			horizontal[i].discard(v)
+			vertical[j].discard(v)
+			area[i//3][j//3].discard(v)	
+			board[i][j] = "."
 			
-		def can_placed(x,y,i):
-			a = i not in horizontal[x]
-			b = i not in vertical[y]
-			c = i not in area[x//3][y//3]
-			return a and b and c
-			
-		def is_finish(x,y):
-			if x==N-1 and y==N-1:
+		def is_finish(i,j):
+			if i==N-1 and j==N-1:
 				return True
 			return False
-			
-		def go_next(x,y):
-			x = (x+1)%N
-			y = y+1 if x==0 else y
-			return backtrack(x,y)
 		
-		def backtrack(x,y):
-			if board[x][y]!=".":
-				if is_finish(x,y):
+		def can_place(i,j,v):
+			a = v not in horizontal[i]
+			b = v not in vertical[j]
+			c = v not in area[i//3][j//3]
+			return a and b and c
+		
+		def go_next(i,j):
+			j = (j+1)%N
+			i = i+1 if j==0 else i
+			return backtrack(i,j)
+			
+		def backtrack(i,j):
+			if board[i][j]!=".":
+				if is_finish(i,j):
 					return True
-				return go_next(x,y)
+				return go_next(i,j)
 			else:
-				for i in nums:
-					if can_placed(x,y,i):
-						setup(x,y,i)
-						if is_finish(x,y):
+				for v in nums:
+					if can_place(i,j,v):
+						setup(i,j,v)
+						if is_finish(i,j):
 							return True
-						if go_next(x,y):
+						if go_next(i,j):
 							return True
-						recovery(x,y,i)
-			return False
-		backtrack(0,0)	
+						discard(i,j,v)
+				return False
+		backtrack(0,0)
+					
 		
 		
 		
