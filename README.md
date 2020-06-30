@@ -365,6 +365,7 @@
 |面试题05|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/5.%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC/ti-huan-kong-ge-lcof.py)|go||Easy|
 |面试题06|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/6.%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/cong-wei-dao-tou-da-yin-lian-biao-lcof.py)|go||Easy|
 |面试题07|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/7.%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91/zhong-jian-er-cha-shu-lcof.py)|go||Medium|
+|面试题09|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/9.%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.py)|go||Easy|
 |面试题10- I|[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/Fibonacci_Number.py)|go||Easy|
 |面试题10- II|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/10.II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98/qing-wa-tiao-tai-jie-wen-ti-lcof.py)|go||Easy|
 |面试题13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/13.%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4/ji-qi-ren-de-yun-dong-fan-wei-lcof.py)|go||Medium|
@@ -396,6 +397,8 @@
 |面试题63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/63.%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6/gu-piao-de-zui-da-li-run-lcof.py)|go||Medium|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 |面试题67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/67.%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|go||Medium|
+
+
 
 
 
