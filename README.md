@@ -202,6 +202,7 @@
 |0322|[Coin Change](https://leetcode.com/problems/coin-change/)[(零钱兑换)](https://leetcode-cn.com/problems/coin-change/)|c|c++|[java](./src/301_400/0322_coin-change/coin-change.java)|[python](./src/301_400/0322_coin-change/coin-change.py)|go||Medium|
 |0326|[Power of Three(3的幂)](https://leetcode-cn.com/problems/power-of-three/)|c|c++|java|[python](./src/301_400/0326_power-of-three/power-of-three.py)|go||Easy|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go||Medium|
+|0329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)[(矩阵中的最长递增路径)](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)|c|c++|java|[python](./src/301_400/0329_longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.py)|go||Hard|
 |0337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)[(打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)|c|c++|java|[python](./src/301_400/0337_house-robber-iii/house-robber-iii.py)|go|[my_solution](https://mp.weixin.qq.com/s/7Us3lurSYistcbMzwp04sw)|Medium|
 |0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go||Medium|
 |0342|[Power of Four(4的幂)](https://leetcode-cn.com/problems/power-of-four/)|c|c++|java|[python](./src/301_400/0342_power-of-four/power-of-four.py)|go||Easy|
