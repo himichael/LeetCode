@@ -206,6 +206,7 @@
 |0337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)[(打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)|c|c++|java|[python](./src/301_400/0337_house-robber-iii/house-robber-iii.py)|go|[my_solution](https://mp.weixin.qq.com/s/7Us3lurSYistcbMzwp04sw)|Medium|
 |0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go||Medium|
 |0342|[Power of Four(4的幂)](https://leetcode-cn.com/problems/power-of-four/)|c|c++|java|[python](./src/301_400/0342_power-of-four/power-of-four.py)|go||Easy|
+|0343|[Integer Break](https://leetcode-cn.com/problems/integer-break/)[(整数拆分)](https://leetcode-cn.com/problems/integer-break/)|c|c++|java|[python](./src/301_400/0343_integer-break/integer-break.py)|go||Medium|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go||Easy|
 |0345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)[(反转字符串中的元音字母)](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)|c|c++|java|[python](./src/301_400/0345_reverse-vowels-of-a-string/reverse-vowels-of-a-string.py)|go||Easy|
 |0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)[(前 K 个高频元素)](https://leetcode-cn.com/problems/top-k-frequent-elements/)|c|c++|java|[python](./src/301_400/0347_top-k-frequent-elements/top-k-frequent-elements.py)|go||Medium|
