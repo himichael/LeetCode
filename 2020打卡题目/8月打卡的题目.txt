@@ -5,6 +5,8 @@
 4.课程表  		Medium
 5.打家劫舍 III  	Medium
 6.回文对  		Hard
+7.相同的树  		Easy
+
 
 
 
