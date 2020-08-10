@@ -8,6 +8,7 @@
 7.相同的树  		Easy
 8.恢复二叉搜索树  	Hard
 9.复原IP地址  		Medium
+10.计数二进制子串  	Easy
 
 
 
