@@ -10,6 +10,7 @@
 9.复原IP地址  		Medium
 10.计数二进制子串  	Easy
 11.被围绕的区域  	Medium
+12.克隆图  		Meidum
 
 
 
