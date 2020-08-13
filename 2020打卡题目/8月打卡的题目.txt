@@ -11,7 +11,7 @@
 10.计数二进制子串  	Easy
 11.被围绕的区域  	Medium
 12.克隆图  		Meidum
-
+13.字符串相乘  		Medium
 
 
 
