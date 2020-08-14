@@ -12,6 +12,8 @@
 11.被围绕的区域  	Medium
 12.克隆图  		Meidum
 13.字符串相乘  		Medium
+14.有效的括号  		Easy
+
 
 
 
