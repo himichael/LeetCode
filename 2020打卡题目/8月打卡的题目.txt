@@ -13,6 +13,7 @@
 12.克隆图  		Meidum
 13.字符串相乘  		Medium
 14.有效的括号  		Easy
+15.移除盒子  		Hard
 
 
 
