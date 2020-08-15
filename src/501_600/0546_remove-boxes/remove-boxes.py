@@ -1,19 +1,24 @@
 ﻿class Solution(object):
-	def diameterOfBinaryTree(self, root):
+	def removeBoxes(self, boxes):
 		"""
-		:type root: TreeNode
+		:type boxes: List[int]
 		:rtype: int
 		"""
-		self.res = 0 
-		def dfs(root):
-			if not root or not (root.left or root.right):
+		d = dict()
+		def dfs(i,j,k):
+			if (i,j,k) in d:
+				return d[i,j,k]
+			if i>j:
+				d[i,j,k] = 0
 				return 0
-			left,right = 0,0
-			if root.left:
-				left = dfs(root.left)+1
-			if root.right:
-				right = dfs(root.right)+1
-			self.res = max(self.res,left+right)
-			return max(left,right)
-		dfs(root)
-		return self.res
+			while i<j and boxes[j]==boxes[j-1]:
+				j -= 1
+				k +=1
+			tmp = dfs(i, j - 1, 0) + (k + 1) * (k + 1)
+			value = tmp
+			for index in xrange(i,j):
+				if boxes[index]==boxes[j]:
+					tmp = max(tmp,dfs(i,index,k+1) + dfs(index + 1, j - 1, 0))
+			d[i,j,k] = tmp
+			return d[i,j,k]
+		return dfs(0,len(boxes)-1,0)
