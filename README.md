@@ -296,6 +296,8 @@
 |0662|[Maximum Width of Binary Tree](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)[(二叉树最大宽度)](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)|c|c++|java|[python](./src/601_700/0662_maximum-width-of-binary-tree/maximum-width-of-binary-tree.py)|go||Medium|
 |0671|[Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)[(二叉树中第二小的节点)](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)|c|c++|java|[python](./src/601_700/0671_second-minimum-node-in-a-binary-tree/second-minimum-node-in-a-binary-tree.py)|go||Easy|
 |0677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)[(键值映射)](https://leetcode-cn.com/problems/map-sum-pairs/)|c|c++|java|[python](./src/601_700/0677_map-sum-pairs/map-sum-pairs.py)|go||Medium|
+|0679|[24 Game](https://leetcode-cn.com/problems/24-game/)[(24 点游戏
+)](https://leetcode-cn.com/problems/24-game/)|c|c++|[java](./src/601_700/0679_24-game/24-game.java)|python|go||Hard|
 |0680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)[(验证回文字符串 Ⅱ)](https://leetcode-cn.com/problems/valid-palindrome-ii/)|c|c++|java|[python](./src/601_700/680_valid-palindrome-ii/valid-palindrome-ii.py)|go||Easy|
 |0684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)[(冗余连接)](https://leetcode-cn.com/problems/redundant-connection/)|c|c++|java|[python](./src/601_700/0684_redundant-connection/redundant-connection.py)|go||Medium|
 |0687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)[(最长同值路径)](https://leetcode-cn.com/problems/longest-univalue-path/)|c|c++|java|[python](./src/601_700/0687_longest-univalue-path/longest-univalue-path.py)|go||Easy|
