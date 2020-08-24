@@ -30,4 +30,15 @@
         :type y: int
         :rtype: int
         """
-        return bin(x^y).count("1")		
+        return bin(x^y).count("1")	
+
+
+
+    def hammingDistance(self, x, y):
+        xor = x ^ y
+        res = 0
+        while xor:
+            if xor&1==1:
+                res += 1
+            xor >>= 1
+        return res		
