@@ -166,6 +166,12 @@
 |0211|[Add and Search Word - Data structure design](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)[(添加与搜索单词 - 数据结构设计)](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)|c|c++|java|[python](./src/201_300/0211_add-and-search-word-data-structure-design/add-and-search-word-data-structure-design.py)|go||Medium|
 |0212|[Word Search II(单词搜索 II)](https://leetcode-cn.com/problems/word-search-ii/)|c|c++|java|[python](./src/201_300/0212_word-search-ii/word-search-ii.py)|go||Hard|
 |0213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)[(打家劫舍 II)](https://leetcode-cn.com/problems/house-robber-ii/)|c|c++|java|[python](./src/201_300/0213_house-robber-ii/house-robber-ii.py)|go|[my_solution](https://mp.weixin.qq.com/s/fXHbgx1qkSp5zqaj_Xm_cQ)|Medium|
+
+
+
+|0214|[Shortest Palindrome](https://leetcode-cn.com/problems/shortest-palindrome/)[(最短回文串)](https://leetcode-cn.com/problems/shortest-palindrome/)|c|c++|java|[python](./src/201_300/0214_shortest-palindrome/shortest-palindrome.py)|go||Hard|
+
+
 |0215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)[(数组中的第K个最大元素)](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|c|c++|java|[python](./src/201_300/0215_kth-largest-element-in-an-array/kth-largest-element-in-an-array.py)|go||Medium|
 |0216|[combination-sum-iii(组合总和3)](https://leetcode-cn.com/problems/combination-sum-iii/)|c|c++|java|[python](./src/201_300/0216_combination-sum-iii/combination-sum-iii.py)|go||Medium|
 |0217|[Contains Duplicate(存在重复元素)](https://leetcode-cn.com/problems/contains-duplicate/)|c|c++|java|[python](./src/201_300/0217_contains-duplicate/contains-duplicate.py)|go||Easy|
@@ -206,6 +212,11 @@
 |0326|[Power of Three(3的幂)](https://leetcode-cn.com/problems/power-of-three/)|c|c++|java|[python](./src/301_400/0326_power-of-three/power-of-three.py)|go||Easy|
 |0328|[Odd Even Linked List(奇偶链表)](https://leetcode-cn.com/problems/odd-even-linked-list/)|c|c++|java|[python](./src/301_400/0328_odd-even-linked-list/odd-even-linked-list.py)|go||Medium|
 |0329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)[(矩阵中的最长递增路径)](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)|c|c++|java|[python](./src/301_400/0329_longest-increasing-path-in-a-matrix/longest-increasing-path-in-a-matrix.py)|go||Hard|
+
+
+|0332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)[(重新安排行程)](https://leetcode-cn.com/problems/reconstruct-itinerary/)|c|c++|java|[python](./src/301_400/0332_reconstruct-itinerary/reconstruct-itinerary.py)|go||Medium|
+
+
 |0336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)[(回文对)](https://leetcode-cn.com/problems/palindrome-pairs/)|c|c++|java|[python](./src/301_400/0336_palindrome-pairs/palindrome-pairs.py)|go||Hard|
 |0337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)[(打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)|c|c++|java|[python](./src/301_400/0337_house-robber-iii/house-robber-iii.py)|go|[my_solution](https://mp.weixin.qq.com/s/7Us3lurSYistcbMzwp04sw)|Medium|
 |0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go||Medium|
