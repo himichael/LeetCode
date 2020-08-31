@@ -10,7 +10,7 @@
 9.复原IP地址  		Medium
 10.计数二进制子串  	Easy
 11.被围绕的区域  	Medium
-12.克隆图  		Meidum
+12.克隆图  		Medium
 13.字符串相乘  		Medium
 14.有效的括号  		Easy
 15.移除盒子  		Hard
@@ -29,7 +29,7 @@
 28.机器人能否返回原点  	Easy
 29.最短回文串		Hard
 30.反转字符串中的单词 III  Easy
-
+31.钥匙和房间  		Medium
 
 
 
