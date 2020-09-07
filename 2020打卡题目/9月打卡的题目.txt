@@ -4,6 +4,9 @@
 3.N 皇后  		Hard
 4.二叉树的所有路径	Easy
 5.第k个排列  		Medium
+6.二叉树的层次遍历 II	Easy
+7.前 K 个高频元素  	Medium
+
 
 
 
