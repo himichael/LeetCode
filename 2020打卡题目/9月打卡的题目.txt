@@ -6,6 +6,10 @@
 5.第k个排列  		Medium
 6.二叉树的层次遍历 II	Easy
 7.前 K 个高频元素  	Medium
+8.组合			Medium
+9.组合总和		Medium
+10.组合总和 II  	Medium
+
 
 
 
