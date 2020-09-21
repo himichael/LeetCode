@@ -9,6 +9,14 @@
 8.组合			Medium
 9.组合总和		Medium
 10.组合总和 II  	Medium
+11.组合总和 III		Medium
+12.二叉树的层平均值  	Easy
+13.单词搜索  		Medium
+
+
+
+
+
 
 
 
