@@ -8,4 +8,9 @@
 7.颜色分类	Medium
 8.反转字符串	Easy
 9.环形链表  	Easy
+10.环形链表 II	Medium
+11.分割等和子集	Medium
+12.二叉搜索树的最小绝对差  	Easy
+
+
 
