@@ -1,18 +1,21 @@
 10月的题目
-1.秋叶收藏集	Medium
-2.宝石与石头	Easy
-3.两数之和	Easy
-4.两数相加	Medium
-5.四数之和	Medium
-6.树中距离之和	Hard
-7.颜色分类	Medium
-8.反转字符串	Easy
-9.环形链表  	Easy
-10.环形链表 II	Medium
-11.分割等和子集	Medium
-12.二叉搜索树的最小绝对差  	Easy
-13.两两交换链表中的节点  	Medium
-
-
+1.秋叶收藏集		Medium
+2.宝石与石头		Easy
+3.两数之和		Easy
+4.两数相加		Medium
+5.四数之和		Medium
+6.树中距离之和		Hard
+7.颜色分类		Medium
+8.反转字符串		Easy
+9.环形链表  		Easy
+10.环形链表 II		Medium
+11.分割等和子集		Medium
+12.二叉搜索树的最小绝对差  		Easy
+13.两两交换链表中的节点	  		Medium
+14.查找常用字符		Easy
+15.填充每个节点的下一个右侧节点指针	Medium
+16.有序数组的平方	Easy
+17.N皇后 II		Hard
+18.删除链表的倒数第N个节点  		Medium
 
 
