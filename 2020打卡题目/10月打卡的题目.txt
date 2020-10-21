@@ -18,7 +18,8 @@
 17.N皇后 II				Hard
 18.删除链表的倒数第N个节点  		Medium
 19.比较含退格的字符串  	Medium
-
+20.重排链表		Medium
+21.长按键入  		Easy
 
 
 
