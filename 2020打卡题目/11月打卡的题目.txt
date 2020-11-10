@@ -8,6 +8,7 @@
 7.区间和的个数			Hard
 8.买卖股票的最佳时机 II		Easy
 9.最接近原点的 K 个点  		Medium
+10.下一个排列  			Medium
 
 
 
