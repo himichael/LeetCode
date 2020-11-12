@@ -9,6 +9,9 @@
 8.买卖股票的最佳时机 II		Easy
 9.最接近原点的 K 个点  		Medium
 10.下一个排列  			Medium
+11.自由之路			Hard
+12.按奇偶排序数组 II  		Easy
+
 
 
 
