@@ -11,6 +11,11 @@
 10.下一个排列  			Medium
 11.自由之路			Hard
 12.按奇偶排序数组 II  		Easy
+13.奇偶链表			Medium
+14.数组的相对排序		Easy
+15.移掉K位数字  		Medium
+
+
 
 
 
