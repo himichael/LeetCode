@@ -14,6 +14,8 @@
 13.奇偶链表			Medium
 14.数组的相对排序		Easy
 15.移掉K位数字  		Medium
+16.根据身高重建队列  		Medium
+
 
 
 

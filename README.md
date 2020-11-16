@@ -236,6 +236,7 @@
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)[(移掉K位数字)](https://leetcode-cn.com/problems/remove-k-digits/)|c|c++|java|[python](./src/401_500/0402_remove-k-digits/remove-k-digits.py)|go||Medium|
 |0404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)[(左叶子之和)](https://leetcode-cn.com/problems/sum-of-left-leaves/)|c|c++|java|[python](./src/401_500/404_sum-of-left-leaves/sum-of-left-leaves.py)|go||Easy|
+|0406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)[(根据身高重建队列)](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|c|c++|[java](./src/401_500/0406_queue-reconstruction-by-height/queue-reconstruction-by-height.java)|python|go||Medium|
 |0409|[Longest Palindromes](https://leetcode.com/problems/longest-palindrome/)[(最长回文串)](https://leetcode-cn.com/problems/longest-palindrome/)|c|c++|java|[python](./src/401_500/0409_longest-palindrome/longest-palindrome.py)|go||Easy|
 |0410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)[(分割数组的最大值)](https://leetcode-cn.com/problems/split-array-largest-sum/)|c|c++|java|[python](./src/401_500/0410_split-array-largest-sum/split-array-largest-sum.py)|go||Hard|
 |0412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|c|c++|java|[python](./src/401_500/0412_Fizz_Buzz/Fizz_Buzz.py)|go||Easy|
