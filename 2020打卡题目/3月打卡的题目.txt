@@ -3,7 +3,7 @@
 1.用队列实现栈		Easy
 2.反转链表		Easy
 3.合并排序数组		Easy
-4.腐烂的橘子		Easy
+4.腐烂的橘子		Medium
 5.分糖果II		Easy
 6.和为s的连续正数序列	Easy
 7.队列的最大值		Medium
