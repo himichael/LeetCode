@@ -5,6 +5,8 @@
 4.分割数组为连续子序列	Medium
 5.任务调度器  		Medium
 6.杨辉三角   		Easy
+7.翻转矩阵后的得分	Medium
+
 
 
 
