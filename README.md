@@ -350,6 +350,7 @@
 |0836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)[(矩形重叠)](https://leetcode-cn.com/problems/rectangle-overlap/)|c|c++|java|[python](./src/801_900/0836_rectangle-overlap/rectangle-overlap.py)|go||Easy|
 |0837|[New 21 Game](https://leetcode.com/problems/new-21-game/)[(新21点)](https://leetcode-cn.com/problems/new-21-game/)|c|c++|java|[python](./src/801_900/0837_new-21-game/new-21-game.py)|go||Medium|
 |0841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)[(新21点)](https://leetcode-cn.com/problems/keys-and-rooms/)|c|c++|java|[python](./src/801_900/0841_keys-and-rooms/keys-and-rooms.py)|go||Medium|
+|0842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)[(将数组拆分成斐波那契序列)](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)|c|c++|java|[python](./src/801_900/0842_split-array-into-fibonacci-sequence/split-array-into-fibonacci-sequence.py)|go||Medium|
 |0844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)[(比较含退格的字符串
 )](https://leetcode-cn.com/problems/backspace-string-compare/)|c|c++|[java](./src/801_900/0844_backspace-string-compare/backspace-string-compare.java)|python|go|Easy|
 |0844|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)[(数组中的最长山脉)](https://leetcode-cn.com/problems/longest-mountain-in-array/)|c|c++|java|[python](./src/801_900/0845_longest-mountain-in-array/longest-mountain-in-array.py)|go||Medium|
