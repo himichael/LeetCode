@@ -67,6 +67,7 @@
 |0065|[Valid Number](https://leetcode-cn.com/problems/valid-number/)[(有效数字)](https://leetcode-cn.com/problems/valid-number/)|c|c++|java|[python](./src/1_100/0065_valid-number/valid-number.py)|go||Hard|
 |0066|[Plus One(加一)](https://leetcode-cn.com/problems/plus-one/)|c|c++|java|[python](./src/1_100/0066_Plus_One/Plus_One.py)|go||Easy|
 |0067|[Add Binary(二进制求和)](https://leetcode-cn.com/problems/add-binary/)|c|c++|java|[python](./src/1_100/0067_add-binary/add-binary.py)|go||Easy|
+|0068|[Text Justification](https://leetcode.com/problems/text-justification/)[(文本左右对齐)](https://leetcode-cn.com/problems/text-justification/)|c|c++|java|[python](./src/1_100/0068_text-justification/text-justification.py)|go||Hard|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go||Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go||Easy|
 |0071|[Simplify Path](https://leetcode.com/problems/simplify-path/)[(简化路径)](https://leetcode-cn.com/problems/simplify-path/)|c|c++|java|[python](./src/1_100/0071_simplify-path/simplify-path.py)|go||Medium|
