@@ -69,6 +69,7 @@
 |0067|[Add Binary(二进制求和)](https://leetcode-cn.com/problems/add-binary/)|c|c++|java|[python](./src/1_100/0067_add-binary/add-binary.py)|go||Easy|
 |0069|[Sqrt(x)(x的平方根)](https://leetcode-cn.com/problems/sqrtx/)|c|c++|java|[python](./src/1_100/0069_Sqrt_x_/_Sqrt_x_.py)|go||Easy|
 |0070|[Climbing_Stairs(爬楼梯)](https://leetcode-cn.com/problems/climbing-stairs/)|c|c++|java|[python](./src/1_100/0070_Climbing_Stairs/Climbing_Stairs.py)|go||Easy|
+|0071|[Simplify Path](https://leetcode.com/problems/simplify-path/)[(简化路径)](https://leetcode-cn.com/problems/simplify-path/)|c|c++|java|[python](./src/1_100/0071_simplify-path/simplify-path.py)|go||Medium|
 |0072|[Edit Distance](https://leetcode.com/problems/edit-distance/)[(编辑距离)](https://leetcode-cn.com/problems/edit-distance/)|c|c++|java|[python](./src/1_100/0072_edit-distance/edit-distance.py)|go||Hard|
 |0074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)[(搜索二维矩阵)](https://leetcode-cn.com/problems/search-a-2d-matrix/)|c|c++|[java](./src/1_100/0075_sort-colors/sort-colors.java)|[python](./src/1_100/0074_search-a-2d-matrix/search-a-2d-matrix.py)|go||Medium|
 |0075|[Sort Colors](https://leetcode.com/problems/sort-colors/)[(颜色分类)](https://leetcode-cn.com/problems/sort-colors/)|c|c++|[java](./src/1_100/0075_sort-colors/sort-colors.java)|[python](./src/1_100/0075_sort-colors/sort-colors.py)|go|[my_solution](https://mp.weixin.qq.com/s/lWAdA900mS7r2GtEuOtdaw)|Medium|
