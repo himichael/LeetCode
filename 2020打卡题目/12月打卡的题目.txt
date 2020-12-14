@@ -9,7 +9,10 @@
 8.将数组拆分成斐波那契序列  	Medium
 9.不同路径		Medium
 10.柠檬水找零		Easy
-
+11.Dota2 参议院		Medium
+12.摆动序列		Medium
+13.存在重复元素  	Easy
+14.字母异位词分组	Medium
 
 
 
