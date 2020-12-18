@@ -237,6 +237,8 @@
 |0381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)[(O(1) 时间插入、删除和获取随机元素 - 允许重复)](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|c|c++|[java](./src/301_400/0381_insert-delete-getrandom-o1-duplicates-allowed/insert-delete-getrandom-o1-duplicates-allowed.java)|python|go||Hard|
 |0383|[Ransom Note](https://leetcode.com/problems/ransom-note/)[(赎金信)](https://leetcode-cn.com/problems/ransom-note/)|c|c++|java|[python](./src/301_400/0383_ransom-note/ransom-note.py)|go||Easy|
 |0387|[First Unique Character in a String(字符串中的第一个唯一字符)](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|c|c++|java|[python](./src/301_400/0387_First_Unique_Character_in_a_String/First_Unique_Character_in_a_String.py)|go||Easy|
+|0389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)[(找不同
+)](https://leetcode-cn.com/problems/find-the-difference/)|c|[c++](./src/301_400/0389_find-the-difference/find-the-difference.cpp)|java|python|go||Easy|
 |0392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)[(判断子序列)](https://leetcode-cn.com/problems/is-subsequence/)|c|c++|java|[python](./src/301_400/0392_is-subsequence/is-subsequence.py)|go||Easy|
 |0394|[Decode String](https://leetcode.com/problems/decode-string/)[(字符串解码)](https://leetcode-cn.com/problems/decode-string/)|c|c++|java|[python](./src/301_400/0394_decode-string/decode-string.py)|go||Medium|
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
