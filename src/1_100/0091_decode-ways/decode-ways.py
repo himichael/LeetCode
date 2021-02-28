@@ -16,7 +16,7 @@
             return d[index]
         return f(0)
 		
-		
+	# 动态规划	
     def numDecodings(self, s):    
         if not s or s[0] == '0':
             return 0
@@ -43,3 +43,33 @@
                 else:
                     dp[i] = dp[i - 1]
         return dp[-1]
+		
+		
+		
+	# 动态规划+空间优化
+    def numDecodings(self, s):    
+        if not s or s[0] == '0':
+            return 0
+        n = len(s)
+        if len(s) == 1:
+            return 0 if s[0] == '0' else 1
+        pre,cur = 0,0
+        pre = 1
+        if s[1] == '0':
+            if int(s[:2]) <= 26:
+                cur = 1
+            else:
+                return 0
+        else:
+            cur = 2 if int(s[:2]) <= 26 else 1
+        for i in range(2, n):
+            tmp = cur
+            if s[i] == '0':
+                if s[i - 1] != '0' and int(s[i - 1] + s[i]) <= 26:
+                    cur  = pre
+                else:
+                    return 0
+            elif s[i - 1] != '0' and int(s[i - 1] + s[i]) <= 26:
+                cur = cur + pre
+            pre = tmp
+        return cur	
