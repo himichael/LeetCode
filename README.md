@@ -199,6 +199,8 @@
 |0257|[Binary Tree Paths(二叉树的所有路径)](https://leetcode-cn.com/problems/binary-tree-paths/)|c|c++|java|[python](./src/201_300/0257_binary-tree-paths/binary-tree-paths.py)|go||Easy|
 |0258|[Add Digits(各位相加)](https://leetcode-cn.com/problems/add-digits/)|c|c++|java|[python](./src/201_300/0258_add-digits/add-digits.py)|go||Easy|
 |0263|[Ugly Number(丑数)](https://leetcode-cn.com/problems/ugly-number/)|c|c++|java|[python](./src/201_300/0263_ugly-number/ugly-number.py)|go||Easy|
+|0264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)[(丑数 II
+)](https://leetcode-cn.com/problems/ugly-number-ii/)|c|c++|java|[python](./src/201_300/264_ugly-number-ii/ugly-number-ii.py)|go||Medium|
 |0268|[Missing Number(缺失数字)](https://leetcode-cn.com/problems/missing-number/)|c|c++|java|[python](./src/201_300/0268_missing-number/missing-number.py)|go||Easy|
 |0274|[H-Index](https://leetcode.com/problems/h-index/)[(H指数)](https://leetcode-cn.com/problems/h-index/)|c|c++|java|[python](./src/201_300/0274_h-index/h-index.py)|go||Medium|
 |0275|[H-Index II](https://leetcode.com/problems/h-index-ii/)[(H指数 II)](https://leetcode-cn.com/problems/h-index-ii/)|c|c++|java|[python](./src/201_300/0275_h-index-ii/h-index-ii.py)|go||Medium|
