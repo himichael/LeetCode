@@ -132,8 +132,7 @@
 |0134|[Gas Station](https://leetcode.com/problems/gas-station/)[(加油站)](https://leetcode-cn.com/problems/gas-station/)|c|c++|[java](./src/101_200/0134_gas-station/gas-station.java)|python|go||Medium|
 |0135|[Candy](https://leetcode.com/problems/candy/)[(分发糖果)](https://leetcode-cn.com/problems/candy/)|c|c++|java|[python](./src/101_200/0135_candy/candy.py)|go|)|Hard|
 |0136|[Single_Number(只出现一次的数字)](https://leetcode-cn.com/problems/single-number/)|c|c++|java|[python](./src/101_200/0136_Single_Number/Single_Number.py)|go|[my_solution](https://mp.weixin.qq.com/s/ZVtTeEh9PiGOH_FH8AdsTw)|Easy|
-|0137|[Single Number II](https://leetcode.com/problems/single-number-ii/)[(只出现一次的数字 II
-)](https://leetcode-cn.com/problems/single-number-ii/)|c|c++|java|[python](./src/101_200/0137_single-number-ii/single-number-ii.py)|go|)|Medium|
+|0137|[Single Number II](https://leetcode.com/problems/single-number-ii/)[(只出现一次的数字 II)](https://leetcode-cn.com/problems/single-number-ii/)|c|c++|java|[python](./src/101_200/0137_single-number-ii/single-number-ii.py)|go|)|Medium|
 |0138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)[(复制带随机指针的链表)](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)|c|c++|[java](./src/101_200/138_copy-list-with-random-pointer/copy-list-with-random-pointer.java)|[python](./src/101_200/138_copy-list-with-random-pointer/copy-list-with-random-pointer.py)|go|[my_solution](https://mp.weixin.qq.com/s/ZBMtlkMddWnXXrGzVmjiEA)|Medium|
 |0139|[Word Break](https://leetcode.com/problems/word-break/)[(单词拆分)](https://leetcode-cn.com/problems/word-break/)|c|c++|java|[python](./src/101_200/0139_word-break/word-break.py)|go||Medium|
 |0140|[Word Break II](https://leetcode-cn.com/problems/word-break-ii/)[(单词拆分 II)](https://leetcode-cn.com/problems/word-break-ii/)|c|c++|java|[python](./src/101_200/0140_word-break-ii/word-break-ii.py)|go||Hard|
