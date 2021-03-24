@@ -29,6 +29,22 @@
         return dfs(0)
 		
 		
+	# 递归，另一种写法
+    def wordBreak(self, s, wordDict):
+        words = set(wordDict)
+        n = len(s)
+        res = []
+        def dfs(i, ans):
+            if i == n:
+                res.append(ans[:-1])
+                return
+            for j in range(i + 1, n + 1):
+                tmp = s[i:j]
+                if tmp in words:
+                    dfs(j, ans + tmp + " ")
+        dfs(0, "")
+        return res	
+		
 		
 	# 动态规划(超时)
 	def wordBreak(self, s, wordDict):
