@@ -479,6 +479,7 @@
 |LCP 13|[寻宝](https://leetcode-cn.com/problems/xun-bao/)|c|c++|[java](./src/LCP/0013/xun-bao.java.java)|python|go||Hard|
 |LCP 19|[秋叶收藏集](https://leetcode-cn.com/problems/UlBDOe/)|c|c++|java|[python](./src/LCP/0019/UlBDOe.py)|go||Medium|
 |LCP 30|[魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)|c|c++|java|[python](./src/LCP/0030/p0NxJO.py)|go||Medium|
+|LCP 31|[变换的迷宫](https://leetcode-cn.com/problems/Db3wC1/)|c|c++|java|[python](./src/LCP/0030/Db3wC1.py)|go||Hard|
 |金典01.06|[字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/01.06.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8E%8B%E7%BC%A9/compress-string-lcci.py)|go||Easy|
 |金典01.07|[旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/01.07.%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/rotate-matrix-lcci.py)|go||Medium|
 |金典02.01|[移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/02.01.%E7%A7%BB%E9%99%A4%E9%87%8D%E5%A4%8D%E8%8A%82%E7%82%B9/remove-duplicate-node-lcci.py)|go||Easy|
