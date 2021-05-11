@@ -256,6 +256,7 @@
 |0394|[Decode String](https://leetcode.com/problems/decode-string/)[(字符串解码)](https://leetcode-cn.com/problems/decode-string/)|c|c++|java|[python](./src/301_400/0394_decode-string/decode-string.py)|go||Medium|
 |0398|[Random Pick Index(随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)|c|c++|java|[python](./src/301_400/0398_random-pick-index/random-pick-index.py)|go||Medium|
 |0402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)[(移掉K位数字)](https://leetcode-cn.com/problems/remove-k-digits/)|c|c++|java|[python](./src/401_500/0402_remove-k-digits/remove-k-digits.py)|go||Medium|
+|0403|[Frog Jump](https://leetcode.com/problems/frog-jump/)[(青蛙过河)](https://leetcode-cn.com/problems/frog-jump/)|c|c++|java|[python](./src/401_500/0403_frog-jump/frog-jump.py)|go||Hard|
 |0404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)[(左叶子之和)](https://leetcode-cn.com/problems/sum-of-left-leaves/)|c|c++|java|[python](./src/401_500/404_sum-of-left-leaves/sum-of-left-leaves.py)|go||Easy|
 |0406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)[(根据身高重建队列)](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|c|c++|[java](./src/401_500/0406_queue-reconstruction-by-height/queue-reconstruction-by-height.java)|python|go||Medium|
 |0409|[Longest Palindromes](https://leetcode.com/problems/longest-palindrome/)[(最长回文串)](https://leetcode-cn.com/problems/longest-palindrome/)|c|c++|java|[python](./src/401_500/0409_longest-palindrome/longest-palindrome.py)|go||Easy|
@@ -480,6 +481,7 @@
 |LCP 19|[秋叶收藏集](https://leetcode-cn.com/problems/UlBDOe/)|c|c++|java|[python](./src/LCP/0019/UlBDOe.py)|go||Medium|
 |LCP 30|[魔塔游戏](https://leetcode-cn.com/problems/p0NxJO/)|c|c++|java|[python](./src/LCP/0030/p0NxJO.py)|go||Medium|
 |LCP 31|[变换的迷宫](https://leetcode-cn.com/problems/Db3wC1/)|c|c++|java|[python](./src/LCP/0030/Db3wC1.py)|go||Hard|
+|LCP 34|[二叉树染色](https://leetcode-cn.com/problems/er-cha-shu-ran-se-UGC/)|c|c++|java|[python](./src/LCP/0034/er-cha-shu-ran-se-UGC.py)|go||Medium|
 |金典01.06|[字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/01.06.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8E%8B%E7%BC%A9/compress-string-lcci.py)|go||Easy|
 |金典01.07|[旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/01.07.%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/rotate-matrix-lcci.py)|go||Medium|
 |金典02.01|[移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)|c|c++|java|[python](https://github.com/himichael/Cracking_the_Coding_Interview/blob/master/02.01.%E7%A7%BB%E9%99%A4%E9%87%8D%E5%A4%8D%E8%8A%82%E7%82%B9/remove-duplicate-node-lcci.py)|go||Easy|
