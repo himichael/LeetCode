@@ -233,6 +233,7 @@
 |0336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)[(回文对)](https://leetcode-cn.com/problems/palindrome-pairs/)|c|c++|java|[python](./src/301_400/0336_palindrome-pairs/palindrome-pairs.py)|go||Hard|
 |0337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)[(打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)|c|c++|java|[python](./src/301_400/0337_house-robber-iii/house-robber-iii.py)|go|[my_solution](https://mp.weixin.qq.com/s/7Us3lurSYistcbMzwp04sw)|Medium|
 |0338|[Counting Bits(比特位计数)](https://leetcode-cn.com/problems/counting-bits/)|c|c++|java|[python](./src/301_400/0338_counting-bits/counting-bits.py)|go||Medium|
+|0341|[Flatten Nested List Iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator/][(扁平化嵌套列表迭代器)](https://leetcode-cn.com/problems/flatten-nested-list-iterator/))|c|c++|java|[python](./src/301_400/0341_flatten-nested-list-iterator/flatten-nested-list-iterator.py)|go||Medium|
 |0342|[Power of Four(4的幂)](https://leetcode-cn.com/problems/power-of-four/)|c|c++|java|[python](./src/301_400/0342_power-of-four/power-of-four.py)|go||Easy|
 |0343|[Integer Break](https://leetcode-cn.com/problems/integer-break/)[(整数拆分)](https://leetcode-cn.com/problems/integer-break/)|c|c++|java|[python](./src/301_400/0343_integer-break/integer-break.py)|go||Medium|
 |0344|[Reverse String(翻转字符串)](https://leetcode-cn.com/problems/reverse-string/)|c|c++|java|[python](./src/301_400/0344_Reverse_String/Reverse_String.py)|go||Easy|
