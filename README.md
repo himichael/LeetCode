@@ -557,8 +557,8 @@
 |面试题63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/63.%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6/gu-piao-de-zui-da-li-run-lcof.py)|go||Medium|
 |面试题64|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/64.%E6%B1%821%2B2%2Bn/qiu-12n-lcof.py)|go||Medium|
 |面试题67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/67.%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|go||Medium|
-
-
+|Offer-II-088|[爬楼梯的最少成本](https://leetcode-cn.com/problems/GzCJIP/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/Offer-II-088.%E7%88%AC%E6%A5%BC%E6%A2%AF%E7%9A%84%E6%9C%80%E5%B0%91%E6%88%90%E6%9C%AC/GzCJIP.py)|go||Easy|
+|Offer-II-091|[粉刷房子](https://leetcode-cn.com/problems/JEj789/)|c|c++|java|[python](https://github.com/himichael/coding-interviews/blob/master/Offer-II-091.%E7%B2%89%E5%88%B7%E6%88%BF%E5%AD%90/JEj789.py)|go||Medium|
 
 
 
