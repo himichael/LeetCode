@@ -26,3 +26,20 @@
             min_1 = t1
             min_2 = t2
         return min(dp[-1])
+		
+	
+
+	# dfs 实现，代码很精简，但是会超时
+class Solution(object):
+    def minFallingPathSum(self, grid):
+        n = len(grid)
+        @lru_cache
+        def dfs(i, j):
+            if i == n or j < 0 or j >= n:
+                return float("inf")
+            tmp = float("inf")
+            for k in range(n):
+                if k != j:
+                    tmp = min(tmp, dfs(i + 1, k) + grid[i][j])
+            return tmp if tmp != float("inf") else grid[i][j]
+        return min(dfs(0,j) for j in range(n))
